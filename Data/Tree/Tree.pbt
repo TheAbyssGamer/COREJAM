@@ -23,7 +23,6 @@ Objects {
   ChildIds: 485455822227144709
   ChildIds: 1350823756561426192
   ChildIds: 17097555723325642101
-  ChildIds: 4367098770824620287
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -36,7 +35,84 @@ Objects {
   }
 }
 Objects {
-  Id: 4367098770824620287
+  Id: 17097555723325642101
+  Name: "InfoGuy"
+  Transform {
+    Location {
+      X: -8473.91309
+      Y: 8103.09717
+      Z: 114.312622
+    }
+    Rotation {
+      Yaw: -90
+    }
+    Scale {
+      X: 0.85
+      Y: 0.85
+      Z: 0.85
+    }
+  }
+  ParentId: 4781671109827199097
+  ChildIds: 4351564757749894226
+  ChildIds: 361371748010757291
+  ChildIds: 1963642562152165209
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_Detail1:color"
+      Color {
+        G: 0.9
+        B: 0.256291509
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_Detail2:color"
+      Color {
+        R: 1
+        G: 0.0703600943
+        B: 0.0703600943
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_Detail3:color"
+      Color {
+        R: 1
+        G: 0.0699999928
+        B: 0.0699999928
+        A: 1
+      }
+    }
+  }
+  WantsNetworking: true
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 2477788028182020748
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    AnimatedMesh {
+      AnimationStance: "unarmed_dance"
+      AnimationStancePlaybackRate: 0.5
+      AnimationStanceShouldLoop: true
+      AnimationPlaybackRateMultiplier: 1
+      PlayOnStartAnimation {
+        PlaybackRate: 1
+      }
+    }
+  }
+}
+Objects {
+  Id: 1963642562152165209
   Name: "UI Container"
   Transform {
     Location {
@@ -49,8 +125,9 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 4781671109827199097
-  ChildIds: 10009958467653883831
+  ParentId: 17097555723325642101
+  ChildIds: 7597683045240871490
+  WantsNetworking: true
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -80,8 +157,8 @@ Objects {
   }
 }
 Objects {
-  Id: 10009958467653883831
-  Name: "UI Image"
+  Id: 7597683045240871490
+  Name: "DialogBox"
   Transform {
     Location {
     }
@@ -93,32 +170,29 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 4367098770824620287
+  ParentId: 1963642562152165209
+  WantsNetworking: true
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
+    Value: "mc:evisibilitysetting:forceoff"
   }
   Control {
-    Width: 200
-    Height: 200
-    UIX: 1697.08289
-    UIY: 745.036438
+    Width: 1920
+    Height: 400
     RenderTransformPivot {
       Anchor {
         Value: "mc:euianchor:middlecenter"
       }
     }
-    AddSizeToParentIfUsingParentSize: true
     Image {
       Brush {
         Id: 14729314963645413789
       }
       Color {
-        R: 1
-        G: 1
-        B: 1
+        G: 0.679999948
+        B: 0.153112605
         A: 1
       }
       TeamSettings {
@@ -127,87 +201,77 @@ Objects {
     AnchorLayout {
       SelfAnchor {
         Anchor {
-          Value: "mc:euianchor:topleft"
+          Value: "mc:euianchor:bottomcenter"
         }
       }
       TargetAnchor {
         Anchor {
-          Value: "mc:euianchor:topleft"
+          Value: "mc:euianchor:bottomcenter"
         }
       }
     }
   }
 }
 Objects {
-  Id: 17097555723325642101
-  Name: "Fantasy Human Guy 1"
+  Id: 361371748010757291
+  Name: "TutorialScriptInfo"
   Transform {
     Location {
-      X: -8473.91309
-      Y: 8103.09717
-      Z: 115.517334
     }
     Rotation {
-      Yaw: -90
     }
     Scale {
-      X: 0.85
-      Y: 0.85
-      Z: 0.85
+      X: 1.17647052
+      Y: 1.17647052
+      Z: 1.17647052
     }
   }
-  ParentId: 4781671109827199097
-  UnregisteredParameters {
-    Overrides {
-      Name: "ma:Shared_Detail1:color"
-      Color {
-        G: 0.9
-        B: 0.256291509
-        A: 1
-      }
-    }
-    Overrides {
-      Name: "ma:Shared_Detail2:color"
-      Color {
-        R: 1
-        G: 0.0703600943
-        B: 0.0703600943
-        A: 1
-      }
-    }
-    Overrides {
-      Name: "ma:Shared_Detail3:color"
-      Color {
-        R: 1
-        G: 0.0699999928
-        B: 0.0699999928
-        A: 1
-      }
-    }
-  }
+  ParentId: 17097555723325642101
+  WantsNetworking: true
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
-  CoreMesh {
-    MeshAsset {
-      Id: 2477788028182020748
+  Script {
+    ScriptAsset {
+      Id: 1902919279864767719
     }
-    Teams {
+  }
+}
+Objects {
+  Id: 4351564757749894226
+  Name: "Trigger"
+  Transform {
+    Location {
+      Z: 41.9851494
+    }
+    Rotation {
+    }
+    Scale {
+      X: 3
+      Y: 3
+      Z: 3
+    }
+  }
+  ParentId: 17097555723325642101
+  WantsNetworking: true
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Trigger {
+    Interactable: true
+    InteractionLabel: "Talk"
+    TeamSettings {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
-    EnableCameraCollision: true
-    AnimatedMesh {
-      AnimationStance: "unarmed_dance"
-      AnimationStancePlaybackRate: 0.5
-      AnimationStanceShouldLoop: true
-      AnimationPlaybackRateMultiplier: 1
-      PlayOnStartAnimation {
-        PlaybackRate: 1
-      }
+    TriggerShape_v2 {
+      Value: "mc:etriggershape:box"
     }
   }
 }
