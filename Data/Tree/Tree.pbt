@@ -245,6 +245,7 @@ Objects {
   }
   ParentId: 4781671109827199097
   ChildIds: 4351564757749894226
+  ChildIds: 8372637081571082333
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Detail1:color"
@@ -301,8 +302,40 @@ Objects {
   }
 }
 Objects {
+  Id: 8372637081571082333
+  Name: "TriggerDialogRangeToDie"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 7
+      Y: 7
+      Z: 7
+    }
+  }
+  ParentId: 17097555723325642101
+  WantsNetworking: true
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Trigger {
+    TeamSettings {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    TriggerShape_v2 {
+      Value: "mc:etriggershape:box"
+    }
+  }
+}
+Objects {
   Id: 4351564757749894226
-  Name: "Trigger"
+  Name: "TriggerTalk"
   Transform {
     Location {
       Z: 41.9851494

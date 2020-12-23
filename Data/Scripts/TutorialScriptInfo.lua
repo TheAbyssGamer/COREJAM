@@ -2,21 +2,32 @@
 local textBox = uiElement:FindChildByName("DiagText")
 local textFrame = uiElement:FindChildByName("DiagFrame")
 local tutorialGuy = World.FindObjectByName("InfoGuy")
-local talkTrigger = tutorialGuy:FindChildByType("Trigger")
+local talkTrigger = tutorialGuy:FindChildByName("TriggerTalk")
+local dialogToDieTrigger = tutorialGuy:FindChildByName("TriggerDialogRangeToDie")
 local player = Game.GetPlayers()[1]
 local dialogCount = 0
-local checkForRange = false
+local isInRange = false
+
+
+function isNotInRangeDialog()
+    dialogCount = 0
+    isInRange = false
+    print("fut ies")
+    CheckForDialog()
+end
 
 function CheckForDialog()
-    if dialogCount == 0 then
-        checkForRange = true
-        textBox.visibility = Visibility.FORCE_OFF
-        textFrame.visibility = Visibility.FORCE_OFF
-    else
-        checkForRange = false
-        textBox.visibility = Visibility.FORCE_ON
-        textFrame.visibility = Visibility.FORCE_ON
-    end
+    
+        if dialogCount == 0 then
+            checkForRange = true
+            textBox.visibility = Visibility.FORCE_OFF
+            textFrame.visibility = Visibility.FORCE_OFF
+        else
+            checkForRange = false
+            textBox.visibility = Visibility.FORCE_ON
+            textFrame.visibility = Visibility.FORCE_ON
+        end
+
 end
 
 function Talk()
@@ -45,19 +56,12 @@ function Talk()
     elseif dialogCount == 10 then
         dialogCount = 0
     end
-
+    
     CheckForDialog()
 end
 
-while checkForRange==true do
-    local playerPos = player:GetWorldPosition()
-    local triggerPos = talkTrigger:GetWorldPosition()
-    local dif = playerPos-triggerPos
-    if dif > 20 then
-        dialogCount = 0
-    end
-end
 
 
 CheckForDialog()
 talkTrigger.interactedEvent:Connect(Talk)
+dialogToDieTrigger.endOverlapEvent:Connect(isNotInRangeDialog)
