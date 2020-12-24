@@ -1,13 +1,4 @@
 ﻿Assets {
-  Id: 18375919316880416037
-  Name: "Terrain - Snow"
-  PlatformAssetType: 2
-  PrimaryAsset {
-    AssetType: "MaterialAssetRef"
-    AssetId: "mi_terrain_rock-snow_001_wa"
-  }
-}
-Assets {
   Id: 17998831723091601815
   Name: "Diamond"
   PlatformAssetType: 1
