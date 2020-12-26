@@ -304,6 +304,12 @@ Objects {
     }
   }
   ParentId: 8495613367011231635
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:PresentValue"
+      Int: 10
+    }
+  }
   WantsNetworking: true
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"

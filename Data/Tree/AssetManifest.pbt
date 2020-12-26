@@ -98,6 +98,15 @@ Assets {
   }
 }
 Assets {
+  Id: 16164112316930713563
+  Name: "Fantasy Human Guy 2"
+  PlatformAssetType: 17
+  PrimaryAsset {
+    AssetType: "AnimatedMeshAssetRef"
+    AssetId: "npc_human_guy_fantasy_003_ref"
+  }
+}
+Assets {
   Id: 15475868782652722605
   Name: "Trim Bottom 8m"
   PlatformAssetType: 1
@@ -251,6 +260,15 @@ Assets {
   }
 }
 Assets {
+  Id: 10593878414212448768
+  Name: "BG Highlighted 016"
+  PlatformAssetType: 9
+  PrimaryAsset {
+    AssetType: "PlatformBrushAssetRef"
+    AssetId: "BackgroundHighlighted_033"
+  }
+}
+Assets {
   Id: 10478334008655995685
   Name: "Plastic Shiny"
   PlatformAssetType: 2
@@ -323,6 +341,15 @@ Assets {
   }
 }
 Assets {
+  Id: 8031620147107644280
+  Name: "Frame Highlighted 014"
+  PlatformAssetType: 9
+  PrimaryAsset {
+    AssetType: "PlatformBrushAssetRef"
+    AssetId: "FrameHighlighted_031"
+  }
+}
+Assets {
   Id: 7887238662729938253
   Name: "Sky Dome"
   PlatformAssetType: 6
@@ -392,6 +419,15 @@ Assets {
   PrimaryAsset {
     AssetType: "DecalBlueprintAssetRef"
     AssetId: "bp_decal_snow_patch_001"
+  }
+}
+Assets {
+  Id: 2737892154116084418
+  Name: "Icon Ice"
+  PlatformAssetType: 9
+  PrimaryAsset {
+    AssetType: "PlatformBrushAssetRef"
+    AssetId: "Icon_Ice"
   }
 }
 Assets {

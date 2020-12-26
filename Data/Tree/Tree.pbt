@@ -26,6 +26,8 @@ Objects {
   ChildIds: 8047941593167810578
   ChildIds: 2594442072155800338
   ChildIds: 16361103286472979376
+  ChildIds: 13610796309754873340
+  ChildIds: 14648646175071344806
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -35,6 +37,146 @@ Objects {
     Value: "mc:evisibilitysetting:forceon"
   }
   Folder {
+  }
+}
+Objects {
+  Id: 14648646175071344806
+  Name: "Fred"
+  Transform {
+    Location {
+      X: -7543.18848
+      Y: 8166.24609
+      Z: 132.780487
+    }
+    Rotation {
+    }
+    Scale {
+      X: 0.75
+      Y: 0.75
+      Z: 0.75
+    }
+  }
+  ParentId: 4781671109827199097
+  ChildIds: 15205524187882645374
+  ChildIds: 6785603162413451074
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 16164112316930713563
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    AnimatedMesh {
+      AnimationStance: "unarmed_idle_relaxed"
+      AnimationStancePlaybackRate: 1
+      AnimationStanceShouldLoop: true
+      AnimationPlaybackRateMultiplier: 1
+      PlayOnStartAnimation {
+        PlaybackRate: 1
+      }
+    }
+  }
+}
+Objects {
+  Id: 6785603162413451074
+  Name: "ExitDialogRangeTrigger"
+  Transform {
+    Location {
+      X: 197.785156
+    }
+    Rotation {
+    }
+    Scale {
+      X: 7
+      Y: 9
+      Z: 7
+    }
+  }
+  ParentId: 14648646175071344806
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Trigger {
+    TeamSettings {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    TriggerShape_v2 {
+      Value: "mc:etriggershape:box"
+    }
+  }
+}
+Objects {
+  Id: 15205524187882645374
+  Name: "TalkTrigger"
+  Transform {
+    Location {
+      X: 50.5214844
+    }
+    Rotation {
+    }
+    Scale {
+      X: 4
+      Y: 6
+      Z: 7
+    }
+  }
+  ParentId: 14648646175071344806
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Trigger {
+    TeamSettings {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    TriggerShape_v2 {
+      Value: "mc:etriggershape:box"
+    }
+  }
+}
+Objects {
+  Id: 13610796309754873340
+  Name: "ServerScript"
+  Transform {
+    Location {
+      X: -7543.18848
+      Y: 8166.24609
+      Z: 132.780487
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 13152186018783673855
+    }
   }
 }
 Objects {
@@ -111,6 +253,12 @@ Objects {
   ChildIds: 4741390766882039339
   ChildIds: 2253879325044139609
   ChildIds: 11141061613667003650
+  ChildIds: 10492943125957295713
+  ChildIds: 10441393610441297519
+  ChildIds: 10851514855597227908
+  ChildIds: 16034199676823071716
+  ChildIds: 11506740369177172396
+  ChildIds: 13716336058775615160
   WantsNetworking: true
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -141,6 +289,292 @@ Objects {
   }
 }
 Objects {
+  Id: 13716336058775615160
+  Name: "FredShop"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 8047941593167810578
+  WantsNetworking: true
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 9131990025022769383
+    }
+  }
+}
+Objects {
+  Id: 11506740369177172396
+  Name: "ShopBg"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 8047941593167810578
+  WantsNetworking: true
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Control {
+    Width: 1000
+    Height: 800
+    RenderTransformPivot {
+      Anchor {
+        Value: "mc:euianchor:middlecenter"
+      }
+    }
+    Image {
+      Brush {
+        Id: 10593878414212448768
+      }
+      Color {
+        R: 0.161404073
+        G: 0.283801168
+        B: 0.364583343
+        A: 1
+      }
+      TeamSettings {
+      }
+    }
+    AnchorLayout {
+      SelfAnchor {
+        Anchor {
+          Value: "mc:euianchor:middlecenter"
+        }
+      }
+      TargetAnchor {
+        Anchor {
+          Value: "mc:euianchor:middlecenter"
+        }
+      }
+    }
+  }
+}
+Objects {
+  Id: 16034199676823071716
+  Name: "ShopBorder"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 8047941593167810578
+  WantsNetworking: true
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Control {
+    Width: 1000
+    Height: 800
+    RenderTransformPivot {
+      Anchor {
+        Value: "mc:euianchor:middlecenter"
+      }
+    }
+    Image {
+      Brush {
+        Id: 8031620147107644280
+      }
+      Color {
+        G: 0.392156899
+        B: 0.650980413
+        A: 1
+      }
+      TeamSettings {
+      }
+    }
+    AnchorLayout {
+      SelfAnchor {
+        Anchor {
+          Value: "mc:euianchor:middlecenter"
+        }
+      }
+      TargetAnchor {
+        Anchor {
+          Value: "mc:euianchor:middlecenter"
+        }
+      }
+    }
+  }
+}
+Objects {
+  Id: 10851514855597227908
+  Name: "DisplayPoints"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 8047941593167810578
+  WantsNetworking: true
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 16728207096326107032
+    }
+  }
+}
+Objects {
+  Id: 10441393610441297519
+  Name: "PointsText"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 8047941593167810578
+  WantsNetworking: true
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Control {
+    Width: 202
+    Height: 46
+    UIX: 65.3310699
+    UIY: -0.901784897
+    RenderTransformPivot {
+      Anchor {
+        Value: "mc:euianchor:middlecenter"
+      }
+    }
+    Text {
+      Label: "0"
+      Color {
+        G: 0.392156899
+        B: 0.650980413
+        A: 1
+      }
+      Size: 35
+      Justification {
+        Value: "mc:etextjustify:left"
+      }
+      AutoWrapText: true
+    }
+    AnchorLayout {
+      SelfAnchor {
+        Anchor {
+          Value: "mc:euianchor:custom"
+        }
+      }
+      TargetAnchor {
+        Anchor {
+          Value: "mc:euianchor:custom"
+        }
+      }
+    }
+  }
+}
+Objects {
+  Id: 10492943125957295713
+  Name: "UI Image"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 8047941593167810578
+  WantsNetworking: true
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Control {
+    Width: 50
+    Height: 50
+    UIX: 4.50567627
+    UIY: 8.11569214
+    RenderTransformPivot {
+      Anchor {
+        Value: "mc:euianchor:middlecenter"
+      }
+    }
+    Image {
+      Brush {
+        Id: 2737892154116084418
+      }
+      Color {
+        G: 0.392156899
+        B: 0.650980413
+        A: 1
+      }
+      TeamSettings {
+      }
+    }
+    AnchorLayout {
+      SelfAnchor {
+        Anchor {
+          Value: "mc:euianchor:custom"
+        }
+      }
+      TargetAnchor {
+        Anchor {
+          Value: "mc:euianchor:custom"
+        }
+      }
+    }
+  }
+}
+Objects {
   Id: 11141061613667003650
   Name: "DiagText"
   Transform {
@@ -165,8 +599,8 @@ Objects {
   Control {
     Width: 1811
     Height: 200
-    UIX: 259.948456
-    UIY: 700.207031
+    UIX: 243.30188
+    UIY: -45.0874023
     RenderTransformPivot {
       Anchor {
         Value: "mc:euianchor:middlecenter"
@@ -188,12 +622,12 @@ Objects {
     AnchorLayout {
       SelfAnchor {
         Anchor {
-          Value: "mc:euianchor:topleft"
+          Value: "mc:euianchor:bottomleft"
         }
       }
       TargetAnchor {
         Anchor {
-          Value: "mc:euianchor:topleft"
+          Value: "mc:euianchor:bottomleft"
         }
       }
     }
