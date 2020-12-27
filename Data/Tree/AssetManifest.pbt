@@ -170,6 +170,15 @@ Assets {
   }
 }
 Assets {
+  Id: 13947760372235279807
+  Name: "BG Flat 006"
+  PlatformAssetType: 9
+  PrimaryAsset {
+    AssetType: "PlatformBrushAssetRef"
+    AssetId: "BackgroundNoOutline_015"
+  }
+}
+Assets {
   Id: 13642204757580273705
   Name: "Cube - Chamfered Small Polished"
   PlatformAssetType: 1
@@ -203,6 +212,15 @@ Assets {
   PrimaryAsset {
     AssetType: "VfxBlueprintAssetRef"
     AssetId: "fxbp_torch_fire"
+  }
+}
+Assets {
+  Id: 12254877423892680988
+  Name: "Ice"
+  PlatformAssetType: 9
+  PrimaryAsset {
+    AssetType: "PlatformBrushAssetRef"
+    AssetId: "UI_Fantasy_Icon_Ice"
   }
 }
 Assets {
@@ -260,12 +278,12 @@ Assets {
   }
 }
 Assets {
-  Id: 10593878414212448768
-  Name: "BG Highlighted 016"
+  Id: 11277223044741038670
+  Name: "Frame Outlined Thick 006"
   PlatformAssetType: 9
   PrimaryAsset {
     AssetType: "PlatformBrushAssetRef"
-    AssetId: "BackgroundHighlighted_033"
+    AssetId: "FrameFlat_015"
   }
 }
 Assets {
@@ -341,15 +359,6 @@ Assets {
   }
 }
 Assets {
-  Id: 8031620147107644280
-  Name: "Frame Highlighted 014"
-  PlatformAssetType: 9
-  PrimaryAsset {
-    AssetType: "PlatformBrushAssetRef"
-    AssetId: "FrameHighlighted_031"
-  }
-}
-Assets {
   Id: 7887238662729938253
   Name: "Sky Dome"
   PlatformAssetType: 6
@@ -422,15 +431,6 @@ Assets {
   }
 }
 Assets {
-  Id: 2737892154116084418
-  Name: "Icon Ice"
-  PlatformAssetType: 9
-  PrimaryAsset {
-    AssetType: "PlatformBrushAssetRef"
-    AssetId: "Icon_Ice"
-  }
-}
-Assets {
   Id: 2723232960546970913
   Name: "Wood Floor Dark"
   PlatformAssetType: 2
@@ -455,6 +455,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_half-pipe_002"
+  }
+}
+Assets {
+  Id: 2116234591685949019
+  Name: "BG Gradient 016"
+  PlatformAssetType: 9
+  PrimaryAsset {
+    AssetType: "PlatformBrushAssetRef"
+    AssetId: "BackgroundFlat_033"
   }
 }
 Assets {
@@ -500,6 +509,24 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_sphere_002"
+  }
+}
+Assets {
+  Id: 572732586881751200
+  Name: "Frame Beveled 016"
+  PlatformAssetType: 9
+  PrimaryAsset {
+    AssetType: "PlatformBrushAssetRef"
+    AssetId: "FrameSolid8px_033"
+  }
+}
+Assets {
+  Id: 358785961327483857
+  Name: "BG Flat 002"
+  PlatformAssetType: 9
+  PrimaryAsset {
+    AssetType: "PlatformBrushAssetRef"
+    AssetId: "BackgroundNoOutline_019"
   }
 }
 Assets {

@@ -5,7 +5,7 @@ local spawnLocation = productionMachine:FindChildByName("PipeSpawn"):GetWorldPos
 
 function PresentBehaviour ()
     local present = World.SpawnAsset(propTinyPresTemplate, {position = spawnLocation})
-    Task.Wait(_G.PlayerUpgrades.spawn_wait_time)
+    Task.Wait(_G.PlayerUpgradesT1.spawn_wait_time)
     return PresentBehaviour()
 end
 

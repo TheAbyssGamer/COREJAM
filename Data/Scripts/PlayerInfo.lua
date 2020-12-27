@@ -1,11 +1,24 @@
 ﻿local player = Game.GetPlayers()[1]
-_G.PlayerUpgrades = {
-    conveyor_speed = 0,
-    spawn_wait_time = 5
+_G.PlayerUpgradesT1 = {
+    conveyor_speed = 150,
+    spawn_wait_time = 5,
+    value_tiny = 10,
+    value_small = 25
 }
 
+_G.PlayerUpgradesT2 = {
+    conveyor_speed = 150,
+    spawn_wait_time = 5,
+    value_medium = 50,
+    value_big = 100
+}
 
-
+_G.PlayerUpgradesT3 = {
+    conveyor_speed = 150,
+    spawn_wait_time = 5,
+    value_huge = 250,
+    value_enormous = 500
+}
 
 
 
