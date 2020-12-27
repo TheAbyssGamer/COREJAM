@@ -28,7 +28,20 @@ Objects {
   ChildIds: 16361103286472979376
   ChildIds: 13610796309754873340
   ChildIds: 14648646175071344806
+  ChildIds: 2731741593631343024
   ChildIds: 18374051733457749816
+  ChildIds: 4118508423591016180
+  ChildIds: 3511423887754081089
+  ChildIds: 17089666743595679304
+  ChildIds: 16244897393222578625
+  ChildIds: 5543874174380077039
+  ChildIds: 7850222805071366012
+  ChildIds: 16380356998300017246
+  ChildIds: 17849609516271722847
+  ChildIds: 2540042151711131137
+  ChildIds: 3324395698372386861
+  ChildIds: 15184478744200029621
+  ChildIds: 9763509540170229271
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -38,6 +51,15396 @@ Objects {
     Value: "mc:evisibilitysetting:forceon"
   }
   Folder {
+  }
+}
+Objects {
+  Id: 9763509540170229271
+  Name: "Trees4"
+  Transform {
+    Location {
+      X: -396.611267
+      Y: -86.1386719
+      Z: 85.8272705
+    }
+    Rotation {
+      Yaw: -100.910675
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  ChildIds: 506839219114870232
+  ChildIds: 12557845307528742623
+  ChildIds: 6244443048368004021
+  ChildIds: 17108729757352697139
+  ChildIds: 16929137990711947191
+  ChildIds: 10701515688489120558
+  ChildIds: 10180488219615326183
+  ChildIds: 8972547406330233020
+  ChildIds: 10265483932279003143
+  ChildIds: 17685958490420111668
+  ChildIds: 5299953258995831664
+  ChildIds: 7190190397412866456
+  ChildIds: 6397126698543683706
+  ChildIds: 3680566874882635104
+  ChildIds: 7202982690165459143
+  ChildIds: 10207715723835215655
+  ChildIds: 8124728932748196249
+  ChildIds: 18445870825228663019
+  ChildIds: 508148457901655226
+  ChildIds: 1587432444044307699
+  ChildIds: 3679607858995020681
+  ChildIds: 12211460908445431316
+  ChildIds: 4783602761521729007
+  ChildIds: 15352038053043533687
+  ChildIds: 2116273755301395717
+  ChildIds: 9607211249069957151
+  ChildIds: 8270749969817392796
+  ChildIds: 4313541166369485436
+  ChildIds: 8116692973929223467
+  ChildIds: 12405290031770305294
+  ChildIds: 3012966910895881246
+  ChildIds: 162770200130255835
+  ChildIds: 6380480849105364400
+  ChildIds: 13073773273874269341
+  ChildIds: 4403335300900132544
+  ChildIds: 4486261039311720956
+  ChildIds: 18428756972779055136
+  ChildIds: 9974221392954307472
+  ChildIds: 6966232864838612187
+  ChildIds: 6001470839626512138
+  ChildIds: 5748949911056023895
+  ChildIds: 16545198886192818273
+  ChildIds: 4041614896727573768
+  ChildIds: 11839781320368766019
+  ChildIds: 1645324736807912519
+  ChildIds: 754930117673469797
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 754930117673469797
+  Name: "Tree Redwood Medium"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 9763509540170229271
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 1814396872089460735
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Tree Redwood Medium"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -9388.55078
+            Y: -259.188812
+            Z: 23.9760132
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 8463702964946560584
+    }
+  }
+}
+Objects {
+  Id: 1645324736807912519
+  Name: "Tree Redwood Medium"
+  Transform {
+    Location {
+      X: -9388.55078
+      Y: -259.188812
+      Z: 23.9760132
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 9763509540170229271
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 1814396872089460735
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Tree Redwood Medium"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -6409.55713
+            Y: -253.815567
+            Z: -141.774475
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 8463702964946560584
+    }
+  }
+}
+Objects {
+  Id: 11839781320368766019
+  Name: "Snowy tree small"
+  Transform {
+    Location {
+      X: -7365.98584
+      Y: -179.383484
+      Z: -21.5097351
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 9763509540170229271
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 5112265801860188786
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Snowy tree small"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -2955.25073
+            Y: 277.292786
+            Z: -21.5097351
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 8133101671915798524
+    }
+  }
+}
+Objects {
+  Id: 4041614896727573768
+  Name: "Snowy tree small"
+  Transform {
+    Location {
+      X: -4864.2417
+      Y: -45.9957123
+      Z: -21.5097198
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 9763509540170229271
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 5112265801860188786
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Snowy tree small"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -7365.98584
+            Y: -179.383484
+            Z: -21.5097351
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 8133101671915798524
+    }
+  }
+}
+Objects {
+  Id: 16545198886192818273
+  Name: "Tree Redwood Small"
+  Transform {
+    Location {
+      X: -10441.835
+      Y: -73.6706238
+      Z: -8.07699585
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 9763509540170229271
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 16068450504029913995
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Tree Redwood Small"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -10762.7949
+            Y: 235.279388
+            Z: -8.07699585
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 16931974225670535810
+    }
+  }
+}
+Objects {
+  Id: 5748949911056023895
+  Name: "Snowy tree small"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 9763509540170229271
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 5112265801860188786
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Snowy tree small"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -4864.23535
+            Y: -45.9960938
+            Z: 24.0425873
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 8133101671915798524
+    }
+  }
+}
+Objects {
+  Id: 6001470839626512138
+  Name: "Tree Redwood Small"
+  Transform {
+    Location {
+      X: -10270.9375
+      Y: 394.481415
+      Z: -8.07699585
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 9763509540170229271
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 16068450504029913995
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Tree Redwood Small"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -10441.835
+            Y: -73.6706238
+            Z: -8.07699585
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 16931974225670535810
+    }
+  }
+}
+Objects {
+  Id: 6966232864838612187
+  Name: "Tree Redwood Small"
+  Transform {
+    Location {
+      X: -9952.68848
+      Y: 267.073944
+      Z: -8.07699585
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 9763509540170229271
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 16068450504029913995
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Tree Redwood Small"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -10270.9375
+            Y: 394.481415
+            Z: -8.07699585
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 16931974225670535810
+    }
+  }
+}
+Objects {
+  Id: 9974221392954307472
+  Name: "Tree Redwood Small"
+  Transform {
+    Location {
+      X: -9494.05664
+      Y: 267.552917
+      Z: -8.07699585
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 9763509540170229271
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 16068450504029913995
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Tree Redwood Small"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -9952.68848
+            Y: 267.073944
+            Z: -8.07699585
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 16931974225670535810
+    }
+  }
+}
+Objects {
+  Id: 18428756972779055136
+  Name: "Tree Redwood Small"
+  Transform {
+    Location {
+      X: -9841.50391
+      Y: -145.645386
+      Z: -8.07705688
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 9763509540170229271
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 16068450504029913995
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Tree Redwood Small"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -9494.05664
+            Y: 267.552917
+            Z: -8.07699585
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 16931974225670535810
+    }
+  }
+}
+Objects {
+  Id: 4486261039311720956
+  Name: "Tree Redwood Small"
+  Transform {
+    Location {
+      X: -9237.49316
+      Y: 129.665894
+      Z: -8.07717896
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 9763509540170229271
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 16068450504029913995
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Tree Redwood Small"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -9841.50391
+            Y: -145.645386
+            Z: -8.07705688
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 16931974225670535810
+    }
+  }
+}
+Objects {
+  Id: 4403335300900132544
+  Name: "Tree Redwood Small"
+  Transform {
+    Location {
+      X: -8891.94629
+      Y: -204.324097
+      Z: -8.07724
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 9763509540170229271
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 16068450504029913995
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Tree Redwood Small"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -8732.74609
+            Y: 0.806396484
+            Z: -8.07724
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 16931974225670535810
+    }
+  }
+}
+Objects {
+  Id: 13073773273874269341
+  Name: "Tree Redwood Small"
+  Transform {
+    Location {
+      X: -8433.77734
+      Y: -222.848328
+      Z: -8.07730103
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 9763509540170229271
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 16068450504029913995
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Tree Redwood Small"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -8891.94629
+            Y: -204.324097
+            Z: -8.07724
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 16931974225670535810
+    }
+  }
+}
+Objects {
+  Id: 6380480849105364400
+  Name: "Tree Redwood Small"
+  Transform {
+    Location {
+      X: -8031.86914
+      Y: -28.1994019
+      Z: -8.07730103
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 9763509540170229271
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 16068450504029913995
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Tree Redwood Small"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -8433.77734
+            Y: -222.848328
+            Z: -8.07730103
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 16931974225670535810
+    }
+  }
+}
+Objects {
+  Id: 162770200130255835
+  Name: "Tree Redwood Small"
+  Transform {
+    Location {
+      X: -8012.54785
+      Y: -377.951538
+      Z: -8.07730103
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 9763509540170229271
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 16068450504029913995
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Tree Redwood Small"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -8031.86914
+            Y: -28.1994019
+            Z: -8.07730103
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 16931974225670535810
+    }
+  }
+}
+Objects {
+  Id: 3012966910895881246
+  Name: "Tree Redwood Small"
+  Transform {
+    Location {
+      X: -7605.43311
+      Y: -223.657532
+      Z: -8.07730103
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 9763509540170229271
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 16068450504029913995
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Tree Redwood Small"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -8012.54785
+            Y: -377.951538
+            Z: -8.07730103
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 16931974225670535810
+    }
+  }
+}
+Objects {
+  Id: 12405290031770305294
+  Name: "Tree Redwood Small"
+  Transform {
+    Location {
+      X: -7235.69189
+      Y: 8.85174561
+      Z: -8.07724
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 9763509540170229271
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 16068450504029913995
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Tree Redwood Small"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -7605.43311
+            Y: -223.657532
+            Z: -8.07730103
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 16931974225670535810
+    }
+  }
+}
+Objects {
+  Id: 8116692973929223467
+  Name: "Tree Redwood Small"
+  Transform {
+    Location {
+      X: -7207.44727
+      Y: -310.258911
+      Z: -8.07724
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 9763509540170229271
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 16068450504029913995
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Tree Redwood Small"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -7235.69189
+            Y: 8.85174561
+            Z: -8.07724
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 16931974225670535810
+    }
+  }
+}
+Objects {
+  Id: 4313541166369485436
+  Name: "Tree Redwood Small"
+  Transform {
+    Location {
+      X: -6702.37939
+      Y: -21.4512329
+      Z: -8.07724
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 9763509540170229271
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 16068450504029913995
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Tree Redwood Small"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -7207.44727
+            Y: -310.258911
+            Z: -8.07724
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 16931974225670535810
+    }
+  }
+}
+Objects {
+  Id: 8270749969817392796
+  Name: "Tree Redwood Small"
+  Transform {
+    Location {
+      X: -6408.93701
+      Y: -237.083008
+      Z: -8.07717896
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 9763509540170229271
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 16068450504029913995
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Tree Redwood Small"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -6702.37939
+            Y: -21.4512329
+            Z: -8.07724
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 16931974225670535810
+    }
+  }
+}
+Objects {
+  Id: 9607211249069957151
+  Name: "Tree Redwood Small"
+  Transform {
+    Location {
+      X: -5945.63086
+      Y: -108.332077
+      Z: -8.07717896
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 9763509540170229271
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 16068450504029913995
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Tree Redwood Small"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -6759.28809
+            Y: -382.481445
+            Z: -8.07717896
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 16931974225670535810
+    }
+  }
+}
+Objects {
+  Id: 2116273755301395717
+  Name: "Tree Redwood Small"
+  Transform {
+    Location {
+      X: -5681.87598
+      Y: -386.675262
+      Z: -8.07718658
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 9763509540170229271
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 16068450504029913995
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Tree Redwood Small"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -5945.63086
+            Y: -108.332077
+            Z: -8.07717896
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 16931974225670535810
+    }
+  }
+}
+Objects {
+  Id: 15352038053043533687
+  Name: "Tree Redwood Small"
+  Transform {
+    Location {
+      X: -5501.92139
+      Y: -54.5067596
+      Z: -8.07718658
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 9763509540170229271
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 16068450504029913995
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Tree Redwood Small"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -5681.87598
+            Y: -386.675262
+            Z: -8.07718658
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 16931974225670535810
+    }
+  }
+}
+Objects {
+  Id: 4783602761521729007
+  Name: "Tree Redwood Small"
+  Transform {
+    Location {
+      X: -5084.02246
+      Y: -163.009979
+      Z: -8.07718658
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 9763509540170229271
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 16068450504029913995
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Tree Redwood Small"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -5084.01221
+            Y: -163.003906
+            Z: 37.4751205
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 16931974225670535810
+    }
+  }
+}
+Objects {
+  Id: 12211460908445431316
+  Name: "Tree Redwood Small"
+  Transform {
+    Location {
+      X: -4976.48682
+      Y: -440.30191
+      Z: -21.200676
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 9763509540170229271
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 16068450504029913995
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Tree Redwood Small"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -5501.92139
+            Y: -54.5067596
+            Z: -8.07718658
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 16931974225670535810
+    }
+  }
+}
+Objects {
+  Id: 3679607858995020681
+  Name: "Tree Redwood Small"
+  Transform {
+    Location {
+      X: -4682.08594
+      Y: -251.010498
+      Z: -52.4901886
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 9763509540170229271
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 16068450504029913995
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Tree Redwood Small"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -4976.48389
+            Y: -440.303711
+            Z: 24.3516312
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 16931974225670535810
+    }
+  }
+}
+Objects {
+  Id: 1587432444044307699
+  Name: "Tree Redwood Small"
+  Transform {
+    Location {
+      X: -4376.23877
+      Y: -272.584229
+      Z: -110.932861
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 9763509540170229271
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 16068450504029913995
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Tree Redwood Small"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -4682.08398
+            Y: -251.008789
+            Z: -6.93788147
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 16931974225670535810
+    }
+  }
+}
+Objects {
+  Id: 508148457901655226
+  Name: "Tree Redwood Small"
+  Transform {
+    Location {
+      X: -4196.21533
+      Y: -107.861099
+      Z: -110.932861
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 9763509540170229271
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 16068450504029913995
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Tree Redwood Small"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -4376.23828
+            Y: -272.583496
+            Z: 31.9396973
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 16931974225670535810
+    }
+  }
+}
+Objects {
+  Id: 18445870825228663019
+  Name: "Tree Redwood Small"
+  Transform {
+    Location {
+      X: -4251.50098
+      Y: -550.857666
+      Z: -110.932861
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 9763509540170229271
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 16068450504029913995
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Tree Redwood Small"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -4196.21387
+            Y: -107.86377
+            Z: 31.9396973
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 16931974225670535810
+    }
+  }
+}
+Objects {
+  Id: 8124728932748196249
+  Name: "Tree Redwood Small"
+  Transform {
+    Location {
+      X: -3892.2041
+      Y: -136.375549
+      Z: -110.932861
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 9763509540170229271
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 16068450504029913995
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Tree Redwood Small"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -4251.49854
+            Y: -550.859863
+            Z: 31.9396973
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 16931974225670535810
+    }
+  }
+}
+Objects {
+  Id: 10207715723835215655
+  Name: "Tree Redwood Small"
+  Transform {
+    Location {
+      X: -3836.52124
+      Y: -343.719513
+      Z: 8.84359741
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 9763509540170229271
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 16068450504029913995
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Tree Redwood Small"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -3892.2041
+            Y: -136.375488
+            Z: 31.9396973
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 16931974225670535810
+    }
+  }
+}
+Objects {
+  Id: 7202982690165459143
+  Name: "Tree Redwood Small"
+  Transform {
+    Location {
+      X: -3624.11255
+      Y: -60.3801117
+      Z: 8.84359741
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 9763509540170229271
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 16068450504029913995
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Tree Redwood Small"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -3836.521
+            Y: -343.719238
+            Z: 33.4872894
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 16931974225670535810
+    }
+  }
+}
+Objects {
+  Id: 3680566874882635104
+  Name: "Tree Redwood Small"
+  Transform {
+    Location {
+      X: -3473.15308
+      Y: -327.92749
+      Z: 8.84359741
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 9763509540170229271
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 16068450504029913995
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Tree Redwood Small"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -3624.10742
+            Y: -60.3803711
+            Z: 36.1663437
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 16931974225670535810
+    }
+  }
+}
+Objects {
+  Id: 6397126698543683706
+  Name: "Tree Redwood Small"
+  Transform {
+    Location {
+      X: -3235.67603
+      Y: 0.023223877
+      Z: 8.84359741
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 9763509540170229271
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 16068450504029913995
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Tree Redwood Small"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -3235.67578
+            Y: 0.0239257813
+            Z: -6.98871613
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 16931974225670535810
+    }
+  }
+}
+Objects {
+  Id: 7190190397412866456
+  Name: "Tree Redwood Small"
+  Transform {
+    Location {
+      X: -3042.75708
+      Y: -271.245911
+      Z: 8.84356689
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 9763509540170229271
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 16068450504029913995
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Tree Redwood Small"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -3473.15
+            Y: -327.926514
+            Z: -94.1569672
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 16931974225670535810
+    }
+  }
+}
+Objects {
+  Id: 5299953258995831664
+  Name: "Tree Redwood Small"
+  Transform {
+    Location {
+      X: -2915.3894
+      Y: 146.706284
+      Z: 8.84356689
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 9763509540170229271
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 16068450504029913995
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Tree Redwood Small"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -3042.75659
+            Y: -271.24585
+            Z: -124.818848
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 16931974225670535810
+    }
+  }
+}
+Objects {
+  Id: 17685958490420111668
+  Name: "Tree Redwood Small"
+  Transform {
+    Location {
+      X: -2671.92407
+      Y: -371.455566
+      Z: 8.84356689
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 9763509540170229271
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 16068450504029913995
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Tree Redwood Small"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -2734.52051
+            Y: -40.7006836
+            Z: -180.434891
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 16931974225670535810
+    }
+  }
+}
+Objects {
+  Id: 10265483932279003143
+  Name: "Tree Redwood Small"
+  Transform {
+    Location {
+      X: -2538.06982
+      Y: 114.086517
+      Z: 8.84355164
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 9763509540170229271
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 16068450504029913995
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Tree Redwood Small"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -2671.92407
+            Y: -371.455566
+            Z: -63.7618942
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 16931974225670535810
+    }
+  }
+}
+Objects {
+  Id: 8972547406330233020
+  Name: "Tree Redwood Small"
+  Transform {
+    Location {
+      X: -2251.43945
+      Y: 184.428986
+      Z: 8.84355164
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 9763509540170229271
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 16068450504029913995
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Tree Redwood Small"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -2538.06982
+            Y: 114.086517
+            Z: -78.7982483
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 16931974225670535810
+    }
+  }
+}
+Objects {
+  Id: 10180488219615326183
+  Name: "Tree Redwood Small"
+  Transform {
+    Location {
+      X: -2193.14478
+      Y: -335.619812
+      Z: 8.84355164
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 9763509540170229271
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 16068450504029913995
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Tree Redwood Small"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -2251.43945
+            Y: 184.428986
+            Z: -59.3416061
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 16931974225670535810
+    }
+  }
+}
+Objects {
+  Id: 10701515688489120558
+  Name: "Tree Redwood Small"
+  Transform {
+    Location {
+      X: -1948.85278
+      Y: 100.253845
+      Z: 8.84355164
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 9763509540170229271
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 16068450504029913995
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Tree Redwood Small"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -2287.84351
+            Y: -353.873535
+            Z: -232.729187
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 16931974225670535810
+    }
+  }
+}
+Objects {
+  Id: 16929137990711947191
+  Name: "Tree Redwood Small"
+  Transform {
+    Location {
+      X: -1804.82813
+      Y: -251.387939
+      Z: 8.84355164
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 9763509540170229271
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 16068450504029913995
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Tree Redwood Small"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -2043.55151
+            Y: 81.9992676
+            Z: -101.250397
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 16931974225670535810
+    }
+  }
+}
+Objects {
+  Id: 17108729757352697139
+  Name: "Tree Redwood Small"
+  Transform {
+    Location {
+      X: -1591.55896
+      Y: 120.627655
+      Z: 8.84355164
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 9763509540170229271
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 16068450504029913995
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Tree Redwood Small"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -1899.52649
+            Y: -269.641846
+            Z: -66.7190552
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 16931974225670535810
+    }
+  }
+}
+Objects {
+  Id: 6244443048368004021
+  Name: "Tree Redwood Small"
+  Transform {
+    Location {
+      X: -1265.29346
+      Y: 140.298798
+      Z: 8.84355164
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 9763509540170229271
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 16068450504029913995
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Tree Redwood Small"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -1426.62073
+            Y: -286.867065
+            Z: -39.2572327
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 16931974225670535810
+    }
+  }
+}
+Objects {
+  Id: 12557845307528742623
+  Name: "Tree Redwood Small"
+  Transform {
+    Location {
+      X: -1515.28088
+      Y: -30.3113708
+      Z: 8.84355164
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 9763509540170229271
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 16068450504029913995
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Tree Redwood Small"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -1359.99268
+            Y: 122.043823
+            Z: -39.2572327
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 16931974225670535810
+    }
+  }
+}
+Objects {
+  Id: 506839219114870232
+  Name: "Tree Redwood Small"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 9763509540170229271
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 16068450504029913995
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Tree Redwood Small"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -1686.25745
+            Y: 102.372681
+            Z: -39.2572327
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 16931974225670535810
+    }
+  }
+}
+Objects {
+  Id: 15184478744200029621
+  Name: "Trees3"
+  Transform {
+    Location {
+      X: 282.910034
+      Y: -294.186218
+      Z: 0.00048828125
+    }
+    Rotation {
+      Yaw: 67.7293396
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  ChildIds: 15016896334260205516
+  ChildIds: 6003643294851919486
+  ChildIds: 13111344680939779111
+  ChildIds: 15082167818248109208
+  ChildIds: 5452589128576927622
+  ChildIds: 1732415171691883889
+  ChildIds: 14868214176513781890
+  ChildIds: 16306803004191288500
+  ChildIds: 1797816796963383279
+  ChildIds: 10592704691357155226
+  ChildIds: 4269262505790224233
+  ChildIds: 1302128610454818427
+  ChildIds: 10049557650756560596
+  ChildIds: 7506558182408256744
+  ChildIds: 14077107635641368860
+  ChildIds: 15363363626457723413
+  ChildIds: 13613406006252126604
+  ChildIds: 14896269570950708674
+  ChildIds: 8341538261115433212
+  ChildIds: 13809919474870174002
+  ChildIds: 11441936693044015320
+  ChildIds: 16519914208092767824
+  ChildIds: 15631364457689808888
+  ChildIds: 8777786219192794840
+  ChildIds: 8289780693610084492
+  ChildIds: 6577834458227081691
+  ChildIds: 11727556760075194536
+  ChildIds: 11319455175133873952
+  ChildIds: 15444346283045419171
+  ChildIds: 3692064736361036395
+  ChildIds: 7513230951079298890
+  ChildIds: 17748415090272161419
+  ChildIds: 2060375153439902654
+  ChildIds: 12105830428474252925
+  ChildIds: 15473627206266065158
+  ChildIds: 7352158333524053911
+  ChildIds: 17558083687405520217
+  ChildIds: 13459174289080971450
+  ChildIds: 3992307727043270192
+  ChildIds: 15330261484945597613
+  ChildIds: 12916549480126853760
+  ChildIds: 4262578484185622709
+  ChildIds: 174932440842336412
+  ChildIds: 13482660710574113031
+  ChildIds: 13431990319395566675
+  ChildIds: 18424386281407240980
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 18424386281407240980
+  Name: "Tree Redwood Medium"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 15184478744200029621
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 1814396872089460735
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Tree Redwood Medium"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -9388.55078
+            Y: -259.188812
+            Z: 23.9760132
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 8463702964946560584
+    }
+  }
+}
+Objects {
+  Id: 13431990319395566675
+  Name: "Tree Redwood Medium"
+  Transform {
+    Location {
+      X: -9388.55078
+      Y: -259.188812
+      Z: 23.9760132
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 15184478744200029621
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 1814396872089460735
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Tree Redwood Medium"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -6409.55713
+            Y: -253.815567
+            Z: -141.774475
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 8463702964946560584
+    }
+  }
+}
+Objects {
+  Id: 13482660710574113031
+  Name: "Snowy tree small"
+  Transform {
+    Location {
+      X: -7365.98584
+      Y: -179.383484
+      Z: -21.5097351
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 15184478744200029621
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 5112265801860188786
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Snowy tree small"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -2955.25049
+            Y: 277.293213
+            Z: 25.0663757
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 8133101671915798524
+    }
+  }
+}
+Objects {
+  Id: 174932440842336412
+  Name: "Snowy tree small"
+  Transform {
+    Location {
+      X: -4864.2417
+      Y: -45.9957123
+      Z: -21.5097198
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 15184478744200029621
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 5112265801860188786
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Snowy tree small"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -7365.98584
+            Y: -179.383484
+            Z: -21.5097351
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 8133101671915798524
+    }
+  }
+}
+Objects {
+  Id: 4262578484185622709
+  Name: "Tree Redwood Small"
+  Transform {
+    Location {
+      X: -10441.835
+      Y: -73.6706238
+      Z: -8.07699585
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 15184478744200029621
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 16068450504029913995
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Tree Redwood Small"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -10762.7949
+            Y: 235.279388
+            Z: -8.07699585
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 16931974225670535810
+    }
+  }
+}
+Objects {
+  Id: 12916549480126853760
+  Name: "Snowy tree small"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 15184478744200029621
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 5112265801860188786
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Snowy tree small"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -4864.2417
+            Y: -45.9957123
+            Z: -21.5097198
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 8133101671915798524
+    }
+  }
+}
+Objects {
+  Id: 15330261484945597613
+  Name: "Tree Redwood Small"
+  Transform {
+    Location {
+      X: -10270.9375
+      Y: 394.481415
+      Z: -8.07699585
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 15184478744200029621
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 16068450504029913995
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Tree Redwood Small"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -10441.835
+            Y: -73.6706238
+            Z: -8.07699585
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 16931974225670535810
+    }
+  }
+}
+Objects {
+  Id: 3992307727043270192
+  Name: "Tree Redwood Small"
+  Transform {
+    Location {
+      X: -9952.68848
+      Y: 267.073944
+      Z: -8.07699585
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 15184478744200029621
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 16068450504029913995
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Tree Redwood Small"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -10270.9375
+            Y: 394.481415
+            Z: -8.07699585
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 16931974225670535810
+    }
+  }
+}
+Objects {
+  Id: 13459174289080971450
+  Name: "Tree Redwood Small"
+  Transform {
+    Location {
+      X: -9494.05664
+      Y: 267.552917
+      Z: -8.07699585
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 15184478744200029621
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 16068450504029913995
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Tree Redwood Small"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -9952.68848
+            Y: 267.073944
+            Z: -8.07699585
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 16931974225670535810
+    }
+  }
+}
+Objects {
+  Id: 17558083687405520217
+  Name: "Tree Redwood Small"
+  Transform {
+    Location {
+      X: -9841.50391
+      Y: -145.645386
+      Z: -8.07705688
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 15184478744200029621
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 16068450504029913995
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Tree Redwood Small"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -9494.05664
+            Y: 267.552917
+            Z: -8.07699585
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 16931974225670535810
+    }
+  }
+}
+Objects {
+  Id: 7352158333524053911
+  Name: "Tree Redwood Small"
+  Transform {
+    Location {
+      X: -9237.49316
+      Y: 129.665894
+      Z: -8.07717896
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 15184478744200029621
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 16068450504029913995
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Tree Redwood Small"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -9841.50391
+            Y: -145.645386
+            Z: -8.07705688
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 16931974225670535810
+    }
+  }
+}
+Objects {
+  Id: 15473627206266065158
+  Name: "Tree Redwood Small"
+  Transform {
+    Location {
+      X: -8891.94629
+      Y: -204.324097
+      Z: -8.07724
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 15184478744200029621
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 16068450504029913995
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Tree Redwood Small"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -8732.74609
+            Y: 0.806396484
+            Z: -8.07724
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 16931974225670535810
+    }
+  }
+}
+Objects {
+  Id: 12105830428474252925
+  Name: "Tree Redwood Small"
+  Transform {
+    Location {
+      X: -8433.77734
+      Y: -222.848328
+      Z: -8.07730103
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 15184478744200029621
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 16068450504029913995
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Tree Redwood Small"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -8891.94629
+            Y: -204.324097
+            Z: -8.07724
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 16931974225670535810
+    }
+  }
+}
+Objects {
+  Id: 2060375153439902654
+  Name: "Tree Redwood Small"
+  Transform {
+    Location {
+      X: -8031.86914
+      Y: -28.1994019
+      Z: -8.07730103
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 15184478744200029621
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 16068450504029913995
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Tree Redwood Small"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -8433.77734
+            Y: -222.848328
+            Z: -8.07730103
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 16931974225670535810
+    }
+  }
+}
+Objects {
+  Id: 17748415090272161419
+  Name: "Tree Redwood Small"
+  Transform {
+    Location {
+      X: -8012.54785
+      Y: -377.951538
+      Z: -8.07730103
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 15184478744200029621
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 16068450504029913995
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Tree Redwood Small"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -8031.86914
+            Y: -28.1994019
+            Z: -8.07730103
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 16931974225670535810
+    }
+  }
+}
+Objects {
+  Id: 7513230951079298890
+  Name: "Tree Redwood Small"
+  Transform {
+    Location {
+      X: -7605.43311
+      Y: -223.657532
+      Z: -8.07730103
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 15184478744200029621
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 16068450504029913995
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Tree Redwood Small"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -8012.54785
+            Y: -377.951538
+            Z: -8.07730103
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 16931974225670535810
+    }
+  }
+}
+Objects {
+  Id: 3692064736361036395
+  Name: "Tree Redwood Small"
+  Transform {
+    Location {
+      X: -7235.69189
+      Y: 8.85174561
+      Z: -8.07724
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 15184478744200029621
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 16068450504029913995
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Tree Redwood Small"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -7605.43311
+            Y: -223.657532
+            Z: -8.07730103
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 16931974225670535810
+    }
+  }
+}
+Objects {
+  Id: 15444346283045419171
+  Name: "Tree Redwood Small"
+  Transform {
+    Location {
+      X: -7207.44727
+      Y: -310.258911
+      Z: -8.07724
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 15184478744200029621
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 16068450504029913995
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Tree Redwood Small"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -7235.69189
+            Y: 8.85174561
+            Z: -8.07724
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 16931974225670535810
+    }
+  }
+}
+Objects {
+  Id: 11319455175133873952
+  Name: "Tree Redwood Small"
+  Transform {
+    Location {
+      X: -6702.37939
+      Y: -21.4512329
+      Z: -8.07724
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 15184478744200029621
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 16068450504029913995
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Tree Redwood Small"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -7207.44727
+            Y: -310.258911
+            Z: -8.07724
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 16931974225670535810
+    }
+  }
+}
+Objects {
+  Id: 11727556760075194536
+  Name: "Tree Redwood Small"
+  Transform {
+    Location {
+      X: -6408.93701
+      Y: -237.083008
+      Z: -8.07717896
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 15184478744200029621
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 16068450504029913995
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Tree Redwood Small"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -6702.37939
+            Y: -21.4512329
+            Z: -8.07724
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 16931974225670535810
+    }
+  }
+}
+Objects {
+  Id: 6577834458227081691
+  Name: "Tree Redwood Small"
+  Transform {
+    Location {
+      X: -5945.63086
+      Y: -108.332077
+      Z: -8.07717896
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 15184478744200029621
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 16068450504029913995
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Tree Redwood Small"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -6759.28809
+            Y: -382.481445
+            Z: -8.07717896
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 16931974225670535810
+    }
+  }
+}
+Objects {
+  Id: 8289780693610084492
+  Name: "Tree Redwood Small"
+  Transform {
+    Location {
+      X: -5681.87598
+      Y: -386.675262
+      Z: -8.07718658
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 15184478744200029621
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 16068450504029913995
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Tree Redwood Small"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -5945.63086
+            Y: -108.332077
+            Z: -8.07717896
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 16931974225670535810
+    }
+  }
+}
+Objects {
+  Id: 8777786219192794840
+  Name: "Tree Redwood Small"
+  Transform {
+    Location {
+      X: -5501.92139
+      Y: -54.5067596
+      Z: -8.07718658
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 15184478744200029621
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 16068450504029913995
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Tree Redwood Small"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -5681.87598
+            Y: -386.675262
+            Z: -8.07718658
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 16931974225670535810
+    }
+  }
+}
+Objects {
+  Id: 15631364457689808888
+  Name: "Tree Redwood Small"
+  Transform {
+    Location {
+      X: -5084.02246
+      Y: -163.009979
+      Z: -8.07718658
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 15184478744200029621
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 16068450504029913995
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Tree Redwood Small"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -5084.02246
+            Y: -163.009979
+            Z: -8.07718658
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 16931974225670535810
+    }
+  }
+}
+Objects {
+  Id: 16519914208092767824
+  Name: "Tree Redwood Small"
+  Transform {
+    Location {
+      X: -4976.48682
+      Y: -440.30191
+      Z: -21.200676
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 15184478744200029621
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 16068450504029913995
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Tree Redwood Small"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -5501.92139
+            Y: -54.5067596
+            Z: -8.07718658
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 16931974225670535810
+    }
+  }
+}
+Objects {
+  Id: 11441936693044015320
+  Name: "Tree Redwood Small"
+  Transform {
+    Location {
+      X: -4682.08594
+      Y: -251.010498
+      Z: -52.4901886
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 15184478744200029621
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 16068450504029913995
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Tree Redwood Small"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -4976.48682
+            Y: -440.30191
+            Z: -21.200676
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 16931974225670535810
+    }
+  }
+}
+Objects {
+  Id: 13809919474870174002
+  Name: "Tree Redwood Small"
+  Transform {
+    Location {
+      X: -4376.23877
+      Y: -272.584229
+      Z: -110.932861
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 15184478744200029621
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 16068450504029913995
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Tree Redwood Small"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -4682.08594
+            Y: -251.010498
+            Z: -52.4901886
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 16931974225670535810
+    }
+  }
+}
+Objects {
+  Id: 8341538261115433212
+  Name: "Tree Redwood Small"
+  Transform {
+    Location {
+      X: -4196.21533
+      Y: -107.861099
+      Z: -110.932861
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 15184478744200029621
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 16068450504029913995
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Tree Redwood Small"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -4376.2373
+            Y: -272.584229
+            Z: 29.9130554
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 16931974225670535810
+    }
+  }
+}
+Objects {
+  Id: 14896269570950708674
+  Name: "Tree Redwood Small"
+  Transform {
+    Location {
+      X: -4251.50098
+      Y: -550.857666
+      Z: -110.932861
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 15184478744200029621
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 16068450504029913995
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Tree Redwood Small"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -4196.21289
+            Y: -107.860107
+            Z: 29.9130554
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 16931974225670535810
+    }
+  }
+}
+Objects {
+  Id: 13613406006252126604
+  Name: "Tree Redwood Small"
+  Transform {
+    Location {
+      X: -3892.2041
+      Y: -136.375549
+      Z: -110.932861
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 15184478744200029621
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 16068450504029913995
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Tree Redwood Small"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -4251.50098
+            Y: -550.857666
+            Z: 29.9130554
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 16931974225670535810
+    }
+  }
+}
+Objects {
+  Id: 15363363626457723413
+  Name: "Tree Redwood Small"
+  Transform {
+    Location {
+      X: -3836.52124
+      Y: -343.719513
+      Z: 8.84359741
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 15184478744200029621
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 16068450504029913995
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Tree Redwood Small"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -3892.2041
+            Y: -136.375488
+            Z: 29.9130554
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 16931974225670535810
+    }
+  }
+}
+Objects {
+  Id: 14077107635641368860
+  Name: "Tree Redwood Small"
+  Transform {
+    Location {
+      X: -3624.11255
+      Y: -60.3801117
+      Z: 8.84359741
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 15184478744200029621
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 16068450504029913995
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Tree Redwood Small"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -3836.52051
+            Y: -343.719971
+            Z: 31.4606476
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 16931974225670535810
+    }
+  }
+}
+Objects {
+  Id: 7506558182408256744
+  Name: "Tree Redwood Small"
+  Transform {
+    Location {
+      X: -3473.15308
+      Y: -327.92749
+      Z: 8.84359741
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 15184478744200029621
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 16068450504029913995
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Tree Redwood Small"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -3624.1123
+            Y: -60.3803711
+            Z: 80.7158203
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 16931974225670535810
+    }
+  }
+}
+Objects {
+  Id: 10049557650756560596
+  Name: "Tree Redwood Small"
+  Transform {
+    Location {
+      X: -3235.67603
+      Y: 0.023223877
+      Z: 8.84359741
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 15184478744200029621
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 16068450504029913995
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Tree Redwood Small"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -3235.67627
+            Y: 0.0231933594
+            Z: 83.1130676
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 16931974225670535810
+    }
+  }
+}
+Objects {
+  Id: 1302128610454818427
+  Name: "Tree Redwood Small"
+  Transform {
+    Location {
+      X: -3042.75708
+      Y: -271.245911
+      Z: 8.84356689
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 15184478744200029621
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 16068450504029913995
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Tree Redwood Small"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -3473.15308
+            Y: -327.928467
+            Z: -4.05519104
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 16931974225670535810
+    }
+  }
+}
+Objects {
+  Id: 4269262505790224233
+  Name: "Tree Redwood Small"
+  Transform {
+    Location {
+      X: -2915.3894
+      Y: 146.706284
+      Z: 8.84356689
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 15184478744200029621
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 16068450504029913995
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Tree Redwood Small"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -3042.75684
+            Y: -271.245972
+            Z: -34.7170715
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 16931974225670535810
+    }
+  }
+}
+Objects {
+  Id: 10592704691357155226
+  Name: "Tree Redwood Small"
+  Transform {
+    Location {
+      X: -2671.92407
+      Y: -371.455566
+      Z: 8.84356689
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 15184478744200029621
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 16068450504029913995
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Tree Redwood Small"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -2734.52
+            Y: -40.7009277
+            Z: -133.85878
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 16931974225670535810
+    }
+  }
+}
+Objects {
+  Id: 1797816796963383279
+  Name: "Tree Redwood Small"
+  Transform {
+    Location {
+      X: -2538.06982
+      Y: 114.086517
+      Z: 8.84355164
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 15184478744200029621
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 16068450504029913995
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Tree Redwood Small"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -2671.92285
+            Y: -371.455811
+            Z: -17.1857834
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 16931974225670535810
+    }
+  }
+}
+Objects {
+  Id: 16306803004191288500
+  Name: "Tree Redwood Small"
+  Transform {
+    Location {
+      X: -2251.43945
+      Y: 184.428986
+      Z: 8.84355164
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 15184478744200029621
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 16068450504029913995
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Tree Redwood Small"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -2538.06958
+            Y: 114.086548
+            Z: -32.2221375
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 16931974225670535810
+    }
+  }
+}
+Objects {
+  Id: 14868214176513781890
+  Name: "Tree Redwood Small"
+  Transform {
+    Location {
+      X: -2193.14478
+      Y: -335.619812
+      Z: 8.84355164
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 15184478744200029621
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 16068450504029913995
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Tree Redwood Small"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -2251.43896
+            Y: 184.429443
+            Z: -12.7654953
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 16931974225670535810
+    }
+  }
+}
+Objects {
+  Id: 1732415171691883889
+  Name: "Tree Redwood Small"
+  Transform {
+    Location {
+      X: -1948.85278
+      Y: 100.253845
+      Z: 8.84355164
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 15184478744200029621
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 16068450504029913995
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Tree Redwood Small"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -2193.14502
+            Y: -335.62
+            Z: -138.052292
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 16931974225670535810
+    }
+  }
+}
+Objects {
+  Id: 5452589128576927622
+  Name: "Tree Redwood Small"
+  Transform {
+    Location {
+      X: -1804.82813
+      Y: -251.387939
+      Z: 8.84355164
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 15184478744200029621
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 16068450504029913995
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Tree Redwood Small"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -1948.85242
+            Y: 100.254272
+            Z: -62.0986176
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 16931974225670535810
+    }
+  }
+}
+Objects {
+  Id: 15082167818248109208
+  Name: "Tree Redwood Small"
+  Transform {
+    Location {
+      X: -1591.55896
+      Y: 120.627655
+      Z: 8.84355164
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 15184478744200029621
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 16068450504029913995
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Tree Redwood Small"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -1804.82813
+            Y: -251.387939
+            Z: -27.567276
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 16931974225670535810
+    }
+  }
+}
+Objects {
+  Id: 13111344680939779111
+  Name: "Tree Redwood Small"
+  Transform {
+    Location {
+      X: -1265.29346
+      Y: 140.298798
+      Z: 8.84355164
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 15184478744200029621
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 16068450504029913995
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Tree Redwood Small"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -1331.92175
+            Y: -268.61377
+            Z: -0.105457306
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 16931974225670535810
+    }
+  }
+}
+Objects {
+  Id: 6003643294851919486
+  Name: "Tree Redwood Small"
+  Transform {
+    Location {
+      X: -1515.28088
+      Y: -30.3113708
+      Z: 8.84355164
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 15184478744200029621
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 16068450504029913995
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Tree Redwood Small"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -1265.29333
+            Y: 140.29895
+            Z: -46.6815681
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 16931974225670535810
+    }
+  }
+}
+Objects {
+  Id: 15016896334260205516
+  Name: "Tree Redwood Small"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 15184478744200029621
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 16068450504029913995
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Tree Redwood Small"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -1591.55859
+            Y: 120.627808
+            Z: -0.105457306
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 16931974225670535810
+    }
+  }
+}
+Objects {
+  Id: 3324395698372386861
+  Name: "Trees2"
+  Transform {
+    Location {
+      X: 12110.127
+      Y: -1629.01807
+      Z: -220.531738
+    }
+    Rotation {
+      Yaw: -8.23236084
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  ChildIds: 12313287182168707553
+  ChildIds: 13705457043400463766
+  ChildIds: 2231652439911520940
+  ChildIds: 3396557481799574021
+  ChildIds: 13262014868637626894
+  ChildIds: 1793798165978313646
+  ChildIds: 14420805513848869224
+  ChildIds: 1715691288005283092
+  ChildIds: 4376866588301833107
+  ChildIds: 10275121437147341953
+  ChildIds: 10164516163276945386
+  ChildIds: 8487504049924271431
+  ChildIds: 11375860097812715102
+  ChildIds: 15914248214201120262
+  ChildIds: 8031386655964366833
+  ChildIds: 13873131486857979282
+  ChildIds: 7994498752245272362
+  ChildIds: 7393893060265113007
+  ChildIds: 5822939820456588107
+  ChildIds: 1470024151986200482
+  ChildIds: 8925175743204801697
+  ChildIds: 17323041848153946753
+  ChildIds: 13697817485958195019
+  ChildIds: 6018261525824286938
+  ChildIds: 3530744701872390331
+  ChildIds: 11082204854344265474
+  ChildIds: 14596635956842945835
+  ChildIds: 13969487040429945487
+  ChildIds: 10061844017990456755
+  ChildIds: 9824752220337797458
+  ChildIds: 16197270560948993318
+  ChildIds: 17326749142106998635
+  ChildIds: 15795515816027508610
+  ChildIds: 14626147839189919834
+  ChildIds: 10306790180100274516
+  ChildIds: 10239626526365171594
+  ChildIds: 376360657851026391
+  ChildIds: 4487226251212874464
+  ChildIds: 2552650194385066642
+  ChildIds: 2955974317967943722
+  ChildIds: 1192841403992831110
+  ChildIds: 14090674185409069327
+  ChildIds: 8964232077444479501
+  ChildIds: 7867324107871909988
+  ChildIds: 10072426080802336933
+  ChildIds: 8969602442470155163
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 8969602442470155163
+  Name: "Tree Redwood Medium"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 3324395698372386861
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 1814396872089460735
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Tree Redwood Medium"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -9388.52148
+            Y: -259.187683
+            Z: -96.7775269
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 8463702964946560584
+    }
+  }
+}
+Objects {
+  Id: 10072426080802336933
+  Name: "Tree Redwood Medium"
+  Transform {
+    Location {
+      X: -9388.55078
+      Y: -259.188812
+      Z: 23.9760132
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 3324395698372386861
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 1814396872089460735
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Tree Redwood Medium"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -6409.55225
+            Y: -253.815262
+            Z: -294.132019
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 8463702964946560584
+    }
+  }
+}
+Objects {
+  Id: 7867324107871909988
+  Name: "Snowy tree small"
+  Transform {
+    Location {
+      X: -7365.98584
+      Y: -179.383484
+      Z: -21.5097351
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 3324395698372386861
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 5112265801860188786
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Snowy tree small"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -2955.25098
+            Y: 277.292755
+            Z: 37.5218506
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 8133101671915798524
+    }
+  }
+}
+Objects {
+  Id: 8964232077444479501
+  Name: "Snowy tree small"
+  Transform {
+    Location {
+      X: -4864.2417
+      Y: -45.9957123
+      Z: -21.5097198
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 3324395698372386861
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 5112265801860188786
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Snowy tree small"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -7365.97656
+            Y: -179.38504
+            Z: -211.884216
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 8133101671915798524
+    }
+  }
+}
+Objects {
+  Id: 14090674185409069327
+  Name: "Tree Redwood Small"
+  Transform {
+    Location {
+      X: -10441.835
+      Y: -73.6706238
+      Z: -8.07699585
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 3324395698372386861
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 16068450504029913995
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Tree Redwood Small"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -10762.7949
+            Y: 235.279724
+            Z: 149.20874
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 16931974225670535810
+    }
+  }
+}
+Objects {
+  Id: 1192841403992831110
+  Name: "Snowy tree small"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 3324395698372386861
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 5112265801860188786
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Snowy tree small"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -4864.2417
+            Y: -45.9957123
+            Z: -21.5097198
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 8133101671915798524
+    }
+  }
+}
+Objects {
+  Id: 2955974317967943722
+  Name: "Tree Redwood Small"
+  Transform {
+    Location {
+      X: -10270.9375
+      Y: 394.481415
+      Z: -8.07699585
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 3324395698372386861
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 16068450504029913995
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Tree Redwood Small"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -10441.835
+            Y: -73.670639
+            Z: 149.20874
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 16931974225670535810
+    }
+  }
+}
+Objects {
+  Id: 2552650194385066642
+  Name: "Tree Redwood Small"
+  Transform {
+    Location {
+      X: -9952.68848
+      Y: 267.073944
+      Z: -8.07699585
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 3324395698372386861
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 16068450504029913995
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Tree Redwood Small"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -10270.9219
+            Y: 394.482941
+            Z: 149.20874
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 16931974225670535810
+    }
+  }
+}
+Objects {
+  Id: 4487226251212874464
+  Name: "Tree Redwood Small"
+  Transform {
+    Location {
+      X: -9494.05664
+      Y: 267.552917
+      Z: -8.07699585
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 3324395698372386861
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 16068450504029913995
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Tree Redwood Small"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -9952.6709
+            Y: 267.070038
+            Z: 23.5270691
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 16931974225670535810
+    }
+  }
+}
+Objects {
+  Id: 376360657851026391
+  Name: "Tree Redwood Small"
+  Transform {
+    Location {
+      X: -9841.50391
+      Y: -145.645386
+      Z: -8.07705688
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 3324395698372386861
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 16068450504029913995
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Tree Redwood Small"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -9494.05664
+            Y: 267.552948
+            Z: 23.5270691
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 16931974225670535810
+    }
+  }
+}
+Objects {
+  Id: 10239626526365171594
+  Name: "Tree Redwood Small"
+  Transform {
+    Location {
+      X: -9237.49316
+      Y: 129.665894
+      Z: -8.07717896
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 3324395698372386861
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 16068450504029913995
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Tree Redwood Small"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -9841.50488
+            Y: -145.644608
+            Z: 23.5270081
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 16931974225670535810
+    }
+  }
+}
+Objects {
+  Id: 10306790180100274516
+  Name: "Tree Redwood Small"
+  Transform {
+    Location {
+      X: -8891.94629
+      Y: -204.324097
+      Z: -8.07724
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 3324395698372386861
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 16068450504029913995
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Tree Redwood Small"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -8732.75781
+            Y: 0.806371689
+            Z: -166.847656
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 16931974225670535810
+    }
+  }
+}
+Objects {
+  Id: 14626147839189919834
+  Name: "Tree Redwood Small"
+  Transform {
+    Location {
+      X: -8433.77734
+      Y: -222.848328
+      Z: -8.07730103
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 3324395698372386861
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 16068450504029913995
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Tree Redwood Small"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -8891.94629
+            Y: -204.324066
+            Z: -166.847595
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 16931974225670535810
+    }
+  }
+}
+Objects {
+  Id: 15795515816027508610
+  Name: "Tree Redwood Small"
+  Transform {
+    Location {
+      X: -8031.86914
+      Y: -28.1994019
+      Z: -8.07730103
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 3324395698372386861
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 16068450504029913995
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Tree Redwood Small"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -8433.78223
+            Y: -222.848846
+            Z: -166.847656
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 16931974225670535810
+    }
+  }
+}
+Objects {
+  Id: 17326749142106998635
+  Name: "Tree Redwood Small"
+  Transform {
+    Location {
+      X: -8012.54785
+      Y: -377.951538
+      Z: -8.07730103
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 3324395698372386861
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 16068450504029913995
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Tree Redwood Small"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -8031.86914
+            Y: -28.2002125
+            Z: -183.263733
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 16931974225670535810
+    }
+  }
+}
+Objects {
+  Id: 16197270560948993318
+  Name: "Tree Redwood Small"
+  Transform {
+    Location {
+      X: -7605.43311
+      Y: -223.657532
+      Z: -8.07730103
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 3324395698372386861
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 16068450504029913995
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Tree Redwood Small"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -8012.55
+            Y: -377.951447
+            Z: -252.289825
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 16931974225670535810
+    }
+  }
+}
+Objects {
+  Id: 9824752220337797458
+  Name: "Tree Redwood Small"
+  Transform {
+    Location {
+      X: -7235.69189
+      Y: 8.85174561
+      Z: -8.07724
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 3324395698372386861
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 16068450504029913995
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Tree Redwood Small"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -7605.42773
+            Y: -223.655701
+            Z: -198.451782
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 16931974225670535810
+    }
+  }
+}
+Objects {
+  Id: 10061844017990456755
+  Name: "Tree Redwood Small"
+  Transform {
+    Location {
+      X: -7207.44727
+      Y: -310.258911
+      Z: -8.07724
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 3324395698372386861
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 16068450504029913995
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Tree Redwood Small"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -7235.69189
+            Y: 8.85348225
+            Z: -160.434845
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 16931974225670535810
+    }
+  }
+}
+Objects {
+  Id: 13969487040429945487
+  Name: "Tree Redwood Small"
+  Transform {
+    Location {
+      X: -6702.37939
+      Y: -21.4512329
+      Z: -8.07724
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 3324395698372386861
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 16068450504029913995
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Tree Redwood Small"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -7207.44727
+            Y: -310.258942
+            Z: -160.434784
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 16931974225670535810
+    }
+  }
+}
+Objects {
+  Id: 14596635956842945835
+  Name: "Tree Redwood Small"
+  Transform {
+    Location {
+      X: -6408.93701
+      Y: -237.083008
+      Z: -8.07717896
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 3324395698372386861
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 16068450504029913995
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Tree Redwood Small"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -6702.37939
+            Y: -21.4512062
+            Z: -160.434784
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 16931974225670535810
+    }
+  }
+}
+Objects {
+  Id: 11082204854344265474
+  Name: "Tree Redwood Small"
+  Transform {
+    Location {
+      X: -5945.63086
+      Y: -108.332077
+      Z: -8.07717896
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 3324395698372386861
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 16068450504029913995
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Tree Redwood Small"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -6759.28809
+            Y: -382.481445
+            Z: -160.434723
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 16931974225670535810
+    }
+  }
+}
+Objects {
+  Id: 3530744701872390331
+  Name: "Tree Redwood Small"
+  Transform {
+    Location {
+      X: -5681.87598
+      Y: -386.675262
+      Z: -8.07718658
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 3324395698372386861
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 16068450504029913995
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Tree Redwood Small"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -5945.63
+            Y: -108.331665
+            Z: -160.434723
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 16931974225670535810
+    }
+  }
+}
+Objects {
+  Id: 6018261525824286938
+  Name: "Tree Redwood Small"
+  Transform {
+    Location {
+      X: -5501.92139
+      Y: -54.5067596
+      Z: -8.07718658
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 3324395698372386861
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 16068450504029913995
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Tree Redwood Small"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -5681.87598
+            Y: -386.675293
+            Z: -160.434723
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 16931974225670535810
+    }
+  }
+}
+Objects {
+  Id: 13697817485958195019
+  Name: "Tree Redwood Small"
+  Transform {
+    Location {
+      X: -5084.02246
+      Y: -163.009979
+      Z: -8.07718658
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 3324395698372386861
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 16068450504029913995
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Tree Redwood Small"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -5084.02246
+            Y: -163.009964
+            Z: -101.020355
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 16931974225670535810
+    }
+  }
+}
+Objects {
+  Id: 17323041848153946753
+  Name: "Tree Redwood Small"
+  Transform {
+    Location {
+      X: -4976.48682
+      Y: -440.30191
+      Z: -21.200676
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 3324395698372386861
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 16068450504029913995
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Tree Redwood Small"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -5501.92188
+            Y: -54.5067291
+            Z: -87.4223938
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 16931974225670535810
+    }
+  }
+}
+Objects {
+  Id: 8925175743204801697
+  Name: "Tree Redwood Small"
+  Transform {
+    Location {
+      X: -4682.08594
+      Y: -251.010498
+      Z: -52.4901886
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 3324395698372386861
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 16068450504029913995
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Tree Redwood Small"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -4976.48682
+            Y: -440.30191
+            Z: -21.200676
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 16931974225670535810
+    }
+  }
+}
+Objects {
+  Id: 1470024151986200482
+  Name: "Tree Redwood Small"
+  Transform {
+    Location {
+      X: -4376.23877
+      Y: -272.584229
+      Z: -110.932861
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 3324395698372386861
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 16068450504029913995
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Tree Redwood Small"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -4682.08594
+            Y: -251.010498
+            Z: -52.4901886
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 16931974225670535810
+    }
+  }
+}
+Objects {
+  Id: 5822939820456588107
+  Name: "Tree Redwood Small"
+  Transform {
+    Location {
+      X: -4196.21533
+      Y: -107.861099
+      Z: -110.932861
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 3324395698372386861
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 16068450504029913995
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Tree Redwood Small"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -4376.2417
+            Y: -272.584686
+            Z: -67.4041748
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 16931974225670535810
+    }
+  }
+}
+Objects {
+  Id: 7393893060265113007
+  Name: "Tree Redwood Small"
+  Transform {
+    Location {
+      X: -4251.50098
+      Y: -550.857666
+      Z: -110.932861
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 3324395698372386861
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 16068450504029913995
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Tree Redwood Small"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -4196.21533
+            Y: -107.861198
+            Z: -67.4041748
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 16931974225670535810
+    }
+  }
+}
+Objects {
+  Id: 7994498752245272362
+  Name: "Tree Redwood Small"
+  Transform {
+    Location {
+      X: -3892.2041
+      Y: -136.375549
+      Z: -110.932861
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 3324395698372386861
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 16068450504029913995
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Tree Redwood Small"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -4251.49805
+            Y: -550.857361
+            Z: -67.4041748
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 16931974225670535810
+    }
+  }
+}
+Objects {
+  Id: 13873131486857979282
+  Name: "Tree Redwood Small"
+  Transform {
+    Location {
+      X: -3836.52124
+      Y: -343.719513
+      Z: 8.84359741
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 3324395698372386861
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 16068450504029913995
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Tree Redwood Small"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -3892.20386
+            Y: -136.375504
+            Z: -67.4041748
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 16931974225670535810
+    }
+  }
+}
+Objects {
+  Id: 8031386655964366833
+  Name: "Tree Redwood Small"
+  Transform {
+    Location {
+      X: -3624.11255
+      Y: -60.3801117
+      Z: 8.84359741
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 3324395698372386861
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 16068450504029913995
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Tree Redwood Small"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -3836.521
+            Y: -343.719482
+            Z: -65.8565674
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 16931974225670535810
+    }
+  }
+}
+Objects {
+  Id: 15914248214201120262
+  Name: "Tree Redwood Small"
+  Transform {
+    Location {
+      X: -3473.15308
+      Y: -327.92749
+      Z: 8.84359741
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 3324395698372386861
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 16068450504029913995
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Tree Redwood Small"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -3624.11304
+            Y: -60.3803253
+            Z: -4.14593506
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 16931974225670535810
+    }
+  }
+}
+Objects {
+  Id: 11375860097812715102
+  Name: "Tree Redwood Small"
+  Transform {
+    Location {
+      X: -3235.67603
+      Y: 0.023223877
+      Z: 8.84359741
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 3324395698372386861
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 16068450504029913995
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Tree Redwood Small"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -3235.67554
+            Y: 0.0233244896
+            Z: -1.74868774
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 16931974225670535810
+    }
+  }
+}
+Objects {
+  Id: 8487504049924271431
+  Name: "Tree Redwood Small"
+  Transform {
+    Location {
+      X: -3042.75708
+      Y: -271.245911
+      Z: 8.84356689
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 3324395698372386861
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 16068450504029913995
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Tree Redwood Small"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -3473.15308
+            Y: -327.92746
+            Z: -88.9169617
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 16931974225670535810
+    }
+  }
+}
+Objects {
+  Id: 10164516163276945386
+  Name: "Tree Redwood Small"
+  Transform {
+    Location {
+      X: -2915.3894
+      Y: 146.706284
+      Z: 8.84356689
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 3324395698372386861
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 16068450504029913995
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Tree Redwood Small"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -3042.75708
+            Y: -271.245911
+            Z: -119.578827
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 16931974225670535810
+    }
+  }
+}
+Objects {
+  Id: 10275121437147341953
+  Name: "Tree Redwood Small"
+  Transform {
+    Location {
+      X: -2671.92407
+      Y: -371.455566
+      Z: 8.84356689
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 3324395698372386861
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 16068450504029913995
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Tree Redwood Small"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -2734.521
+            Y: -40.7007294
+            Z: -121.40329
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 16931974225670535810
+    }
+  }
+}
+Objects {
+  Id: 4376866588301833107
+  Name: "Tree Redwood Small"
+  Transform {
+    Location {
+      X: -2538.06982
+      Y: 114.086517
+      Z: 8.84355164
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 3324395698372386861
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 16068450504029913995
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Tree Redwood Small"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -2671.92407
+            Y: -371.455566
+            Z: -4.73031616
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 16931974225670535810
+    }
+  }
+}
+Objects {
+  Id: 1715691288005283092
+  Name: "Tree Redwood Small"
+  Transform {
+    Location {
+      X: -2251.43945
+      Y: 184.428986
+      Z: 8.84355164
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 3324395698372386861
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 16068450504029913995
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Tree Redwood Small"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -2538.06958
+            Y: 114.086578
+            Z: 12.8153992
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 16931974225670535810
+    }
+  }
+}
+Objects {
+  Id: 14420805513848869224
+  Name: "Tree Redwood Small"
+  Transform {
+    Location {
+      X: -2193.14478
+      Y: -335.619812
+      Z: 8.84355164
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 3324395698372386861
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 16068450504029913995
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Tree Redwood Small"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -2251.44
+            Y: 184.428879
+            Z: 32.2720337
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 16931974225670535810
+    }
+  }
+}
+Objects {
+  Id: 1793798165978313646
+  Name: "Tree Redwood Small"
+  Transform {
+    Location {
+      X: -1948.85278
+      Y: 100.253845
+      Z: 8.84355164
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 3324395698372386861
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 16068450504029913995
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Tree Redwood Small"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -2193.14502
+            Y: -335.619781
+            Z: -93.0147705
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 16931974225670535810
+    }
+  }
+}
+Objects {
+  Id: 13262014868637626894
+  Name: "Tree Redwood Small"
+  Transform {
+    Location {
+      X: -1804.82813
+      Y: -251.387939
+      Z: 8.84355164
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 3324395698372386861
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 16068450504029913995
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Tree Redwood Small"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -1948.85303
+            Y: 100.253799
+            Z: 38.4640503
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 16931974225670535810
+    }
+  }
+}
+Objects {
+  Id: 3396557481799574021
+  Name: "Tree Redwood Small"
+  Transform {
+    Location {
+      X: -1591.55896
+      Y: 120.627655
+      Z: 8.84355164
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 3324395698372386861
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 16068450504029913995
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Tree Redwood Small"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -1804.82861
+            Y: -251.388046
+            Z: 72.9953766
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 16931974225670535810
+    }
+  }
+}
+Objects {
+  Id: 2231652439911520940
+  Name: "Tree Redwood Small"
+  Transform {
+    Location {
+      X: -1265.29346
+      Y: 140.298798
+      Z: 8.84355164
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 3324395698372386861
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 16068450504029913995
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Tree Redwood Small"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -1331.92175
+            Y: -268.61377
+            Z: 100.457199
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 16931974225670535810
+    }
+  }
+}
+Objects {
+  Id: 13705457043400463766
+  Name: "Tree Redwood Small"
+  Transform {
+    Location {
+      X: -1515.28088
+      Y: -30.3113708
+      Z: 8.84355164
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 3324395698372386861
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 16068450504029913995
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Tree Redwood Small"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -1265.29333
+            Y: 140.298813
+            Z: 100.457199
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 16931974225670535810
+    }
+  }
+}
+Objects {
+  Id: 12313287182168707553
+  Name: "Tree Redwood Small"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 3324395698372386861
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 16068450504029913995
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Tree Redwood Small"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -1591.55933
+            Y: 120.627655
+            Z: 100.457199
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 16931974225670535810
+    }
+  }
+}
+Objects {
+  Id: 2540042151711131137
+  Name: "Trees"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  ChildIds: 3887095658138138071
+  ChildIds: 17696106365588529698
+  ChildIds: 13950331454722257889
+  ChildIds: 17269302875183451269
+  ChildIds: 8837437227836961249
+  ChildIds: 3632209443458051487
+  ChildIds: 8288489956205109565
+  ChildIds: 16424458599612757506
+  ChildIds: 7665933789895689378
+  ChildIds: 5825797527260386274
+  ChildIds: 18081600923729779229
+  ChildIds: 10772962743511966772
+  ChildIds: 301528682190212759
+  ChildIds: 5174644693625265451
+  ChildIds: 10702303981406008292
+  ChildIds: 113398818463664287
+  ChildIds: 2428580108069817070
+  ChildIds: 10348476230197141102
+  ChildIds: 3702760428376530164
+  ChildIds: 10759040173756719026
+  ChildIds: 8585619812678303428
+  ChildIds: 6739346593724235870
+  ChildIds: 6621930010582803376
+  ChildIds: 5804846552504010649
+  ChildIds: 1364397478322933084
+  ChildIds: 7885210884238693827
+  ChildIds: 14539305389278576361
+  ChildIds: 16719476642035435367
+  ChildIds: 15045435231354816509
+  ChildIds: 4686090551297540236
+  ChildIds: 15314349416909940731
+  ChildIds: 4844676812019579844
+  ChildIds: 7418057146025055716
+  ChildIds: 17729187827662693188
+  ChildIds: 6666411721848443568
+  ChildIds: 3400431587667127246
+  ChildIds: 4429694694636355706
+  ChildIds: 13370046857513504581
+  ChildIds: 17835158979612087525
+  ChildIds: 9337877331580430853
+  ChildIds: 16512153169879207024
+  ChildIds: 7433485269530095204
+  ChildIds: 11928765899731666860
+  ChildIds: 5751846855784668664
+  ChildIds: 3080065619162590276
+  ChildIds: 7355237111551584019
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 7355237111551584019
+  Name: "Tree Redwood Medium"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 2540042151711131137
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 1814396872089460735
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Tree Redwood Medium"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -9388.55078
+            Y: -259.188812
+            Z: 23.9760132
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 8463702964946560584
+    }
+  }
+}
+Objects {
+  Id: 3080065619162590276
+  Name: "Tree Redwood Medium"
+  Transform {
+    Location {
+      X: -9388.55078
+      Y: -259.188812
+      Z: 23.9760132
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 2540042151711131137
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 1814396872089460735
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Tree Redwood Medium"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -6409.55713
+            Y: -253.815567
+            Z: -141.774475
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 8463702964946560584
+    }
+  }
+}
+Objects {
+  Id: 5751846855784668664
+  Name: "Snowy tree small"
+  Transform {
+    Location {
+      X: -7365.98584
+      Y: -179.383484
+      Z: -21.5097351
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 2540042151711131137
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 5112265801860188786
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Snowy tree small"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -2955.25073
+            Y: 277.292786
+            Z: -21.5097351
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 8133101671915798524
+    }
+  }
+}
+Objects {
+  Id: 11928765899731666860
+  Name: "Snowy tree small"
+  Transform {
+    Location {
+      X: -4864.2417
+      Y: -45.9957123
+      Z: -21.5097198
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 2540042151711131137
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 5112265801860188786
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Snowy tree small"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -7365.98584
+            Y: -179.383484
+            Z: -21.5097351
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 8133101671915798524
+    }
+  }
+}
+Objects {
+  Id: 7433485269530095204
+  Name: "Tree Redwood Small"
+  Transform {
+    Location {
+      X: -10441.835
+      Y: -73.6706238
+      Z: -8.07699585
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 2540042151711131137
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 16068450504029913995
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Tree Redwood Small"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -10762.7949
+            Y: 235.279388
+            Z: -8.07699585
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 16931974225670535810
+    }
+  }
+}
+Objects {
+  Id: 16512153169879207024
+  Name: "Snowy tree small"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 2540042151711131137
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 5112265801860188786
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Snowy tree small"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -4864.2417
+            Y: -45.9957123
+            Z: -21.5097198
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 8133101671915798524
+    }
+  }
+}
+Objects {
+  Id: 9337877331580430853
+  Name: "Tree Redwood Small"
+  Transform {
+    Location {
+      X: -10270.9375
+      Y: 394.481415
+      Z: -8.07699585
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 2540042151711131137
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 16068450504029913995
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Tree Redwood Small"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -10441.835
+            Y: -73.6706238
+            Z: -8.07699585
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 16931974225670535810
+    }
+  }
+}
+Objects {
+  Id: 17835158979612087525
+  Name: "Tree Redwood Small"
+  Transform {
+    Location {
+      X: -9952.68848
+      Y: 267.073944
+      Z: -8.07699585
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 2540042151711131137
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 16068450504029913995
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Tree Redwood Small"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -10270.9375
+            Y: 394.481415
+            Z: -8.07699585
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 16931974225670535810
+    }
+  }
+}
+Objects {
+  Id: 13370046857513504581
+  Name: "Tree Redwood Small"
+  Transform {
+    Location {
+      X: -9494.05664
+      Y: 267.552917
+      Z: -8.07699585
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 2540042151711131137
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 16068450504029913995
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Tree Redwood Small"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -9952.68848
+            Y: 267.073944
+            Z: -8.07699585
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 16931974225670535810
+    }
+  }
+}
+Objects {
+  Id: 4429694694636355706
+  Name: "Tree Redwood Small"
+  Transform {
+    Location {
+      X: -9841.50391
+      Y: -145.645386
+      Z: -8.07705688
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 2540042151711131137
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 16068450504029913995
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Tree Redwood Small"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -9494.05664
+            Y: 267.552917
+            Z: -8.07699585
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 16931974225670535810
+    }
+  }
+}
+Objects {
+  Id: 3400431587667127246
+  Name: "Tree Redwood Small"
+  Transform {
+    Location {
+      X: -9237.49316
+      Y: 129.665894
+      Z: -8.07717896
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 2540042151711131137
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 16068450504029913995
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Tree Redwood Small"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -9841.50391
+            Y: -145.645386
+            Z: -8.07705688
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 16931974225670535810
+    }
+  }
+}
+Objects {
+  Id: 6666411721848443568
+  Name: "Tree Redwood Small"
+  Transform {
+    Location {
+      X: -8891.94629
+      Y: -204.324097
+      Z: -8.07724
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 2540042151711131137
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 16068450504029913995
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Tree Redwood Small"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -8732.74609
+            Y: 0.806396484
+            Z: -8.07724
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 16931974225670535810
+    }
+  }
+}
+Objects {
+  Id: 17729187827662693188
+  Name: "Tree Redwood Small"
+  Transform {
+    Location {
+      X: -8433.77734
+      Y: -222.848328
+      Z: -8.07730103
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 2540042151711131137
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 16068450504029913995
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Tree Redwood Small"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -8891.94629
+            Y: -204.324097
+            Z: -8.07724
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 16931974225670535810
+    }
+  }
+}
+Objects {
+  Id: 7418057146025055716
+  Name: "Tree Redwood Small"
+  Transform {
+    Location {
+      X: -8031.86914
+      Y: -28.1994019
+      Z: -8.07730103
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 2540042151711131137
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 16068450504029913995
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Tree Redwood Small"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -8433.77734
+            Y: -222.848328
+            Z: -8.07730103
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 16931974225670535810
+    }
+  }
+}
+Objects {
+  Id: 4844676812019579844
+  Name: "Tree Redwood Small"
+  Transform {
+    Location {
+      X: -8012.54785
+      Y: -377.951538
+      Z: -8.07730103
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 2540042151711131137
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 16068450504029913995
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Tree Redwood Small"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -8031.86914
+            Y: -28.1994019
+            Z: -8.07730103
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 16931974225670535810
+    }
+  }
+}
+Objects {
+  Id: 15314349416909940731
+  Name: "Tree Redwood Small"
+  Transform {
+    Location {
+      X: -7605.43311
+      Y: -223.657532
+      Z: -8.07730103
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 2540042151711131137
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 16068450504029913995
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Tree Redwood Small"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -8012.54785
+            Y: -377.951538
+            Z: -8.07730103
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 16931974225670535810
+    }
+  }
+}
+Objects {
+  Id: 4686090551297540236
+  Name: "Tree Redwood Small"
+  Transform {
+    Location {
+      X: -7235.69189
+      Y: 8.85174561
+      Z: -8.07724
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 2540042151711131137
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 16068450504029913995
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Tree Redwood Small"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -7605.43311
+            Y: -223.657532
+            Z: -8.07730103
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 16931974225670535810
+    }
+  }
+}
+Objects {
+  Id: 15045435231354816509
+  Name: "Tree Redwood Small"
+  Transform {
+    Location {
+      X: -7207.44727
+      Y: -310.258911
+      Z: -8.07724
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 2540042151711131137
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 16068450504029913995
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Tree Redwood Small"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -7235.69189
+            Y: 8.85174561
+            Z: -8.07724
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 16931974225670535810
+    }
+  }
+}
+Objects {
+  Id: 16719476642035435367
+  Name: "Tree Redwood Small"
+  Transform {
+    Location {
+      X: -6702.37939
+      Y: -21.4512329
+      Z: -8.07724
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 2540042151711131137
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 16068450504029913995
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Tree Redwood Small"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -7207.44727
+            Y: -310.258911
+            Z: -8.07724
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 16931974225670535810
+    }
+  }
+}
+Objects {
+  Id: 14539305389278576361
+  Name: "Tree Redwood Small"
+  Transform {
+    Location {
+      X: -6408.93701
+      Y: -237.083008
+      Z: -8.07717896
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 2540042151711131137
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 16068450504029913995
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Tree Redwood Small"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -6702.37939
+            Y: -21.4512329
+            Z: -8.07724
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 16931974225670535810
+    }
+  }
+}
+Objects {
+  Id: 7885210884238693827
+  Name: "Tree Redwood Small"
+  Transform {
+    Location {
+      X: -5945.63086
+      Y: -108.332077
+      Z: -8.07717896
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 2540042151711131137
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 16068450504029913995
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Tree Redwood Small"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -6759.28809
+            Y: -382.481445
+            Z: -8.07717896
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 16931974225670535810
+    }
+  }
+}
+Objects {
+  Id: 1364397478322933084
+  Name: "Tree Redwood Small"
+  Transform {
+    Location {
+      X: -5681.87598
+      Y: -386.675262
+      Z: -8.07718658
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 2540042151711131137
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 16068450504029913995
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Tree Redwood Small"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -5945.63086
+            Y: -108.332077
+            Z: -8.07717896
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 16931974225670535810
+    }
+  }
+}
+Objects {
+  Id: 5804846552504010649
+  Name: "Tree Redwood Small"
+  Transform {
+    Location {
+      X: -5501.92139
+      Y: -54.5067596
+      Z: -8.07718658
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 2540042151711131137
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 16068450504029913995
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Tree Redwood Small"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -5681.87598
+            Y: -386.675262
+            Z: -8.07718658
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 16931974225670535810
+    }
+  }
+}
+Objects {
+  Id: 6621930010582803376
+  Name: "Tree Redwood Small"
+  Transform {
+    Location {
+      X: -5084.02246
+      Y: -163.009979
+      Z: -8.07718658
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 2540042151711131137
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 16068450504029913995
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Tree Redwood Small"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -5084.02246
+            Y: -163.009979
+            Z: -8.07718658
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 16931974225670535810
+    }
+  }
+}
+Objects {
+  Id: 6739346593724235870
+  Name: "Tree Redwood Small"
+  Transform {
+    Location {
+      X: -4976.48682
+      Y: -440.30191
+      Z: -21.200676
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 2540042151711131137
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 16068450504029913995
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Tree Redwood Small"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -5501.92139
+            Y: -54.5067596
+            Z: -8.07718658
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 16931974225670535810
+    }
+  }
+}
+Objects {
+  Id: 8585619812678303428
+  Name: "Tree Redwood Small"
+  Transform {
+    Location {
+      X: -4682.08594
+      Y: -251.010498
+      Z: -52.4901886
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 2540042151711131137
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 16068450504029913995
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Tree Redwood Small"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -4976.48682
+            Y: -440.30191
+            Z: -21.200676
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 16931974225670535810
+    }
+  }
+}
+Objects {
+  Id: 10759040173756719026
+  Name: "Tree Redwood Small"
+  Transform {
+    Location {
+      X: -4376.23877
+      Y: -272.584229
+      Z: -110.932861
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 2540042151711131137
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 16068450504029913995
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Tree Redwood Small"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -4682.08594
+            Y: -251.010498
+            Z: -52.4901886
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 16931974225670535810
+    }
+  }
+}
+Objects {
+  Id: 3702760428376530164
+  Name: "Tree Redwood Small"
+  Transform {
+    Location {
+      X: -4196.21533
+      Y: -107.861099
+      Z: -110.932861
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 2540042151711131137
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 16068450504029913995
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Tree Redwood Small"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -4376.23877
+            Y: -272.584229
+            Z: -110.932861
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 16931974225670535810
+    }
+  }
+}
+Objects {
+  Id: 10348476230197141102
+  Name: "Tree Redwood Small"
+  Transform {
+    Location {
+      X: -4251.50098
+      Y: -550.857666
+      Z: -110.932861
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 2540042151711131137
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 16068450504029913995
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Tree Redwood Small"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -4196.21533
+            Y: -107.861099
+            Z: -110.932861
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 16931974225670535810
+    }
+  }
+}
+Objects {
+  Id: 2428580108069817070
+  Name: "Tree Redwood Small"
+  Transform {
+    Location {
+      X: -3892.2041
+      Y: -136.375549
+      Z: -110.932861
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 2540042151711131137
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 16068450504029913995
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Tree Redwood Small"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -4251.50098
+            Y: -550.857666
+            Z: -110.932861
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 16931974225670535810
+    }
+  }
+}
+Objects {
+  Id: 113398818463664287
+  Name: "Tree Redwood Small"
+  Transform {
+    Location {
+      X: -3836.52124
+      Y: -343.719513
+      Z: 8.84359741
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 2540042151711131137
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 16068450504029913995
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Tree Redwood Small"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -3892.2041
+            Y: -136.375549
+            Z: -110.932861
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 16931974225670535810
+    }
+  }
+}
+Objects {
+  Id: 10702303981406008292
+  Name: "Tree Redwood Small"
+  Transform {
+    Location {
+      X: -3624.11255
+      Y: -60.3801117
+      Z: 8.84359741
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 2540042151711131137
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 16068450504029913995
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Tree Redwood Small"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -3836.52124
+            Y: -343.719513
+            Z: -109.385269
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 16931974225670535810
+    }
+  }
+}
+Objects {
+  Id: 5174644693625265451
+  Name: "Tree Redwood Small"
+  Transform {
+    Location {
+      X: -3473.15308
+      Y: -327.92749
+      Z: 8.84359741
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 2540042151711131137
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 16068450504029913995
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Tree Redwood Small"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -3624.11255
+            Y: -60.3801117
+            Z: -106.706215
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 16931974225670535810
+    }
+  }
+}
+Objects {
+  Id: 301528682190212759
+  Name: "Tree Redwood Small"
+  Transform {
+    Location {
+      X: -3235.67603
+      Y: 0.023223877
+      Z: 8.84359741
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 2540042151711131137
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 16068450504029913995
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Tree Redwood Small"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -3235.67603
+            Y: 0.023223877
+            Z: -104.308968
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 16931974225670535810
+    }
+  }
+}
+Objects {
+  Id: 10772962743511966772
+  Name: "Tree Redwood Small"
+  Transform {
+    Location {
+      X: -3042.75708
+      Y: -271.245911
+      Z: 8.84356689
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 2540042151711131137
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 16068450504029913995
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Tree Redwood Small"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -3473.15308
+            Y: -327.92749
+            Z: -191.477219
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 16931974225670535810
+    }
+  }
+}
+Objects {
+  Id: 18081600923729779229
+  Name: "Tree Redwood Small"
+  Transform {
+    Location {
+      X: -2915.3894
+      Y: 146.706284
+      Z: 8.84356689
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 2540042151711131137
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 16068450504029913995
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Tree Redwood Small"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -3042.75708
+            Y: -271.245911
+            Z: -222.139099
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 16931974225670535810
+    }
+  }
+}
+Objects {
+  Id: 5825797527260386274
+  Name: "Tree Redwood Small"
+  Transform {
+    Location {
+      X: -2671.92407
+      Y: -371.455566
+      Z: 8.84356689
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 2540042151711131137
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 16068450504029913995
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Tree Redwood Small"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -2734.52051
+            Y: -40.7006836
+            Z: -180.434891
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 16931974225670535810
+    }
+  }
+}
+Objects {
+  Id: 7665933789895689378
+  Name: "Tree Redwood Small"
+  Transform {
+    Location {
+      X: -2538.06982
+      Y: 114.086517
+      Z: 8.84355164
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 2540042151711131137
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 16068450504029913995
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Tree Redwood Small"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -2671.92407
+            Y: -371.455566
+            Z: -63.7618942
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 16931974225670535810
+    }
+  }
+}
+Objects {
+  Id: 16424458599612757506
+  Name: "Tree Redwood Small"
+  Transform {
+    Location {
+      X: -2251.43945
+      Y: 184.428986
+      Z: 8.84355164
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 2540042151711131137
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 16068450504029913995
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Tree Redwood Small"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -2538.06982
+            Y: 114.086517
+            Z: -78.7982483
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 16931974225670535810
+    }
+  }
+}
+Objects {
+  Id: 8288489956205109565
+  Name: "Tree Redwood Small"
+  Transform {
+    Location {
+      X: -2193.14478
+      Y: -335.619812
+      Z: 8.84355164
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 2540042151711131137
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 16068450504029913995
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Tree Redwood Small"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -2251.43945
+            Y: 184.428986
+            Z: -59.3416061
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 16931974225670535810
+    }
+  }
+}
+Objects {
+  Id: 3632209443458051487
+  Name: "Tree Redwood Small"
+  Transform {
+    Location {
+      X: -1948.85278
+      Y: 100.253845
+      Z: 8.84355164
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 2540042151711131137
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 16068450504029913995
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Tree Redwood Small"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -2193.14478
+            Y: -335.619812
+            Z: -184.628403
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 16931974225670535810
+    }
+  }
+}
+Objects {
+  Id: 8837437227836961249
+  Name: "Tree Redwood Small"
+  Transform {
+    Location {
+      X: -1804.82813
+      Y: -251.387939
+      Z: 8.84355164
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 2540042151711131137
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 16068450504029913995
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Tree Redwood Small"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -1948.85278
+            Y: 100.253845
+            Z: -53.1496086
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 16931974225670535810
+    }
+  }
+}
+Objects {
+  Id: 17269302875183451269
+  Name: "Tree Redwood Small"
+  Transform {
+    Location {
+      X: -1591.55896
+      Y: 120.627655
+      Z: 8.84355164
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 2540042151711131137
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 16068450504029913995
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Tree Redwood Small"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -1804.82813
+            Y: -251.387939
+            Z: -18.6182671
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 16931974225670535810
+    }
+  }
+}
+Objects {
+  Id: 13950331454722257889
+  Name: "Tree Redwood Small"
+  Transform {
+    Location {
+      X: -1265.29346
+      Y: 140.298798
+      Z: 8.84355164
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 2540042151711131137
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 16068450504029913995
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Tree Redwood Small"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -1331.92188
+            Y: -268.613831
+            Z: 8.84355164
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 16931974225670535810
+    }
+  }
+}
+Objects {
+  Id: 17696106365588529698
+  Name: "Tree Redwood Small"
+  Transform {
+    Location {
+      X: -1515.28088
+      Y: -30.3113708
+      Z: 8.84355164
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 2540042151711131137
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 16068450504029913995
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Tree Redwood Small"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -1265.29346
+            Y: 140.298798
+            Z: 8.84355164
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 16931974225670535810
+    }
+  }
+}
+Objects {
+  Id: 3887095658138138071
+  Name: "Tree Redwood Small"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 2540042151711131137
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 16068450504029913995
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Tree Redwood Small"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -1591.55896
+            Y: 120.627655
+            Z: 8.84355164
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 16931974225670535810
+    }
+  }
+}
+Objects {
+  Id: 17849609516271722847
+  Name: "BlockArea4"
+  Transform {
+    Location {
+      X: 129.668457
+      Y: 12716.5
+    }
+    Rotation {
+      Yaw: 86.4831543
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  ChildIds: 16752888119330038118
+  ChildIds: 5881915053392254027
+  ChildIds: 12793935944615090624
+  ChildIds: 1976375098005890372
+  ChildIds: 7373842481896977109
+  ChildIds: 5735203368958090145
+  ChildIds: 5390865240546593705
+  ChildIds: 3598814980936066505
+  ChildIds: 8393401008996938373
+  ChildIds: 13559961549277556632
+  ChildIds: 1842134800718822437
+  ChildIds: 4397336929886691070
+  ChildIds: 2898447506971808835
+  ChildIds: 6378114277360049922
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 6378114277360049922
+  Name: "Sphere"
+  Transform {
+    Location {
+      X: -11167.123
+      Y: -396.615234
+      Z: 217.459778
+    }
+    Rotation {
+    }
+    Scale {
+      X: 10
+      Y: 10
+      Z: 20
+    }
+  }
+  ParentId: 17849609516271722847
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 7625382804772008570
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.5
+        G: 0.5
+        B: 0.5
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 9887226457573227199
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 2898447506971808835
+  Name: "Sphere"
+  Transform {
+    Location {
+      X: -10436.1523
+      Y: -286.776367
+      Z: 34.0596161
+    }
+    Rotation {
+    }
+    Scale {
+      X: 10
+      Y: 10
+      Z: 20
+    }
+  }
+  ParentId: 17849609516271722847
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 7625382804772008570
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.5
+        G: 0.5
+        B: 0.5
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 9887226457573227199
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 4397336929886691070
+  Name: "Sphere"
+  Transform {
+    Location {
+      X: -9769.52539
+      Y: -503.085938
+      Z: 179.480164
+    }
+    Rotation {
+    }
+    Scale {
+      X: 10
+      Y: 10
+      Z: 20
+    }
+  }
+  ParentId: 17849609516271722847
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 7625382804772008570
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.5
+        G: 0.5
+        B: 0.5
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 9887226457573227199
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 1842134800718822437
+  Name: "Sphere"
+  Transform {
+    Location {
+      X: -9042.35938
+      Y: -633.461914
+      Z: 225.031982
+    }
+    Rotation {
+    }
+    Scale {
+      X: 10
+      Y: 10
+      Z: 20
+    }
+  }
+  ParentId: 17849609516271722847
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 7625382804772008570
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.5
+        G: 0.5
+        B: 0.5
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 9887226457573227199
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 13559961549277556632
+  Name: "Sphere"
+  Transform {
+    Location {
+      X: -8223.44141
+      Y: -751.016113
+      Z: 127.711243
+    }
+    Rotation {
+    }
+    Scale {
+      X: 10
+      Y: 10
+      Z: 20
+    }
+  }
+  ParentId: 17849609516271722847
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 7625382804772008570
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.5
+        G: 0.5
+        B: 0.5
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 9887226457573227199
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 8393401008996938373
+  Name: "Sphere"
+  Transform {
+    Location {
+      X: -7346.54492
+      Y: -737.722534
+      Z: 82.1584473
+    }
+    Rotation {
+    }
+    Scale {
+      X: 10
+      Y: 10
+      Z: 20
+    }
+  }
+  ParentId: 17849609516271722847
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 7625382804772008570
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.5
+        G: 0.5
+        B: 0.5
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 9887226457573227199
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 3598814980936066505
+  Name: "Sphere"
+  Transform {
+    Location {
+      X: -6559.23438
+      Y: -811.019165
+      Z: 82.157959
+    }
+    Rotation {
+    }
+    Scale {
+      X: 10
+      Y: 10
+      Z: 20
+    }
+  }
+  ParentId: 17849609516271722847
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 7625382804772008570
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.5
+        G: 0.5
+        B: 0.5
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 9887226457573227199
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 5390865240546593705
+  Name: "Sphere"
+  Transform {
+    Location {
+      X: -5723.64893
+      Y: -950.610718
+      Z: 82.1574707
+    }
+    Rotation {
+    }
+    Scale {
+      X: 10
+      Y: 10
+      Z: 20
+    }
+  }
+  ParentId: 17849609516271722847
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 7625382804772008570
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.5
+        G: 0.5
+        B: 0.5
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 9887226457573227199
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 5735203368958090145
+  Name: "Sphere"
+  Transform {
+    Location {
+      X: -4925.44287
+      Y: -1017.61377
+      Z: 82.1574707
+    }
+    Rotation {
+    }
+    Scale {
+      X: 10
+      Y: 10
+      Z: 20
+    }
+  }
+  ParentId: 17849609516271722847
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 7625382804772008570
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.5
+        G: 0.5
+        B: 0.5
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 9887226457573227199
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 7373842481896977109
+  Name: "Sphere"
+  Transform {
+    Location {
+      X: -4106.82324
+      Y: -1040.67322
+      Z: 82.1569824
+    }
+    Rotation {
+    }
+    Scale {
+      X: 10
+      Y: 10
+      Z: 20
+    }
+  }
+  ParentId: 17849609516271722847
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 7625382804772008570
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.5
+        G: 0.5
+        B: 0.5
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 9887226457573227199
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 1976375098005890372
+  Name: "Sphere"
+  Transform {
+    Location {
+      X: -3467.74731
+      Y: -912.287109
+      Z: 82.1569824
+    }
+    Rotation {
+    }
+    Scale {
+      X: 10
+      Y: 10
+      Z: 20
+    }
+  }
+  ParentId: 17849609516271722847
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 7625382804772008570
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.5
+        G: 0.5
+        B: 0.5
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 9887226457573227199
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 12793935944615090624
+  Name: "Sphere"
+  Transform {
+    Location {
+      X: -2772.07935
+      Y: -818.77417
+      Z: 82.1569824
+    }
+    Rotation {
+    }
+    Scale {
+      X: 10
+      Y: 10
+      Z: 20
+    }
+  }
+  ParentId: 17849609516271722847
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 7625382804772008570
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.5
+        G: 0.5
+        B: 0.5
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 9887226457573227199
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 5881915053392254027
+  Name: "Sphere"
+  Transform {
+    Location {
+      X: -2085.84644
+      Y: -794.5271
+      Z: 82.1569824
+    }
+    Rotation {
+    }
+    Scale {
+      X: 10
+      Y: 10
+      Z: 20
+    }
+  }
+  ParentId: 17849609516271722847
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 7625382804772008570
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.5
+        G: 0.5
+        B: 0.5
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 9887226457573227199
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 16752888119330038118
+  Name: "Sphere"
+  Transform {
+    Location {
+      X: -1459.62183
+      Y: -764.735718
+      Z: 82.1569824
+    }
+    Rotation {
+    }
+    Scale {
+      X: 10
+      Y: 10
+      Z: 20
+    }
+  }
+  ParentId: 17849609516271722847
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 7625382804772008570
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.5
+        G: 0.5
+        B: 0.5
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 9887226457573227199
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 16380356998300017246
+  Name: "BlockArea3"
+  Transform {
+    Location {
+      X: -213.626953
+      Y: 228.780273
+    }
+    Rotation {
+      Yaw: 68.7711105
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  ChildIds: 7341109852915709156
+  ChildIds: 3076566380158022476
+  ChildIds: 14034238203050494565
+  ChildIds: 7393183213793473108
+  ChildIds: 16965121520487441408
+  ChildIds: 6281874324961826439
+  ChildIds: 5651504186287076856
+  ChildIds: 394536878823033540
+  ChildIds: 10672186673414254731
+  ChildIds: 1722146317015843641
+  ChildIds: 11495018590761638009
+  ChildIds: 2218185106327383672
+  ChildIds: 2866159194790742260
+  ChildIds: 4785657934094313808
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 4785657934094313808
+  Name: "Sphere"
+  Transform {
+    Location {
+      X: -11263.3555
+      Y: -402.507202
+      Z: 265.560547
+    }
+    Rotation {
+    }
+    Scale {
+      X: 10
+      Y: 10
+      Z: 20
+    }
+  }
+  ParentId: 16380356998300017246
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 7625382804772008570
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.5
+        G: 0.5
+        B: 0.5
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 9887226457573227199
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 2866159194790742260
+  Name: "Sphere"
+  Transform {
+    Location {
+      X: -10532.3867
+      Y: -292.672241
+      Z: 82.1604
+    }
+    Rotation {
+    }
+    Scale {
+      X: 10
+      Y: 10
+      Z: 20
+    }
+  }
+  ParentId: 16380356998300017246
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 7625382804772008570
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.5
+        G: 0.5
+        B: 0.5
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 9887226457573227199
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 2218185106327383672
+  Name: "Sphere"
+  Transform {
+    Location {
+      X: -9769.51
+      Y: -503.088257
+      Z: 82.1599121
+    }
+    Rotation {
+    }
+    Scale {
+      X: 10
+      Y: 10
+      Z: 20
+    }
+  }
+  ParentId: 16380356998300017246
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 7625382804772008570
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.5
+        G: 0.5
+        B: 0.5
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 9887226457573227199
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 11495018590761638009
+  Name: "Sphere"
+  Transform {
+    Location {
+      X: -9042.35742
+      Y: -633.462524
+      Z: 82.1594238
+    }
+    Rotation {
+    }
+    Scale {
+      X: 10
+      Y: 10
+      Z: 20
+    }
+  }
+  ParentId: 16380356998300017246
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 7625382804772008570
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.5
+        G: 0.5
+        B: 0.5
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 9887226457573227199
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 1722146317015843641
+  Name: "Sphere"
+  Transform {
+    Location {
+      X: -8223.43945
+      Y: -751.015503
+      Z: 82.1589355
+    }
+    Rotation {
+    }
+    Scale {
+      X: 10
+      Y: 10
+      Z: 20
+    }
+  }
+  ParentId: 16380356998300017246
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 7625382804772008570
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.5
+        G: 0.5
+        B: 0.5
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 9887226457573227199
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 10672186673414254731
+  Name: "Sphere"
+  Transform {
+    Location {
+      X: -7346.54492
+      Y: -737.722534
+      Z: 82.1584473
+    }
+    Rotation {
+    }
+    Scale {
+      X: 10
+      Y: 10
+      Z: 20
+    }
+  }
+  ParentId: 16380356998300017246
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 7625382804772008570
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.5
+        G: 0.5
+        B: 0.5
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 9887226457573227199
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 394536878823033540
+  Name: "Sphere"
+  Transform {
+    Location {
+      X: -6559.23438
+      Y: -811.019165
+      Z: 82.157959
+    }
+    Rotation {
+    }
+    Scale {
+      X: 10
+      Y: 10
+      Z: 20
+    }
+  }
+  ParentId: 16380356998300017246
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 7625382804772008570
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.5
+        G: 0.5
+        B: 0.5
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 9887226457573227199
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 5651504186287076856
+  Name: "Sphere"
+  Transform {
+    Location {
+      X: -5723.64893
+      Y: -950.610718
+      Z: 82.1574707
+    }
+    Rotation {
+    }
+    Scale {
+      X: 10
+      Y: 10
+      Z: 20
+    }
+  }
+  ParentId: 16380356998300017246
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 7625382804772008570
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.5
+        G: 0.5
+        B: 0.5
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 9887226457573227199
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 6281874324961826439
+  Name: "Sphere"
+  Transform {
+    Location {
+      X: -4925.44287
+      Y: -1017.61377
+      Z: 82.1574707
+    }
+    Rotation {
+    }
+    Scale {
+      X: 10
+      Y: 10
+      Z: 20
+    }
+  }
+  ParentId: 16380356998300017246
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 7625382804772008570
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.5
+        G: 0.5
+        B: 0.5
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 9887226457573227199
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 16965121520487441408
+  Name: "Sphere"
+  Transform {
+    Location {
+      X: -4106.82324
+      Y: -1040.67322
+      Z: 82.1569824
+    }
+    Rotation {
+    }
+    Scale {
+      X: 10
+      Y: 10
+      Z: 20
+    }
+  }
+  ParentId: 16380356998300017246
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 7625382804772008570
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.5
+        G: 0.5
+        B: 0.5
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 9887226457573227199
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 7393183213793473108
+  Name: "Sphere"
+  Transform {
+    Location {
+      X: -3467.74731
+      Y: -912.287109
+      Z: 82.1569824
+    }
+    Rotation {
+    }
+    Scale {
+      X: 10
+      Y: 10
+      Z: 20
+    }
+  }
+  ParentId: 16380356998300017246
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 7625382804772008570
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.5
+        G: 0.5
+        B: 0.5
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 9887226457573227199
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 14034238203050494565
+  Name: "Sphere"
+  Transform {
+    Location {
+      X: -2772.07935
+      Y: -818.77417
+      Z: 82.1569824
+    }
+    Rotation {
+    }
+    Scale {
+      X: 10
+      Y: 10
+      Z: 20
+    }
+  }
+  ParentId: 16380356998300017246
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 7625382804772008570
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.5
+        G: 0.5
+        B: 0.5
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 9887226457573227199
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 3076566380158022476
+  Name: "Sphere"
+  Transform {
+    Location {
+      X: -2085.84644
+      Y: -794.5271
+      Z: 82.1569824
+    }
+    Rotation {
+    }
+    Scale {
+      X: 10
+      Y: 10
+      Z: 20
+    }
+  }
+  ParentId: 16380356998300017246
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 7625382804772008570
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.5
+        G: 0.5
+        B: 0.5
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 9887226457573227199
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 7341109852915709156
+  Name: "Sphere"
+  Transform {
+    Location {
+      X: -1459.62183
+      Y: -764.735718
+      Z: 82.1569824
+    }
+    Rotation {
+    }
+    Scale {
+      X: 10
+      Y: 10
+      Z: 20
+    }
+  }
+  ParentId: 16380356998300017246
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 7625382804772008570
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.5
+        G: 0.5
+        B: 0.5
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 9887226457573227199
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 7850222805071366012
+  Name: "BlockArea2"
+  Transform {
+    Location {
+      X: 12722.8125
+      Y: -1066.55859
+    }
+    Rotation {
+      Yaw: -7.3777771
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  ChildIds: 11954983938779654648
+  ChildIds: 16824863862036062878
+  ChildIds: 1374883364203434250
+  ChildIds: 8513972069639252525
+  ChildIds: 16960733033945559912
+  ChildIds: 17528871348011562035
+  ChildIds: 8370049166530805139
+  ChildIds: 11903666924486341081
+  ChildIds: 5493190279851394070
+  ChildIds: 6732408894879708408
+  ChildIds: 6407396185245228196
+  ChildIds: 9954156557597014362
+  ChildIds: 14799132807409608836
+  ChildIds: 11257936313258386226
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 11257936313258386226
+  Name: "Sphere"
+  Transform {
+    Location {
+      X: -11263.3555
+      Y: -402.507202
+      Z: 265.560547
+    }
+    Rotation {
+    }
+    Scale {
+      X: 10
+      Y: 10
+      Z: 20
+    }
+  }
+  ParentId: 7850222805071366012
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 7625382804772008570
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.5
+        G: 0.5
+        B: 0.5
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 9887226457573227199
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 14799132807409608836
+  Name: "Sphere"
+  Transform {
+    Location {
+      X: -10532.3867
+      Y: -292.672241
+      Z: 82.1604
+    }
+    Rotation {
+    }
+    Scale {
+      X: 10
+      Y: 10
+      Z: 20
+    }
+  }
+  ParentId: 7850222805071366012
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 7625382804772008570
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.5
+        G: 0.5
+        B: 0.5
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 9887226457573227199
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 9954156557597014362
+  Name: "Sphere"
+  Transform {
+    Location {
+      X: -9769.51
+      Y: -503.088257
+      Z: 82.1599121
+    }
+    Rotation {
+    }
+    Scale {
+      X: 10
+      Y: 10
+      Z: 20
+    }
+  }
+  ParentId: 7850222805071366012
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 7625382804772008570
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.5
+        G: 0.5
+        B: 0.5
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 9887226457573227199
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 6407396185245228196
+  Name: "Sphere"
+  Transform {
+    Location {
+      X: -9042.35742
+      Y: -633.462524
+      Z: 82.1594238
+    }
+    Rotation {
+    }
+    Scale {
+      X: 10
+      Y: 10
+      Z: 20
+    }
+  }
+  ParentId: 7850222805071366012
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 7625382804772008570
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.5
+        G: 0.5
+        B: 0.5
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 9887226457573227199
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 6732408894879708408
+  Name: "Sphere"
+  Transform {
+    Location {
+      X: -8223.43945
+      Y: -751.015503
+      Z: 82.1589355
+    }
+    Rotation {
+    }
+    Scale {
+      X: 10
+      Y: 10
+      Z: 20
+    }
+  }
+  ParentId: 7850222805071366012
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 7625382804772008570
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.5
+        G: 0.5
+        B: 0.5
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 9887226457573227199
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 5493190279851394070
+  Name: "Sphere"
+  Transform {
+    Location {
+      X: -7346.54492
+      Y: -737.722534
+      Z: 82.1584473
+    }
+    Rotation {
+    }
+    Scale {
+      X: 10
+      Y: 10
+      Z: 20
+    }
+  }
+  ParentId: 7850222805071366012
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 7625382804772008570
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.5
+        G: 0.5
+        B: 0.5
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 9887226457573227199
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 11903666924486341081
+  Name: "Sphere"
+  Transform {
+    Location {
+      X: -6559.23438
+      Y: -811.019165
+      Z: 82.157959
+    }
+    Rotation {
+    }
+    Scale {
+      X: 10
+      Y: 10
+      Z: 20
+    }
+  }
+  ParentId: 7850222805071366012
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 7625382804772008570
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.5
+        G: 0.5
+        B: 0.5
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 9887226457573227199
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 8370049166530805139
+  Name: "Sphere"
+  Transform {
+    Location {
+      X: -5723.64893
+      Y: -950.610718
+      Z: 82.1574707
+    }
+    Rotation {
+    }
+    Scale {
+      X: 10
+      Y: 10
+      Z: 20
+    }
+  }
+  ParentId: 7850222805071366012
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 7625382804772008570
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.5
+        G: 0.5
+        B: 0.5
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 9887226457573227199
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 17528871348011562035
+  Name: "Sphere"
+  Transform {
+    Location {
+      X: -4925.44287
+      Y: -1017.61377
+      Z: 82.1574707
+    }
+    Rotation {
+    }
+    Scale {
+      X: 10
+      Y: 10
+      Z: 20
+    }
+  }
+  ParentId: 7850222805071366012
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 7625382804772008570
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.5
+        G: 0.5
+        B: 0.5
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 9887226457573227199
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 16960733033945559912
+  Name: "Sphere"
+  Transform {
+    Location {
+      X: -4106.82324
+      Y: -1040.67322
+      Z: 82.1569824
+    }
+    Rotation {
+    }
+    Scale {
+      X: 10
+      Y: 10
+      Z: 20
+    }
+  }
+  ParentId: 7850222805071366012
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 7625382804772008570
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.5
+        G: 0.5
+        B: 0.5
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 9887226457573227199
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 8513972069639252525
+  Name: "Sphere"
+  Transform {
+    Location {
+      X: -3467.74731
+      Y: -912.287109
+      Z: 82.1569824
+    }
+    Rotation {
+    }
+    Scale {
+      X: 10
+      Y: 10
+      Z: 20
+    }
+  }
+  ParentId: 7850222805071366012
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 7625382804772008570
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.5
+        G: 0.5
+        B: 0.5
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 9887226457573227199
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 1374883364203434250
+  Name: "Sphere"
+  Transform {
+    Location {
+      X: -2772.07935
+      Y: -818.77417
+      Z: 82.1569824
+    }
+    Rotation {
+    }
+    Scale {
+      X: 10
+      Y: 10
+      Z: 20
+    }
+  }
+  ParentId: 7850222805071366012
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 7625382804772008570
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.5
+        G: 0.5
+        B: 0.5
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 9887226457573227199
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 16824863862036062878
+  Name: "Sphere"
+  Transform {
+    Location {
+      X: -2085.84644
+      Y: -794.5271
+      Z: 82.1569824
+    }
+    Rotation {
+    }
+    Scale {
+      X: 10
+      Y: 10
+      Z: 20
+    }
+  }
+  ParentId: 7850222805071366012
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 7625382804772008570
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.5
+        G: 0.5
+        B: 0.5
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 9887226457573227199
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 11954983938779654648
+  Name: "Sphere"
+  Transform {
+    Location {
+      X: -1459.62183
+      Y: -764.735718
+      Z: 82.1569824
+    }
+    Rotation {
+    }
+    Scale {
+      X: 10
+      Y: 10
+      Z: 20
+    }
+  }
+  ParentId: 7850222805071366012
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 7625382804772008570
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.5
+        G: 0.5
+        B: 0.5
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 9887226457573227199
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 5543874174380077039
+  Name: "BlockArea"
+  Transform {
+    Location {
+      Y: 602.185547
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  ChildIds: 14943965833329181881
+  ChildIds: 2623600385284321783
+  ChildIds: 14049901111546946274
+  ChildIds: 17714856684069275145
+  ChildIds: 13875119619078784297
+  ChildIds: 4282258059847234188
+  ChildIds: 15758022280839578756
+  ChildIds: 14890947245450321103
+  ChildIds: 215859611848784086
+  ChildIds: 9740761230117560534
+  ChildIds: 11273840982907427518
+  ChildIds: 13194076364850907290
+  ChildIds: 360317436877005462
+  ChildIds: 16074729805122639420
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 16074729805122639420
+  Name: "Sphere"
+  Transform {
+    Location {
+      X: -11263.3555
+      Y: -402.507202
+      Z: 265.560547
+    }
+    Rotation {
+    }
+    Scale {
+      X: 10
+      Y: 10
+      Z: 20
+    }
+  }
+  ParentId: 5543874174380077039
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 7625382804772008570
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.5
+        G: 0.5
+        B: 0.5
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 9887226457573227199
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 360317436877005462
+  Name: "Sphere"
+  Transform {
+    Location {
+      X: -10532.3867
+      Y: -292.672241
+      Z: 82.1604
+    }
+    Rotation {
+    }
+    Scale {
+      X: 10
+      Y: 10
+      Z: 20
+    }
+  }
+  ParentId: 5543874174380077039
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 7625382804772008570
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.5
+        G: 0.5
+        B: 0.5
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 9887226457573227199
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 13194076364850907290
+  Name: "Sphere"
+  Transform {
+    Location {
+      X: -9769.51
+      Y: -503.088257
+      Z: 82.1599121
+    }
+    Rotation {
+    }
+    Scale {
+      X: 10
+      Y: 10
+      Z: 20
+    }
+  }
+  ParentId: 5543874174380077039
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 7625382804772008570
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.5
+        G: 0.5
+        B: 0.5
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 9887226457573227199
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 11273840982907427518
+  Name: "Sphere"
+  Transform {
+    Location {
+      X: -9042.35742
+      Y: -633.462524
+      Z: 82.1594238
+    }
+    Rotation {
+    }
+    Scale {
+      X: 10
+      Y: 10
+      Z: 20
+    }
+  }
+  ParentId: 5543874174380077039
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 7625382804772008570
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.5
+        G: 0.5
+        B: 0.5
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 9887226457573227199
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 9740761230117560534
+  Name: "Sphere"
+  Transform {
+    Location {
+      X: -8223.43945
+      Y: -751.015503
+      Z: 82.1589355
+    }
+    Rotation {
+    }
+    Scale {
+      X: 10
+      Y: 10
+      Z: 20
+    }
+  }
+  ParentId: 5543874174380077039
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 7625382804772008570
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.5
+        G: 0.5
+        B: 0.5
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 9887226457573227199
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 215859611848784086
+  Name: "Sphere"
+  Transform {
+    Location {
+      X: -7346.54492
+      Y: -737.722534
+      Z: 82.1584473
+    }
+    Rotation {
+    }
+    Scale {
+      X: 10
+      Y: 10
+      Z: 20
+    }
+  }
+  ParentId: 5543874174380077039
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 7625382804772008570
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.5
+        G: 0.5
+        B: 0.5
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 9887226457573227199
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 14890947245450321103
+  Name: "Sphere"
+  Transform {
+    Location {
+      X: -6559.23438
+      Y: -811.019165
+      Z: 82.157959
+    }
+    Rotation {
+    }
+    Scale {
+      X: 10
+      Y: 10
+      Z: 20
+    }
+  }
+  ParentId: 5543874174380077039
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 7625382804772008570
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.5
+        G: 0.5
+        B: 0.5
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 9887226457573227199
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 15758022280839578756
+  Name: "Sphere"
+  Transform {
+    Location {
+      X: -5723.64893
+      Y: -950.610718
+      Z: 82.1574707
+    }
+    Rotation {
+    }
+    Scale {
+      X: 10
+      Y: 10
+      Z: 20
+    }
+  }
+  ParentId: 5543874174380077039
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 7625382804772008570
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.5
+        G: 0.5
+        B: 0.5
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 9887226457573227199
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 4282258059847234188
+  Name: "Sphere"
+  Transform {
+    Location {
+      X: -4925.44287
+      Y: -1017.61377
+      Z: 82.1574707
+    }
+    Rotation {
+    }
+    Scale {
+      X: 10
+      Y: 10
+      Z: 20
+    }
+  }
+  ParentId: 5543874174380077039
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 7625382804772008570
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.5
+        G: 0.5
+        B: 0.5
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 9887226457573227199
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 13875119619078784297
+  Name: "Sphere"
+  Transform {
+    Location {
+      X: -4106.82324
+      Y: -1040.67322
+      Z: 82.1569824
+    }
+    Rotation {
+    }
+    Scale {
+      X: 10
+      Y: 10
+      Z: 20
+    }
+  }
+  ParentId: 5543874174380077039
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 7625382804772008570
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.5
+        G: 0.5
+        B: 0.5
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 9887226457573227199
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 17714856684069275145
+  Name: "Sphere"
+  Transform {
+    Location {
+      X: -3467.74731
+      Y: -912.287109
+      Z: 82.1569824
+    }
+    Rotation {
+    }
+    Scale {
+      X: 10
+      Y: 10
+      Z: 20
+    }
+  }
+  ParentId: 5543874174380077039
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 7625382804772008570
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.5
+        G: 0.5
+        B: 0.5
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 9887226457573227199
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 14049901111546946274
+  Name: "Sphere"
+  Transform {
+    Location {
+      X: -2772.07935
+      Y: -818.77417
+      Z: 82.1569824
+    }
+    Rotation {
+    }
+    Scale {
+      X: 10
+      Y: 10
+      Z: 20
+    }
+  }
+  ParentId: 5543874174380077039
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 7625382804772008570
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.5
+        G: 0.5
+        B: 0.5
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 9887226457573227199
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 2623600385284321783
+  Name: "Sphere"
+  Transform {
+    Location {
+      X: -2085.84644
+      Y: -794.5271
+      Z: 82.1569824
+    }
+    Rotation {
+    }
+    Scale {
+      X: 10
+      Y: 10
+      Z: 20
+    }
+  }
+  ParentId: 5543874174380077039
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 7625382804772008570
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.5
+        G: 0.5
+        B: 0.5
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 9887226457573227199
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 14943965833329181881
+  Name: "Sphere"
+  Transform {
+    Location {
+      X: -1459.62183
+      Y: -764.735718
+      Z: 82.1569824
+    }
+    Rotation {
+    }
+    Scale {
+      X: 10
+      Y: 10
+      Z: 20
+    }
+  }
+  ParentId: 5543874174380077039
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 7625382804772008570
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.5
+        G: 0.5
+        B: 0.5
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 9887226457573227199
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 16244897393222578625
+  Name: "Winter spruce"
+  Transform {
+    Location {
+      X: 1291.1106
+      Y: 17686.6035
+      Z: -112.640137
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  ChildIds: 5030129609647698943
+  ChildIds: 10992431600068473815
+  Folder {
+    IsGroup: true
+  }
+  InstanceHistory {
+    SelfId: 16244897393222578625
+    SubobjectId: 15990237647135303800
+    InstanceId: 12114852018491343991
+    TemplateId: 2250610700228635738
+    WasRoot: true
+  }
+}
+Objects {
+  Id: 10992431600068473815
+  Name: "Tree Redwood Bare Medium"
+  Transform {
+    Location {
+      X: 1420
+      Y: -1050
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 16244897393222578625
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Nature_Branch:color"
+      Color {
+        R: 1
+        G: 1
+        B: 1
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Nature_Branch:id"
+      AssetReference {
+        Id: 7459647217934647295
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 17754485733922066622
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 10992431600068473815
+    SubobjectId: 11823411627527285358
+    InstanceId: 12114852018491343991
+    TemplateId: 2250610700228635738
+  }
+}
+Objects {
+  Id: 5030129609647698943
+  Name: "Tree Redwood Big"
+  Transform {
+    Location {
+      X: -760
+      Y: 480
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 16244897393222578625
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Nature_Branch:id"
+      AssetReference {
+        Id: 8638518630681504723
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 11732712251066135080
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 5030129609647698943
+    SubobjectId: 8743554289384368710
+    InstanceId: 12114852018491343991
+    TemplateId: 2250610700228635738
+  }
+}
+Objects {
+  Id: 17089666743595679304
+  Name: "snow tree grouping"
+  Transform {
+    Location {
+      X: 427.648682
+      Y: 16606.4043
+      Z: 90.3833618
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  ChildIds: 10603479030873188411
+  ChildIds: 5447018076974192215
+  ChildIds: 4923028777047101113
+  ChildIds: 5638739027377721202
+  ChildIds: 34339688458936051
+  ChildIds: 224398599600956252
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+  InstanceHistory {
+    SelfId: 17089666743595679304
+    SubobjectId: 5686162838213115199
+    InstanceId: 3993430044465954722
+    TemplateId: 2355605667890246268
+    WasRoot: true
+  }
+}
+Objects {
+  Id: 224398599600956252
+  Name: "MED SNOW PINE"
+  Transform {
+    Location {
+      X: -1467.76172
+      Y: -517.855469
+      Z: 227.260742
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 17089666743595679304
+  ChildIds: 1852205455799983479
+  ChildIds: 1305102061044698401
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+  InstanceHistory {
+    SelfId: 224398599600956252
+    SubobjectId: 11591921243617812523
+    InstanceId: 3993430044465954722
+    TemplateId: 2355605667890246268
+  }
+}
+Objects {
+  Id: 1305102061044698401
+  Name: "Tree Redwood Medium"
+  Transform {
+    Location {
+    }
+    Rotation {
+      Yaw: -17.6532707
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 224398599600956252
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Nature_Branch:id"
+      AssetReference {
+        Id: 1523214900353875295
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 365875032943503811
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 1305102061044698401
+    SubobjectId: 12817060692873481814
+    InstanceId: 3993430044465954722
+    TemplateId: 2355605667890246268
+  }
+}
+Objects {
+  Id: 1852205455799983479
+  Name: "Tree Redwood Medium"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 224398599600956252
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 365875032943503811
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 1852205455799983479
+    SubobjectId: 13436389081664986624
+    InstanceId: 3993430044465954722
+    TemplateId: 2355605667890246268
+  }
+}
+Objects {
+  Id: 34339688458936051
+  Name: "MED SNOW PINE"
+  Transform {
+    Location {
+      X: 540.957031
+      Y: -646.71875
+      Z: 227.260742
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 17089666743595679304
+  ChildIds: 5801235667938007812
+  ChildIds: 3872518182398710047
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+  InstanceHistory {
+    SelfId: 34339688458936051
+    SubobjectId: 11797742594541313412
+    InstanceId: 3993430044465954722
+    TemplateId: 2355605667890246268
+  }
+}
+Objects {
+  Id: 3872518182398710047
+  Name: "Tree Redwood Medium"
+  Transform {
+    Location {
+    }
+    Rotation {
+      Yaw: -17.6532707
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 34339688458936051
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Nature_Branch:id"
+      AssetReference {
+        Id: 1523214900353875295
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 365875032943503811
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 3872518182398710047
+    SubobjectId: 10844119687973196392
+    InstanceId: 3993430044465954722
+    TemplateId: 2355605667890246268
+  }
+}
+Objects {
+  Id: 5801235667938007812
+  Name: "Tree Redwood Medium"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 34339688458936051
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 365875032943503811
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 5801235667938007812
+    SubobjectId: 17528536109690050675
+    InstanceId: 3993430044465954722
+    TemplateId: 2355605667890246268
+  }
+}
+Objects {
+  Id: 5638739027377721202
+  Name: "MED SNOW PINE"
+  Transform {
+    Location {
+      X: 1716.26563
+      Y: 381.472656
+      Z: 227.260742
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 17089666743595679304
+  ChildIds: 2262319416550237803
+  ChildIds: 6599912565992737023
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+  InstanceHistory {
+    SelfId: 5638739027377721202
+    SubobjectId: 17114572379932101637
+    InstanceId: 3993430044465954722
+    TemplateId: 2355605667890246268
+  }
+}
+Objects {
+  Id: 6599912565992737023
+  Name: "Tree Redwood Medium"
+  Transform {
+    Location {
+    }
+    Rotation {
+      Yaw: -17.6532707
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 5638739027377721202
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Nature_Branch:id"
+      AssetReference {
+        Id: 1523214900353875295
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 365875032943503811
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 6599912565992737023
+    SubobjectId: 17894039511299115912
+    InstanceId: 3993430044465954722
+    TemplateId: 2355605667890246268
+  }
+}
+Objects {
+  Id: 2262319416550237803
+  Name: "Tree Redwood Medium"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 5638739027377721202
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 365875032943503811
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 2262319416550237803
+    SubobjectId: 13593728618128319772
+    InstanceId: 3993430044465954722
+    TemplateId: 2355605667890246268
+  }
+}
+Objects {
+  Id: 4923028777047101113
+  Name: "BIG SNOW PINES"
+  Transform {
+    Location {
+      X: -698.992188
+      Y: -335.513672
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 17089666743595679304
+  ChildIds: 12621540179846176378
+  ChildIds: 12524239536034335734
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+  InstanceHistory {
+    SelfId: 4923028777047101113
+    SubobjectId: 16686367910444174798
+    InstanceId: 3993430044465954722
+    TemplateId: 2355605667890246268
+  }
+}
+Objects {
+  Id: 12524239536034335734
+  Name: "Tree Redwood Big"
+  Transform {
+    Location {
+    }
+    Rotation {
+      Yaw: 20.2652111
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4923028777047101113
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Nature_Branch:id"
+      AssetReference {
+        Id: 1523214900353875295
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 13185063469671472585
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 12524239536034335734
+    SubobjectId: 1012454643287017601
+    InstanceId: 3993430044465954722
+    TemplateId: 2355605667890246268
+  }
+}
+Objects {
+  Id: 12621540179846176378
+  Name: "Tree Redwood Big"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4923028777047101113
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 13185063469671472585
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 12621540179846176378
+    SubobjectId: 930917229798006029
+    InstanceId: 3993430044465954722
+    TemplateId: 2355605667890246268
+  }
+}
+Objects {
+  Id: 5447018076974192215
+  Name: "BIG SNOW PINES"
+  Transform {
+    Location {
+      X: 995.541
+      Y: 553.447266
+      Z: 224.294922
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 17089666743595679304
+  ChildIds: 605826833536041882
+  ChildIds: 2392147380602002397
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+  InstanceHistory {
+    SelfId: 5447018076974192215
+    SubobjectId: 16741091162886378784
+    InstanceId: 3993430044465954722
+    TemplateId: 2355605667890246268
+  }
+}
+Objects {
+  Id: 2392147380602002397
+  Name: "Tree Redwood Big"
+  Transform {
+    Location {
+    }
+    Rotation {
+      Yaw: 20.2652111
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 5447018076974192215
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Nature_Branch:id"
+      AssetReference {
+        Id: 1523214900353875295
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 13185063469671472585
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 2392147380602002397
+    SubobjectId: 9435431530404141226
+    InstanceId: 3993430044465954722
+    TemplateId: 2355605667890246268
+  }
+}
+Objects {
+  Id: 605826833536041882
+  Name: "Tree Redwood Big"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 5447018076974192215
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 13185063469671472585
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 605826833536041882
+    SubobjectId: 12370169821658824941
+    InstanceId: 3993430044465954722
+    TemplateId: 2355605667890246268
+  }
+}
+Objects {
+  Id: 10603479030873188411
+  Name: "SMALL SNOW PINE"
+  Transform {
+    Location {
+      X: -1232.49023
+      Y: 329.820313
+      Z: 279.277832
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 17089666743595679304
+  ChildIds: 3615435865541171400
+  ChildIds: 16902335507720577112
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+  InstanceHistory {
+    SelfId: 10603479030873188411
+    SubobjectId: 3523187500914076492
+    InstanceId: 3993430044465954722
+    TemplateId: 2355605667890246268
+  }
+}
+Objects {
+  Id: 16902335507720577112
+  Name: "Tree Redwood Small"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 10603479030873188411
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 4713509979248815718
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 16902335507720577112
+    SubobjectId: 5283521938499805999
+    InstanceId: 3993430044465954722
+    TemplateId: 2355605667890246268
+  }
+}
+Objects {
+  Id: 3615435865541171400
+  Name: "Tree Redwood Small"
+  Transform {
+    Location {
+    }
+    Rotation {
+      Yaw: 6.74120045
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 10603479030873188411
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Nature_Branch:id"
+      AssetReference {
+        Id: 1523214900353875295
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 4713509979248815718
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 3615435865541171400
+    SubobjectId: 10515734025369443263
+    InstanceId: 3993430044465954722
+    TemplateId: 2355605667890246268
+  }
+}
+Objects {
+  Id: 3511423887754081089
+  Name: "Snow foilage pack complete"
+  Transform {
+    Location {
+      X: -1812.26538
+      Y: 14707.8711
+      Z: 245.031403
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  ChildIds: 2074167950701544440
+  ChildIds: 4842257434819849500
+  ChildIds: 9771199046929641897
+  ChildIds: 1905055146929291754
+  ChildIds: 10126215980671401554
+  ChildIds: 16242113637493516745
+  ChildIds: 9449766096808324904
+  ChildIds: 16922928009827535828
+  ChildIds: 17114483972981631389
+  ChildIds: 2547603870696967259
+  ChildIds: 4205769014668283273
+  ChildIds: 10694230361626617980
+  ChildIds: 6794922274870283684
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+  InstanceHistory {
+    SelfId: 3511423887754081089
+    SubobjectId: 3914984937301487414
+    InstanceId: 3871719602198136677
+    TemplateId: 15859835975089794497
+    WasRoot: true
+  }
+}
+Objects {
+  Id: 6794922274870283684
+  Name: "Snow Clover Patch "
+  Transform {
+    Location {
+      X: 375.23291
+      Y: -309.441895
+      Z: 160.457031
+    }
+    Rotation {
+      Pitch: -4.37081528
+      Yaw: 0.120259844
+      Roll: -1.57760596
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 3511423887754081089
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Nature_Leaves:color"
+      Color {
+        R: 1
+        G: 1
+        B: 1
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 677980144163295677
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 6794922274870283684
+    SubobjectId: 6387140749824315859
+    InstanceId: 3871719602198136677
+    TemplateId: 15859835975089794497
+  }
+}
+Objects {
+  Id: 10694230361626617980
+  Name: "Snow Branches Small"
+  Transform {
+    Location {
+      X: 128.546875
+      Y: -428.677734
+      Z: 177.57312
+    }
+    Rotation {
+      Pitch: 2.44285798
+      Yaw: 29.4521599
+      Roll: -6.30933094
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 3511423887754081089
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Nature_Branch:id"
+      AssetReference {
+        Id: 11773887086729196979
+      }
+    }
+    Overrides {
+      Name: "ma:Nature_Branch:utile"
+      Float: 0.460717827
+    }
+    Overrides {
+      Name: "ma:Nature_Branch:vtile"
+      Float: 1.31919861
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 9222523415408084796
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 10694230361626617980
+    SubobjectId: 10558212959992591371
+    InstanceId: 3871719602198136677
+    TemplateId: 15859835975089794497
+  }
+}
+Objects {
+  Id: 4205769014668283273
+  Name: "Snow Branches Medium"
+  Transform {
+    Location {
+      X: -473.014404
+      Y: -645.185547
+      Z: 127.45459
+    }
+    Rotation {
+      Pitch: 2.86677361
+      Yaw: 1.3356928e-08
+      Roll: -6.0875597
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 3511423887754081089
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Nature_Branch:id"
+      AssetReference {
+        Id: 11773887086729196979
+      }
+    }
+    Overrides {
+      Name: "ma:Nature_Branch:utile"
+      Float: 2.75500822
+    }
+    Overrides {
+      Name: "ma:Nature_Branch:vtile"
+      Float: 2.90379977
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 14589337727818855128
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 4205769014668283273
+    SubobjectId: 4373597528069689854
+    InstanceId: 3871719602198136677
+    TemplateId: 15859835975089794497
+  }
+}
+Objects {
+  Id: 2547603870696967259
+  Name: "Snow Branches Big"
+  Transform {
+    Location {
+      X: -134.170654
+      Y: -485.695801
+      Z: 161.115967
+    }
+    Rotation {
+      Pitch: 5.07076645
+      Yaw: 47.39291
+      Roll: -4.6476469
+    }
+    Scale {
+      X: 0.485027075
+      Y: 0.485027075
+      Z: 0.485027075
+    }
+  }
+  ParentId: 3511423887754081089
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Nature_Branch:id"
+      AssetReference {
+        Id: 11773887086729196979
+      }
+    }
+    Overrides {
+      Name: "ma:Nature_Branch:utile"
+      Float: 0.539468825
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 2982458686134393209
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 2547603870696967259
+    SubobjectId: 2717130030038028332
+    InstanceId: 3871719602198136677
+    TemplateId: 15859835975089794497
+  }
+}
+Objects {
+  Id: 17114483972981631389
+  Name: "Snow tree trunk"
+  Transform {
+    Location {
+      X: -531.298096
+      Y: -258.82373
+      Z: 138.207031
+    }
+    Rotation {
+      Yaw: 43.9654579
+    }
+    Scale {
+      X: 0.457516
+      Y: 0.457516
+      Z: 0.457516
+    }
+  }
+  ParentId: 3511423887754081089
+  ChildIds: 2101546953523137467
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Nature_Trunk:id"
+      AssetReference {
+        Id: 11773887086729196979
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 7610631539085459775
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 17114483972981631389
+    SubobjectId: 16964245170093864426
+    InstanceId: 3871719602198136677
+    TemplateId: 15859835975089794497
+  }
+}
+Objects {
+  Id: 2101546953523137467
+  Name: "Decal Snow Patch"
+  Transform {
+    Location {
+      X: -39.1929169
+      Y: 100.393707
+      Z: 114.988869
+    }
+    Rotation {
+      Pitch: 3.8836863
+      Yaw: 176.6922
+      Roll: -3.65414453
+    }
+    Scale {
+      X: 1.5704354
+      Y: 1.450984
+      Z: 1.79504144
+    }
+  }
+  ParentId: 17114483972981631389
+  UnregisteredParameters {
+    Overrides {
+      Name: "bp:Color"
+      Color {
+        R: 1
+        G: 1
+        B: 1
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 15377300893468434952
+    }
+    TeamSettings {
+    }
+    DecalBP {
+    }
+  }
+  InstanceHistory {
+    SelfId: 2101546953523137467
+    SubobjectId: 2001276866387122124
+    InstanceId: 3871719602198136677
+    TemplateId: 15859835975089794497
+  }
+}
+Objects {
+  Id: 16922928009827535828
+  Name: "Snow bare small"
+  Transform {
+    Location {
+      X: 279.933594
+      Y: 650.173828
+      Z: 42.4204102
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 3511423887754081089
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Nature_Trunk:id"
+      AssetReference {
+        Id: 11773887086729196979
+      }
+    }
+    Overrides {
+      Name: "ma:Nature_Branch:id"
+      AssetReference {
+        Id: 13970073490437547927
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 10030074782269101677
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 16922928009827535828
+    SubobjectId: 17020675535002163107
+    InstanceId: 3871719602198136677
+    TemplateId: 15859835975089794497
+  }
+}
+Objects {
+  Id: 9449766096808324904
+  Name: "Snow bare big"
+  Transform {
+    Location {
+      X: 600.145142
+      Y: 608.217285
+    }
+    Rotation {
+      Pitch: -2.36681747
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 3511423887754081089
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Nature_Trunk:smart"
+      Bool: true
+    }
+    Overrides {
+      Name: "ma:Nature_Trunk:id"
+      AssetReference {
+        Id: 11773887086729196979
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 4067158581249309418
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 9449766096808324904
+    SubobjectId: 9640965829506970463
+    InstanceId: 3871719602198136677
+    TemplateId: 15859835975089794497
+  }
+}
+Objects {
+  Id: 16242113637493516745
+  Name: "Snow leafy tall"
+  Transform {
+    Location {
+      X: 279.836426
+      Y: -72.0542
+      Z: 163.551514
+    }
+    Rotation {
+      Yaw: -60.3670273
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 3511423887754081089
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Nature_Leaves:id"
+      AssetReference {
+        Id: 18138952598226185791
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 8648358039655973836
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 16242113637493516745
+    SubobjectId: 16683676258138011070
+    InstanceId: 3871719602198136677
+    TemplateId: 15859835975089794497
+  }
+}
+Objects {
+  Id: 10126215980671401554
+  Name: "Snow leafy low"
+  Transform {
+    Location {
+      X: 100.006592
+      Y: -146.648438
+      Z: 172.968628
+    }
+    Rotation {
+      Pitch: -2.57745361
+      Yaw: -74.4341812
+      Roll: 3.14456415
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 3511423887754081089
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Nature_Leaves:id"
+      AssetReference {
+        Id: 7513990147031359004
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 13345682392746764710
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 10126215980671401554
+    SubobjectId: 9973305683870114341
+    InstanceId: 3871719602198136677
+    TemplateId: 15859835975089794497
+  }
+}
+Objects {
+  Id: 1905055146929291754
+  Name: "Snow bush small"
+  Transform {
+    Location {
+      X: 569.838257
+      Y: 121.643066
+      Z: 128.16333
+    }
+    Rotation {
+      Yaw: 62.731842
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 3511423887754081089
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Nature_Leaves:id"
+      AssetReference {
+        Id: 18188879656863960935
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 15849127514067826695
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 1905055146929291754
+    SubobjectId: 2062607901167132061
+    InstanceId: 3871719602198136677
+    TemplateId: 15859835975089794497
+  }
+}
+Objects {
+  Id: 9771199046929641897
+  Name: "Snow bush big"
+  Transform {
+    Location {
+      X: -189.667236
+      Y: -17.5883789
+      Z: 157.471313
+    }
+    Rotation {
+      Yaw: -172.363632
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 3511423887754081089
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 14782436958798956850
+      }
+    }
+    Overrides {
+      Name: "ma:Nature_Leaves:id"
+      AssetReference {
+        Id: 18188879656863960935
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 544785671052671472
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 9771199046929641897
+    SubobjectId: 9328505854394854878
+    InstanceId: 3871719602198136677
+    TemplateId: 15859835975089794497
+  }
+}
+Objects {
+  Id: 4842257434819849500
+  Name: "Snow tree 3"
+  Transform {
+    Location {
+      X: -286.059082
+      Y: 443.213379
+      Z: 127.084473
+    }
+    Rotation {
+      Pitch: -1.22195494
+      Yaw: -49.1738205
+      Roll: -3.48001146
+    }
+    Scale {
+      X: 0.52176255
+      Y: 0.52176255
+      Z: 0.52176255
+    }
+  }
+  ParentId: 3511423887754081089
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Nature_Trunk:smart"
+      Bool: true
+    }
+    Overrides {
+      Name: "ma:Nature_Branch:id"
+      AssetReference {
+        Id: 13970073490437547927
+      }
+    }
+    Overrides {
+      Name: "ma:Nature_Trunk:id"
+      AssetReference {
+        Id: 11773887086729196979
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 5452194826811250569
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 4842257434819849500
+    SubobjectId: 5034144905041375595
+    InstanceId: 3871719602198136677
+    TemplateId: 15859835975089794497
+  }
+}
+Objects {
+  Id: 2074167950701544440
+  Name: "Snow tree 2"
+  Transform {
+    Location {
+      X: -807.069336
+      Y: 227.398438
+      Z: 129.374023
+    }
+    Rotation {
+      Yaw: -84.4096069
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 3511423887754081089
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Nature_Trunk:id"
+      AssetReference {
+        Id: 11773887086729196979
+      }
+    }
+    Overrides {
+      Name: "ma:Nature_Branch:id"
+      AssetReference {
+        Id: 13970073490437547927
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 8321541333922865928
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 2074167950701544440
+    SubobjectId: 1884522961976418191
+    InstanceId: 3871719602198136677
+    TemplateId: 15859835975089794497
+  }
+}
+Objects {
+  Id: 4118508423591016180
+  Name: "Snow Man"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 1238806708052749905
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Snow Man"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -803.605896
+            Y: 4519.45898
+            Z: 451.56665
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 18406567906441305607
+    }
   }
 }
 Objects {
@@ -5510,6 +20913,46 @@ Objects {
     SubobjectId: 16867338330018073623
     InstanceId: 1321897849899230060
     TemplateId: 11779915451727751692
+  }
+}
+Objects {
+  Id: 2731741593631343024
+  Name: "Snow tree 1"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 9321920879572038409
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Snow tree 1"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -1724.52832
+            Y: 15021.332
+            Z: 363.344513
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: -115.483658
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 16672098494064896676
+    }
   }
 }
 Objects {
@@ -35319,8 +50762,8 @@ Objects {
   Transform {
     Location {
       X: -9353.26758
-      Y: 5972.06396
-      Z: 625.500305
+      Y: 6068.50732
+      Z: 622.951843
     }
     Rotation {
     }
@@ -35382,8 +50825,8 @@ Objects {
   Transform {
     Location {
       X: -9450
-      Y: 8377.58105
-      Z: 600
+      Y: 8474.02441
+      Z: 597.451477
     }
     Rotation {
     }
@@ -35654,8 +51097,8 @@ Objects {
   Transform {
     Location {
       X: -9353.26758
-      Y: 5972.06396
-      Z: 625.500305
+      Y: 6068.50732
+      Z: 622.951843
     }
     Rotation {
     }
@@ -36868,7 +52311,7 @@ Objects {
   Settings {
     IsDefault: true
     PlayerMovementSettings {
-      WalkSpeed: 640
+      WalkSpeed: 850
       MaxAcceleration: 1800
       WalkableFloorAngle: 44
       JumpMaxCount: 1
@@ -36979,6 +52422,7 @@ Objects {
       }
       ChatSettings {
         ChatMode {
+          Value: "mc:echatmode:none"
         }
         ChatPosition {
           X: 40

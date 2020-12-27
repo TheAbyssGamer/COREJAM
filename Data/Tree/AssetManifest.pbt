@@ -17,6 +17,15 @@ Assets {
   }
 }
 Assets {
+  Id: 17754485733922066622
+  Name: "Tree Redwood Bare Medium"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_tree_redwood_004"
+  }
+}
+Assets {
   Id: 17672672862432610490
   Name: "Whitebox Window Insert - Basic Frame"
   PlatformAssetType: 1
@@ -107,6 +116,15 @@ Assets {
   }
 }
 Assets {
+  Id: 15849127514067826695
+  Name: "Bush 01"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_bush_generic_001"
+  }
+}
+Assets {
   Id: 15475868782652722605
   Name: "Trim Bottom 8m"
   PlatformAssetType: 1
@@ -125,6 +143,15 @@ Assets {
   }
 }
 Assets {
+  Id: 15377300893468434952
+  Name: "Decal Snow Patch"
+  PlatformAssetType: 14
+  PrimaryAsset {
+    AssetType: "DecalBlueprintAssetRef"
+    AssetId: "bp_decal_snow_patch_001"
+  }
+}
+Assets {
   Id: 15203496615187398971
   Name: "Emissive Glow Transparent"
   PlatformAssetType: 2
@@ -140,6 +167,15 @@ Assets {
   PrimaryAsset {
     AssetType: "PlatformBrushAssetRef"
     AssetId: "FrameHighlighted_029"
+  }
+}
+Assets {
+  Id: 14589337727818855128
+  Name: "Branches Cluster Medium"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_gen_branches_medium_001"
   }
 }
 Assets {
@@ -185,6 +221,24 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_cube_hq_003"
+  }
+}
+Assets {
+  Id: 13345682392746764710
+  Name: "Bush Leafy Low 01"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_foliage_gen_leafy_bush_002"
+  }
+}
+Assets {
+  Id: 13185063469671472585
+  Name: "Tree Redwood Big"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_tree_redwood_001"
   }
 }
 Assets {
@@ -239,6 +293,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_door_3x6_001"
+  }
+}
+Assets {
+  Id: 11732712251066135080
+  Name: "Tree Redwood Big"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_tree_redwood_001"
   }
 }
 Assets {
@@ -323,12 +386,39 @@ Assets {
   }
 }
 Assets {
+  Id: 10030074782269101677
+  Name: "Tree Redwood Bare Small"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_tree_redwood_006"
+  }
+}
+Assets {
   Id: 9887226457573227199
   Name: "Sphere"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_sphere_002"
+  }
+}
+Assets {
+  Id: 9222523415408084796
+  Name: "Branches Cluster Small"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_gen_branches_small_001"
+  }
+}
+Assets {
+  Id: 8648358039655973836
+  Name: "Bush Leafy Tall 01"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_foliage_gen_leafy_bush_001"
   }
 }
 Assets {
@@ -350,6 +440,15 @@ Assets {
   }
 }
 Assets {
+  Id: 8321541333922865928
+  Name: "Tree Redwood Small"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_tree_redwood_005"
+  }
+}
+Assets {
   Id: 8270742777843752984
   Name: "Decal Stains Round 01"
   PlatformAssetType: 14
@@ -365,6 +464,24 @@ Assets {
   PrimaryAsset {
     AssetType: "BlueprintAssetRef"
     AssetId: "CORESKY_Sky"
+  }
+}
+Assets {
+  Id: 7625382804772008570
+  Name: "Glass 01 (no distortion)"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "mi_basic_glass_001"
+  }
+}
+Assets {
+  Id: 7610631539085459775
+  Name: "Tree Oak Stump 01"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_tree_oak_stump_001"
   }
 }
 Assets {
@@ -404,6 +521,24 @@ Assets {
   }
 }
 Assets {
+  Id: 5452194826811250569
+  Name: "Tree Redwood Big"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_tree_redwood_001"
+  }
+}
+Assets {
+  Id: 4713509979248815718
+  Name: "Tree Redwood Small"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_tree_redwood_005"
+  }
+}
+Assets {
   Id: 4168732056319256728
   Name: "Clear Coat Reflector Triangle 02"
   PlatformAssetType: 2
@@ -413,12 +548,30 @@ Assets {
   }
 }
 Assets {
+  Id: 4067158581249309418
+  Name: "Tree Redwood Bare Big"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_tree_redwood_003"
+  }
+}
+Assets {
   Id: 3825947210484348471
   Name: "Gem - Baguette Polished"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_gem_baguette_polished_001"
+  }
+}
+Assets {
+  Id: 2982458686134393209
+  Name: "Branches Cluster Big"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_gen_branches_big_001"
   }
 }
 Assets {
@@ -467,6 +620,15 @@ Assets {
   }
 }
 Assets {
+  Id: 1523214900353875295
+  Name: "Snow 01"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "mi_snow_001_uv"
+  }
+}
+Assets {
   Id: 1411445044141844320
   Name: "Cube - Polished"
   PlatformAssetType: 1
@@ -503,6 +665,15 @@ Assets {
   }
 }
 Assets {
+  Id: 677980144163295677
+  Name: "Clover Patch 01"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_foliage_gen_clover_patch_001"
+  }
+}
+Assets {
   Id: 632630262305785271
   Name: "Sphere"
   PlatformAssetType: 1
@@ -518,6 +689,24 @@ Assets {
   PrimaryAsset {
     AssetType: "PlatformBrushAssetRef"
     AssetId: "FrameSolid8px_033"
+  }
+}
+Assets {
+  Id: 544785671052671472
+  Name: "Bush 02"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_bush_generic_002"
+  }
+}
+Assets {
+  Id: 365875032943503811
+  Name: "Tree Redwood Medium"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_tree_redwood_002"
   }
 }
 Assets {
