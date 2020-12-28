@@ -5,8 +5,7 @@ local propPresentValue = script:GetCustomProperty("PresentValue")
 function CheckForPresent(trigger, other)
     
     if not other:IsA("Player")then
-        local fullObject = other:FindAncestorByName("Group")
-        fullObject:Destroy()
+        other:Destroy()
         player:AddResource("Point",_G.PlayerUpgradesT1.value_tiny)
     end
 end 

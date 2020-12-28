@@ -48,6 +48,12 @@
           Id: 12025456289038580781
         }
       }
+      Overrides {
+        Name: "cmp:Material4"
+        AssetReference {
+          Id: 1107875291051536928
+        }
+      }
     }
     Assets {
       Id: 1648711083279777335
@@ -83,6 +89,15 @@
       PrimaryAsset {
         AssetType: "MaterialAssetRef"
         AssetId: "mi_brick_cobblestone_floor_001"
+      }
+    }
+    Assets {
+      Id: 1107875291051536928
+      Name: "Dirt 01"
+      PlatformAssetType: 2
+      PrimaryAsset {
+        AssetType: "MaterialAssetRef"
+        AssetId: "dirt_001"
       }
     }
   }

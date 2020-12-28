@@ -1,18 +1,18 @@
 ﻿Assets {
-  Id: 15194020430335319602
-  Name: "TinyPresTemplate"
+  Id: 2894797794717280530
+  Name: "SmallPresTemplate"
   PlatformAssetType: 5
   TemplateAsset {
     ObjectBlock {
-      RootId: 11163879751185304290
+      RootId: 6311677715197621085
       Objects {
-        Id: 11163879751185304290
-        Name: "TinyPresTemplate"
+        Id: 6311677715197621085
+        Name: "SmallPresTemplate"
         Transform {
           Scale {
-            X: 0.2
-            Y: 0.2
-            Z: 0.2
+            X: 0.8
+            Y: 0.4
+            Z: 0.3
           }
         }
         ParentId: 4781671109827199097
@@ -30,8 +30,8 @@
           Overrides {
             Name: "ma:Shared_BaseMaterial:color"
             Color {
-              G: 0.53
-              B: 0.0772185847
+              R: 0.86
+              B: 0.0854303166
               A: 1
             }
           }

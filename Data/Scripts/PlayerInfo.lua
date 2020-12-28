@@ -20,6 +20,21 @@ _G.PlayerUpgradesT3 = {
     value_enormous = 500
 }
 
+_G.PlayerUnlockMapInfo = {
+    tier1_unlock_one = false,
+    tier1_unlock_one_small = false,
+    tier1_unlock_two = false,
+    tier1_unlock_two_small = false,
+    tier1_unlock_center = false,
+    tier2_unlock_center = false,
+    tier2_unlock_one = false,
+    tier2_unlock_two = false,
+    tier3_unlock_center = false,
+    tier3_unlock_one = false,
+    tier3_unlock_two = false,
+    unlock_end = false
+}
+
 
 
 --function Tick()

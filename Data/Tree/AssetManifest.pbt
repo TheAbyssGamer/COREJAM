@@ -71,6 +71,15 @@ Assets {
   }
 }
 Assets {
+  Id: 16963813988260756373
+  Name: "Urban Damaged Floor 01 - Corner Outer 02"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_ts_urb_dmg_floor_001_co_02_ref"
+  }
+}
+Assets {
   Id: 16910278292812118833
   Name: "Sun Light"
   PlatformAssetType: 6
@@ -116,15 +125,6 @@ Assets {
   }
 }
 Assets {
-  Id: 15849127514067826695
-  Name: "Bush 01"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_bush_generic_001"
-  }
-}
-Assets {
   Id: 15475868782652722605
   Name: "Trim Bottom 8m"
   PlatformAssetType: 1
@@ -140,15 +140,6 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_cylinder_rounded_003"
-  }
-}
-Assets {
-  Id: 15377300893468434952
-  Name: "Decal Snow Patch"
-  PlatformAssetType: 14
-  PrimaryAsset {
-    AssetType: "DecalBlueprintAssetRef"
-    AssetId: "bp_decal_snow_patch_001"
   }
 }
 Assets {
@@ -206,6 +197,15 @@ Assets {
   }
 }
 Assets {
+  Id: 13959550206010698044
+  Name: "Main Street Floor 01 - 4m x 4m"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_ts_urb_dtn_mst_floor_001_4x4_ref"
+  }
+}
+Assets {
   Id: 13947760372235279807
   Name: "BG Flat 006"
   PlatformAssetType: 9
@@ -221,15 +221,6 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_cube_hq_003"
-  }
-}
-Assets {
-  Id: 13345682392746764710
-  Name: "Bush Leafy Low 01"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_foliage_gen_leafy_bush_002"
   }
 }
 Assets {
@@ -323,6 +314,15 @@ Assets {
   }
 }
 Assets {
+  Id: 11677542289270162827
+  Name: "Fantasy Human Gal 2"
+  PlatformAssetType: 17
+  PrimaryAsset {
+    AssetType: "AnimatedMeshAssetRef"
+    AssetId: "npc_human_gal_fantasy_001_ref"
+  }
+}
+Assets {
   Id: 11515840070784317904
   Name: "Skylight"
   PlatformAssetType: 6
@@ -377,6 +377,15 @@ Assets {
   }
 }
 Assets {
+  Id: 10293507866137851221
+  Name: "Main Street Floor 01 - 8m x 8m"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_ts_urb_dtn_mst_floor_001_8x8_ref"
+  }
+}
+Assets {
   Id: 10291375382347379579
   Name: "Metal Iron 01"
   PlatformAssetType: 2
@@ -404,21 +413,21 @@ Assets {
   }
 }
 Assets {
+  Id: 9734093979272750214
+  Name: "Urban Damaged Floor 01 - Corner Inner 01"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_ts_urb_dmg_floor_001_ci_01_ref"
+  }
+}
+Assets {
   Id: 9222523415408084796
   Name: "Branches Cluster Small"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_gen_branches_small_001"
-  }
-}
-Assets {
-  Id: 8648358039655973836
-  Name: "Bush Leafy Tall 01"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_foliage_gen_leafy_bush_001"
   }
 }
 Assets {
@@ -473,15 +482,6 @@ Assets {
   PrimaryAsset {
     AssetType: "MaterialAssetRef"
     AssetId: "mi_basic_glass_001"
-  }
-}
-Assets {
-  Id: 7610631539085459775
-  Name: "Tree Oak Stump 01"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_tree_oak_stump_001"
   }
 }
 Assets {
@@ -602,6 +602,15 @@ Assets {
   }
 }
 Assets {
+  Id: 2453754513798749655
+  Name: "Urban Damaged Floor 01 - 8m Straight 01"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_ts_urb_dmg_floor_001_8m_str_01_ref"
+  }
+}
+Assets {
   Id: 2436588053805897462
   Name: "Pipe - Half Thin"
   PlatformAssetType: 1
@@ -635,6 +644,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_cube_hq_test_001"
+  }
+}
+Assets {
+  Id: 1107875291051536928
+  Name: "Dirt 01"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "dirt_001"
   }
 }
 Assets {
@@ -689,15 +707,6 @@ Assets {
   PrimaryAsset {
     AssetType: "PlatformBrushAssetRef"
     AssetId: "FrameSolid8px_033"
-  }
-}
-Assets {
-  Id: 544785671052671472
-  Name: "Bush 02"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_bush_generic_002"
   }
 }
 Assets {

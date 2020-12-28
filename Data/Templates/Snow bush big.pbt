@@ -1,18 +1,18 @@
 ﻿Assets {
-  Id: 15194020430335319602
-  Name: "TinyPresTemplate"
+  Id: 11920010944054153009
+  Name: "Snow bush big"
   PlatformAssetType: 5
   TemplateAsset {
     ObjectBlock {
-      RootId: 11163879751185304290
+      RootId: 9677493073280077019
       Objects {
-        Id: 11163879751185304290
-        Name: "TinyPresTemplate"
+        Id: 9677493073280077019
+        Name: "Snow bush big"
         Transform {
           Scale {
-            X: 0.2
-            Y: 0.2
-            Z: 0.2
+            X: 1
+            Y: 1
+            Z: 1
           }
         }
         ParentId: 4781671109827199097
@@ -20,23 +20,16 @@
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 15316193570487313092
+              Id: 14782436958798956850
             }
           }
           Overrides {
-            Name: "ma:Shared_BaseMaterial:smart"
-            Bool: false
-          }
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:color"
-            Color {
-              G: 0.53
-              B: 0.0772185847
-              A: 1
+            Name: "ma:Nature_Leaves:id"
+            AssetReference {
+              Id: 18188879656863960935
             }
           }
         }
-        WantsNetworking: true
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -45,7 +38,7 @@
         }
         CoreMesh {
           MeshAsset {
-            Id: 13642204757580273705
+            Id: 544785671052671472
           }
           Teams {
             IsTeamCollisionEnabled: true
@@ -62,12 +55,12 @@
       }
     }
     Assets {
-      Id: 13642204757580273705
-      Name: "Cube - Chamfered Small Polished"
+      Id: 544785671052671472
+      Name: "Bush 02"
       PlatformAssetType: 1
       PrimaryAsset {
         AssetType: "StaticMeshAssetRef"
-        AssetId: "sm_cube_hq_003"
+        AssetId: "sm_bush_generic_002"
       }
     }
     PrimaryAssetId {

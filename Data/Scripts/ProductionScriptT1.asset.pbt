@@ -3,6 +3,12 @@
   Name: "ProductionScriptT1"
   PlatformAssetType: 3
   TextAsset {
+    CustomParameters {
+      Overrides {
+        Name: "cs:MiscInfo"
+        Int: 0
+      }
+    }
   }
   SerializationVersion: 70
 }
