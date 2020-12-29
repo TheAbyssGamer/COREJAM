@@ -98,6 +98,15 @@ Assets {
   }
 }
 Assets {
+  Id: 16442490227836096670
+  Name: "Grass Tall"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_grass_generic_001"
+  }
+}
+Assets {
   Id: 16341525093401187188
   Name: "Wallpaper Stripes 01"
   PlatformAssetType: 2
@@ -536,6 +545,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_tree_redwood_005"
+  }
+}
+Assets {
+  Id: 4293267843430669851
+  Name: "Fantasy Human Gal 1"
+  PlatformAssetType: 17
+  PrimaryAsset {
+    AssetType: "AnimatedMeshAssetRef"
+    AssetId: "npc_human_gal_fantasy_003_ref"
   }
 }
 Assets {

@@ -1,22 +1,4 @@
 ﻿Assets {
-  Id: 17327349060896381139
-  Name: "Computer Monitor 01"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_urb_computer-monitor_001"
-  }
-}
-Assets {
-  Id: 15203496615187398971
-  Name: "Emissive Glow Transparent"
-  PlatformAssetType: 2
-  PrimaryAsset {
-    AssetType: "MaterialAssetRef"
-    AssetId: "mi_basic_emissive_001"
-  }
-}
-Assets {
   Id: 14033515759896649024
   Name: "Pipe - 90-Degree Long Thick"
   PlatformAssetType: 1
@@ -41,6 +23,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_arcade_cube_004"
+  }
+}
+Assets {
+  Id: 9887226457573227199
+  Name: "Sphere"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_sphere_002"
   }
 }
 Assets {

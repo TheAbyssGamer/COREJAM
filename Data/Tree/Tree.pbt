@@ -49,9 +49,16 @@ Objects {
   ChildIds: 1747758375482030956
   ChildIds: 16522555100191432401
   ChildIds: 8132195344852787540
-  ChildIds: 4863519688981671487
   ChildIds: 6899387807576844898
   ChildIds: 6533103113347794694
+  ChildIds: 2454729019902370766
+  ChildIds: 9524666647586975692
+  ChildIds: 10930519896045679130
+  ChildIds: 745209805897363598
+  ChildIds: 8819950746666330094
+  ChildIds: 513626461948528162
+  ChildIds: 7264253659924313357
+  ChildIds: 17075993149240240199
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -64,6 +71,3194 @@ Objects {
   }
 }
 Objects {
+  Id: 17075993149240240199
+  Name: "PathFromT1"
+  Transform {
+    Location {
+      Z: -1.57592773
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  ChildIds: 12228297357239598918
+  ChildIds: 127691214649735129
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 127691214649735129
+  Name: "Fantasy Human Gal 1"
+  Transform {
+    Location {
+      X: -1251.94226
+      Y: 523.414429
+      Z: 99.6869507
+    }
+    Rotation {
+      Yaw: 79.4046097
+    }
+    Scale {
+      X: 0.75
+      Y: 0.75
+      Z: 0.75
+    }
+  }
+  ParentId: 17075993149240240199
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 4293267843430669851
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    AnimatedMesh {
+      AnimationStance: "unarmed_idle_relaxed"
+      AnimationStancePlaybackRate: 1
+      AnimationStanceShouldLoop: true
+      AnimationPlaybackRateMultiplier: 1
+      PlayOnStartAnimation {
+        PlaybackRate: 1
+      }
+    }
+  }
+}
+Objects {
+  Id: 12228297357239598918
+  Name: "UnlockThisPath"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 17075993149240240199
+  ChildIds: 880978172644550585
+  ChildIds: 13801949975325287894
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:CostToUnlock"
+      Int: 5000
+    }
+  }
+  WantsNetworking: true
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 1716348548548306860
+    }
+  }
+}
+Objects {
+  Id: 13801949975325287894
+  Name: "Sphere"
+  Transform {
+    Location {
+      X: -821.710144
+      Y: 747.433167
+      Z: 266.796631
+    }
+    Rotation {
+      Yaw: 55.0690079
+    }
+    Scale {
+      X: 15
+      Y: 1
+      Z: 18
+    }
+  }
+  ParentId: 12228297357239598918
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 3659646678164153075
+      }
+    }
+  }
+  WantsNetworking: true
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 9887226457573227199
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 880978172644550585
+  Name: "Trigger"
+  Transform {
+    Location {
+      X: -1258.57288
+      Y: 506.783936
+      Z: 128.012573
+    }
+    Rotation {
+      Yaw: -88.65979
+    }
+    Scale {
+      X: 3
+      Y: 3
+      Z: 5
+    }
+  }
+  ParentId: 12228297357239598918
+  WantsNetworking: true
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Trigger {
+    Interactable: true
+    InteractionLabel: "Unlock This path for 5000"
+    TeamSettings {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    TriggerShape_v2 {
+      Value: "mc:etriggershape:box"
+    }
+  }
+}
+Objects {
+  Id: 7264253659924313357
+  Name: "TreesTier1One"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  ChildIds: 11065620681037222812
+  ChildIds: 5311355720616362584
+  ChildIds: 5436911483800881179
+  ChildIds: 5566652052698510847
+  ChildIds: 4118017481713959547
+  ChildIds: 5031571631158470132
+  ChildIds: 2298693625379738331
+  ChildIds: 12291700710924540650
+  ChildIds: 4280416385726223973
+  ChildIds: 10077731111234092597
+  ChildIds: 11455856584073035862
+  ChildIds: 10700179255273984023
+  ChildIds: 9331684190875858441
+  ChildIds: 16433536520537679310
+  ChildIds: 3974681330470196846
+  ChildIds: 12967754597176505317
+  ChildIds: 6024594703223289943
+  ChildIds: 6728576601622769763
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 6728576601622769763
+  Name: "Snow bush big"
+  Transform {
+    Location {
+      X: -1085.11475
+      Y: 5890.09814
+      Z: 162.414536
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 7264253659924313357
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 9677493073280077019
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Snow bush big"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -7985.10693
+            Y: 807.271118
+            Z: 113.635986
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: 158.569397
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 11920010944054153009
+    }
+  }
+}
+Objects {
+  Id: 6024594703223289943
+  Name: "Tree Redwood Medium"
+  Transform {
+    Location {
+      X: -3515.76416
+      Y: 5613.26123
+      Z: 294.019897
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 7264253659924313357
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 1814396872089460735
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Tree Redwood Medium"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -4870.55957
+            Y: 2406.22119
+            Z: -37.3547211
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: 158.569397
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 8463702964946560584
+    }
+  }
+}
+Objects {
+  Id: 12967754597176505317
+  Name: "Snow leafy tall"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 7264253659924313357
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 10211285890011498138
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Snow leafy tall"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -7540.84521
+            Y: 1629.73328
+            Z: 175.099869
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: 158.569397
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 10998920392508122869
+    }
+  }
+}
+Objects {
+  Id: 3974681330470196846
+  Name: "Tree Redwood Medium"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 7264253659924313357
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 1814396872089460735
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Tree Redwood Medium"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -5157.95117
+            Y: 3398.61133
+            Z: 112.686752
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: 158.569397
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 8463702964946560584
+    }
+  }
+}
+Objects {
+  Id: 16433536520537679310
+  Name: "Snow bush big"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 7264253659924313357
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 9677493073280077019
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Snow bush big"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -7646.7876
+            Y: 4358.69336
+            Z: 50.5597153
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: 158.569397
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 11920010944054153009
+    }
+  }
+}
+Objects {
+  Id: 9331684190875858441
+  Name: "Snow leafy low"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 7264253659924313357
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 9467975281004367433
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Snow leafy low"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -4422.06152
+            Y: 2035.71704
+            Z: 246.503922
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: 158.569397
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 10662568132665358559
+    }
+  }
+}
+Objects {
+  Id: 10700179255273984023
+  Name: "Snow leafy low"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 7264253659924313357
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 9467975281004367433
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Snow leafy low"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -4842.49072
+            Y: 4565.22754
+            Z: 335.215271
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: 158.569397
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 10662568132665358559
+    }
+  }
+}
+Objects {
+  Id: 11455856584073035862
+  Name: "Snow tree trunk"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 7264253659924313357
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 5603729264344127840
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Snow tree trunk"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -5494.45801
+            Y: 5306.8457
+            Z: 338.403412
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: 158.569397
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 0.457516
+            Y: 0.457516
+            Z: 0.457516
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 10696349868365098032
+    }
+  }
+}
+Objects {
+  Id: 10077731111234092597
+  Name: "Tree Redwood Small"
+  Transform {
+    Location {
+      X: -2907.82886
+      Y: 8704.60449
+      Z: 315.311646
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 7264253659924313357
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 16068450504029913995
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Tree Redwood Small"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -4996.52246
+            Y: 1234.00635
+            Z: 64.5812225
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: 158.569397
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 16931974225670535810
+    }
+  }
+}
+Objects {
+  Id: 4280416385726223973
+  Name: "Tree Redwood Small"
+  Transform {
+    Location {
+      X: -3778.0481
+      Y: 8442.00781
+      Z: 315.311646
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 7264253659924313357
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 16068450504029913995
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Tree Redwood Small"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -6863.80029
+            Y: 682.323425
+            Z: 65.0493164
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: 158.569397
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 16931974225670535810
+    }
+  }
+}
+Objects {
+  Id: 12291700710924540650
+  Name: "Tree Redwood Small"
+  Transform {
+    Location {
+      X: -885.081543
+      Y: 6849.57617
+      Z: 315.311646
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 7264253659924313357
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 16068450504029913995
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Tree Redwood Small"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -5957.80029
+            Y: 608.818604
+            Z: 21.0334473
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: 158.569397
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 16931974225670535810
+    }
+  }
+}
+Objects {
+  Id: 2298693625379738331
+  Name: "Tree Redwood Small"
+  Transform {
+    Location {
+      X: -1230.13965
+      Y: 7589.11426
+      Z: 315.312134
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 7264253659924313357
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 16068450504029913995
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Tree Redwood Small"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -8527.47949
+            Y: 3232.46265
+            Z: 35.8609619
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: 158.569397
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 16931974225670535810
+    }
+  }
+}
+Objects {
+  Id: 5031571631158470132
+  Name: "Tree Redwood Small"
+  Transform {
+    Location {
+      X: -1072.02515
+      Y: 6025.68457
+      Z: 315.312378
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 7264253659924313357
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 16068450504029913995
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Tree Redwood Small"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -8017.94238
+            Y: 2333.66211
+            Z: 67.887558
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: 158.569397
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 16931974225670535810
+    }
+  }
+}
+Objects {
+  Id: 4118017481713959547
+  Name: "Tree Redwood Small"
+  Transform {
+    Location {
+      X: -2830.26514
+      Y: 4989.90723
+      Z: 315.312134
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 7264253659924313357
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 16068450504029913995
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Tree Redwood Small"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -8059.68408
+            Y: 3998.36768
+            Z: 5.54548645
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: 158.569397
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 16931974225670535810
+    }
+  }
+}
+Objects {
+  Id: 5566652052698510847
+  Name: "Tree Redwood Small"
+  Transform {
+    Location {
+      X: -1986.73511
+      Y: 4726.15674
+      Z: 315.31189
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 7264253659924313357
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 16068450504029913995
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Tree Redwood Small"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -5578.78662
+            Y: 4168.54883
+            Z: 266.533813
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: 158.569397
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 16931974225670535810
+    }
+  }
+}
+Objects {
+  Id: 5436911483800881179
+  Name: "Snow tree 1"
+  Transform {
+    Location {
+      X: -1608.72827
+      Y: 5395.85547
+      Z: 267.265778
+    }
+    Rotation {
+    }
+    Scale {
+      X: 0.650213838
+      Y: 0.650213838
+      Z: 0.650213838
+    }
+  }
+  ParentId: 7264253659924313357
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 9321920879572038409
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Snow tree 1"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -7518.29834
+            Y: 1148.69434
+            Z: 31.5709229
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: 158.569397
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 0.650213838
+            Y: 0.650213838
+            Z: 0.650213838
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 16672098494064896676
+    }
+  }
+}
+Objects {
+  Id: 5311355720616362584
+  Name: "Tree Redwood Small"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 7264253659924313357
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 16068450504029913995
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Tree Redwood Small"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -6326.06689
+            Y: 4664.99316
+            Z: 82.5664
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: 158.569397
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 16931974225670535810
+    }
+  }
+}
+Objects {
+  Id: 11065620681037222812
+  Name: "Snow tree 1"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 7264253659924313357
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 9321920879572038409
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Snow tree 1"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -6902.68506
+            Y: 4296.93457
+            Z: 62.4446716
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: 158.569397
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 0.650213838
+            Y: 0.650213838
+            Z: 0.650213838
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 16672098494064896676
+    }
+  }
+}
+Objects {
+  Id: 513626461948528162
+  Name: "Tier1TinyProduction"
+  Transform {
+    Location {
+      X: -6970.16699
+      Y: 1390.16724
+      Z: 213.872681
+    }
+    Rotation {
+      Yaw: 118.118797
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsFilePartition: true
+    FilePartitionName: "FirstConvProduction"
+  }
+  InstanceHistory {
+    SelfId: 8132195344852787540
+    SubobjectId: 900634587574007023
+    InstanceId: 14901942480753979126
+    TemplateId: 3469096233767210831
+    WasRoot: true
+  }
+}
+Objects {
+  Id: 8819950746666330094
+  Name: "Tier1TinyProduction"
+  Transform {
+    Location {
+      X: -7693.28906
+      Y: 3175.78711
+      Z: 213.872681
+    }
+    Rotation {
+      Yaw: 108.325073
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsFilePartition: true
+    FilePartitionName: "Tier1TinyProduction"
+  }
+  InstanceHistory {
+    SelfId: 8132195344852787540
+    SubobjectId: 900634587574007023
+    InstanceId: 14901942480753979126
+    TemplateId: 3469096233767210831
+    WasRoot: true
+  }
+}
+Objects {
+  Id: 745209805897363598
+  Name: "Fantasy Human Gal 2"
+  Transform {
+    Location {
+      X: -4631.99805
+      Y: 3416.06
+      Z: 290.219482
+    }
+    Rotation {
+      Yaw: 2.30604982
+    }
+    Scale {
+      X: 0.8
+      Y: 0.8
+      Z: 0.8
+    }
+  }
+  ParentId: 4781671109827199097
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 11677542289270162827
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    AnimatedMesh {
+      AnimationStance: "unarmed_idle_relaxed"
+      AnimationStancePlaybackRate: 1
+      AnimationStanceShouldLoop: true
+      AnimationPlaybackRateMultiplier: 1
+      PlayOnStartAnimation {
+        PlaybackRate: 1
+      }
+    }
+  }
+}
+Objects {
+  Id: 10930519896045679130
+  Name: "Tier1TinyProduction"
+  Transform {
+    Location {
+      X: -7470.05762
+      Y: 2216.43604
+      Z: 218.30455
+    }
+    Rotation {
+      Yaw: 112.919922
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsFilePartition: true
+    FilePartitionName: "Tier1TinyProduction_1"
+  }
+  InstanceHistory {
+    SelfId: 1747758375482030956
+    SubobjectId: 900634587574007023
+    InstanceId: 4257748290868542105
+    TemplateId: 3469096233767210831
+    WasRoot: true
+  }
+}
+Objects {
+  Id: 9524666647586975692
+  Name: "WoodenPlat2"
+  Transform {
+    Location {
+      X: -6567.05127
+      Y: 2829.57446
+      Z: 185.640778
+    }
+    Rotation {
+      Yaw: -62.0889587
+    }
+    Scale {
+      X: 1.5
+      Y: 1.5
+      Z: 1.5
+    }
+  }
+  ParentId: 4781671109827199097
+  ChildIds: 10410938434339494243
+  ChildIds: 15529488222565174917
+  ChildIds: 3999990432157702233
+  ChildIds: 12567781955856869948
+  ChildIds: 6948335257113699231
+  ChildIds: 15529782523614196795
+  ChildIds: 3564060755066297697
+  ChildIds: 14043878069234415617
+  ChildIds: 11973332419477866878
+  ChildIds: 12102885539316993279
+  ChildIds: 6287448385305490039
+  ChildIds: 12895534020377533958
+  ChildIds: 1847425935252778640
+  ChildIds: 4322098482829668095
+  ChildIds: 2023783862745441232
+  ChildIds: 9731336927140686494
+  ChildIds: 10705230995279464232
+  ChildIds: 3604953695457023682
+  ChildIds: 433433048133468245
+  ChildIds: 16108389760677743962
+  ChildIds: 2691960947553961456
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 2691960947553961456
+  Name: "snow projection"
+  Transform {
+    Location {
+      X: 85.3314362
+      Y: -71.8043442
+      Z: -49.4362
+    }
+    Rotation {
+      Yaw: -143.975128
+    }
+    Scale {
+      X: 0.666666687
+      Y: 0.666666687
+      Z: 0.666666687
+    }
+  }
+  ParentId: 9524666647586975692
+  ChildIds: 8609704402253064541
+  ChildIds: 17306028581792841796
+  ChildIds: 5018167165725084350
+  ChildIds: 5713070310705921959
+  ChildIds: 8094458707224106114
+  ChildIds: 10442090318676053938
+  ChildIds: 131605135326513553
+  ChildIds: 17081078236835190352
+  ChildIds: 17195754125406127812
+  ChildIds: 7554495200657393894
+  ChildIds: 6851581797322158995
+  ChildIds: 17961530830269905740
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 17961530830269905740
+  Name: "Decal Snow Patch"
+  Transform {
+    Location {
+      X: 312.995605
+      Y: 812.279236
+      Z: -48.7781219
+    }
+    Rotation {
+      Yaw: 114.849846
+    }
+    Scale {
+      X: 1.28553677
+      Y: 1.31750965
+      Z: 1
+    }
+  }
+  ParentId: 2691960947553961456
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 2826837947305577261
+    }
+    TeamSettings {
+    }
+    DecalBP {
+    }
+  }
+}
+Objects {
+  Id: 6851581797322158995
+  Name: "Decal Snow Patch"
+  Transform {
+    Location {
+      X: 981.766724
+      Y: 502.821838
+      Z: -48.778244
+    }
+    Rotation {
+      Yaw: 57.0219765
+    }
+    Scale {
+      X: 1.28553677
+      Y: 1.67017174
+      Z: 1
+    }
+  }
+  ParentId: 2691960947553961456
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 2826837947305577261
+    }
+    TeamSettings {
+    }
+    DecalBP {
+    }
+  }
+}
+Objects {
+  Id: 7554495200657393894
+  Name: "Decal Snow Patch"
+  Transform {
+    Location {
+      X: 1064.63867
+      Y: -633.15918
+      Z: -48.7784271
+    }
+    Rotation {
+      Yaw: 144.301544
+    }
+    Scale {
+      X: 1.0515933
+      Y: 1.02149153
+      Z: 1
+    }
+  }
+  ParentId: 2691960947553961456
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 2826837947305577261
+    }
+    TeamSettings {
+    }
+    DecalBP {
+    }
+  }
+}
+Objects {
+  Id: 17195754125406127812
+  Name: "Decal Snow Patch"
+  Transform {
+    Location {
+      X: 611.831665
+      Y: -1024.21936
+      Z: -48.7784882
+    }
+    Rotation {
+      Yaw: 80.0460434
+    }
+    Scale {
+      X: 1.0515933
+      Y: 1.02149153
+      Z: 1
+    }
+  }
+  ParentId: 2691960947553961456
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 2826837947305577261
+    }
+    TeamSettings {
+    }
+    DecalBP {
+    }
+  }
+}
+Objects {
+  Id: 17081078236835190352
+  Name: "Decal Snow Patch"
+  Transform {
+    Location {
+      X: -362.624329
+      Y: -600.356201
+      Z: -48.7784882
+    }
+    Rotation {
+      Yaw: 80.0460587
+    }
+    Scale {
+      X: 1.0515933
+      Y: 1.02149153
+      Z: 1
+    }
+  }
+  ParentId: 2691960947553961456
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 2826837947305577261
+    }
+    TeamSettings {
+    }
+    DecalBP {
+    }
+  }
+}
+Objects {
+  Id: 131605135326513553
+  Name: "Decal Snow Patch"
+  Transform {
+    Location {
+      X: -759.22644
+      Y: -710.578247
+      Z: -48.778244
+    }
+    Rotation {
+      Yaw: 23.5378304
+    }
+    Scale {
+      X: 1.28553677
+      Y: 1.67017174
+      Z: 1
+    }
+  }
+  ParentId: 2691960947553961456
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 2826837947305577261
+    }
+    TeamSettings {
+    }
+    DecalBP {
+    }
+  }
+}
+Objects {
+  Id: 10442090318676053938
+  Name: "Decal Snow Patch"
+  Transform {
+    Location {
+      X: -423.650879
+      Y: 1324.55859
+      Z: -48.7781219
+    }
+    Rotation {
+      Yaw: 102.012093
+    }
+    Scale {
+      X: 1.48430526
+      Y: 1.39460325
+      Z: 1
+    }
+  }
+  ParentId: 2691960947553961456
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 2826837947305577261
+    }
+    TeamSettings {
+    }
+    DecalBP {
+    }
+  }
+}
+Objects {
+  Id: 8094458707224106114
+  Name: "Decal Snow Patch"
+  Transform {
+    Location {
+      X: -1078.87329
+      Y: 887.978
+      Z: -48.778244
+    }
+    Rotation {
+      Yaw: 23.5378304
+    }
+    Scale {
+      X: 1.0515933
+      Y: 1.02149153
+      Z: 1
+    }
+  }
+  ParentId: 2691960947553961456
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 2826837947305577261
+    }
+    TeamSettings {
+    }
+    DecalBP {
+    }
+  }
+}
+Objects {
+  Id: 5713070310705921959
+  Name: "Decal Snow Patch"
+  Transform {
+    Location {
+      X: -49.019165
+      Y: 322.287323
+      Z: -48.778244
+    }
+    Rotation {
+      Yaw: 23.5378494
+    }
+    Scale {
+      X: 1.0515933
+      Y: 1.02149153
+      Z: 1
+    }
+  }
+  ParentId: 2691960947553961456
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 2826837947305577261
+    }
+    TeamSettings {
+    }
+    DecalBP {
+    }
+  }
+}
+Objects {
+  Id: 5018167165725084350
+  Name: "Decal Snow Patch"
+  Transform {
+    Location {
+      X: 20.9642334
+      Y: -561.240967
+      Z: -48.7783661
+    }
+    Rotation {
+      Yaw: 23.5378685
+    }
+    Scale {
+      X: 1.0515933
+      Y: 1.02149153
+      Z: 1
+    }
+  }
+  ParentId: 2691960947553961456
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 2826837947305577261
+    }
+    TeamSettings {
+    }
+    DecalBP {
+    }
+  }
+}
+Objects {
+  Id: 17306028581792841796
+  Name: "Decal Snow Patch"
+  Transform {
+    Location {
+      X: 638.810425
+      Y: -98.2775879
+      Z: -48.778244
+    }
+    Rotation {
+      Yaw: 59.0961304
+    }
+    Scale {
+      X: 1.5
+      Y: 1.5
+      Z: 1
+    }
+  }
+  ParentId: 2691960947553961456
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 2826837947305577261
+    }
+    TeamSettings {
+    }
+    DecalBP {
+    }
+  }
+}
+Objects {
+  Id: 8609704402253064541
+  Name: "Decal Snow Patch"
+  Transform {
+    Location {
+      X: -731.072876
+      Y: 145.229919
+      Z: -48.778244
+    }
+    Rotation {
+      Yaw: -25.4294128
+    }
+    Scale {
+      X: 1.5
+      Y: 1.5
+      Z: 1
+    }
+  }
+  ParentId: 2691960947553961456
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 2826837947305577261
+    }
+    TeamSettings {
+    }
+    DecalBP {
+    }
+  }
+}
+Objects {
+  Id: 16108389760677743962
+  Name: "Urban Damaged Floor 01 - Corner Outer 02"
+  Transform {
+    Location {
+      X: 469.883362
+      Y: 572.394775
+      Z: -32.5189934
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 9524666647586975692
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Building_Floor:id"
+      AssetReference {
+        Id: 2723232960546970913
+      }
+    }
+    Overrides {
+      Name: "ma:Building_Floor:smart"
+      Bool: true
+    }
+    Overrides {
+      Name: "ma:Building_Ceiling:id"
+      AssetReference {
+        Id: 2723232960546970913
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 1107875291051536928
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 16963813988260756373
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 433433048133468245
+  Name: "Main Street Floor 01 - 4m x 4m"
+  Transform {
+    Location {
+      X: -671.031128
+      Y: 163.775848
+      Z: -32.5189934
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 9524666647586975692
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Building_Floor:id"
+      AssetReference {
+        Id: 2723232960546970913
+      }
+    }
+    Overrides {
+      Name: "ma:Building_Floor:smart"
+      Bool: true
+    }
+    Overrides {
+      Name: "ma:Building_Ceiling:id"
+      AssetReference {
+        Id: 2723232960546970913
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 1107875291051536928
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 13959550206010698044
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 3604953695457023682
+  Name: "Main Street Floor 01 - 4m x 4m"
+  Transform {
+    Location {
+      X: -677.989197
+      Y: -230.273773
+      Z: -32.5189934
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 9524666647586975692
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Building_Floor:id"
+      AssetReference {
+        Id: 2723232960546970913
+      }
+    }
+    Overrides {
+      Name: "ma:Building_Floor:smart"
+      Bool: true
+    }
+    Overrides {
+      Name: "ma:Building_Ceiling:id"
+      AssetReference {
+        Id: 2723232960546970913
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 1107875291051536928
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 13959550206010698044
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 10705230995279464232
+  Name: "Urban Damaged Floor 01 - Corner Outer 02"
+  Transform {
+    Location {
+      X: -662.708862
+      Y: 166.500534
+      Z: -32.4789963
+    }
+    Rotation {
+      Yaw: 90.0000076
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 9524666647586975692
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Building_Floor:id"
+      AssetReference {
+        Id: 2723232960546970913
+      }
+    }
+    Overrides {
+      Name: "ma:Building_Floor:smart"
+      Bool: true
+    }
+    Overrides {
+      Name: "ma:Building_Ceiling:id"
+      AssetReference {
+        Id: 2723232960546970913
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 1107875291051536928
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 16963813988260756373
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 9731336927140686494
+  Name: "Urban Damaged Floor 01 - Corner Inner 01"
+  Transform {
+    Location {
+      X: -266.992279
+      Y: 164.712112
+      Z: -32.5189934
+    }
+    Rotation {
+      Yaw: 90.0000076
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 9524666647586975692
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Building_Floor:id"
+      AssetReference {
+        Id: 2723232960546970913
+      }
+    }
+    Overrides {
+      Name: "ma:Building_Floor:smart"
+      Bool: true
+    }
+    Overrides {
+      Name: "ma:Building_Ceiling:id"
+      AssetReference {
+        Id: 2723232960546970913
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 1107875291051536928
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 9734093979272750214
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 2023783862745441232
+  Name: "Urban Damaged Floor 01 - 8m Straight 01"
+  Transform {
+    Location {
+      X: -659.21167
+      Y: 168.392502
+      Z: -32.5089836
+    }
+    Rotation {
+      Yaw: -179.999969
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 9524666647586975692
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Building_Floor:id"
+      AssetReference {
+        Id: 2723232960546970913
+      }
+    }
+    Overrides {
+      Name: "ma:Building_Floor:smart"
+      Bool: true
+    }
+    Overrides {
+      Name: "ma:Building_Ceiling:id"
+      AssetReference {
+        Id: 2723232960546970913
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 1107875291051536928
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 2453754513798749655
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 4322098482829668095
+  Name: "Urban Damaged Floor 01 - 8m Straight 01"
+  Transform {
+    Location {
+      X: -703.873291
+      Y: -602.684692
+      Z: -32.4990158
+    }
+    Rotation {
+      Yaw: -90
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 9524666647586975692
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Building_Floor:id"
+      AssetReference {
+        Id: 2723232960546970913
+      }
+    }
+    Overrides {
+      Name: "ma:Building_Floor:smart"
+      Bool: true
+    }
+    Overrides {
+      Name: "ma:Building_Ceiling:id"
+      AssetReference {
+        Id: 2723232960546970913
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 1107875291051536928
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 2453754513798749655
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 1847425935252778640
+  Name: "Main Street Floor 01 - 4m x 4m"
+  Transform {
+    Location {
+      X: -286.505066
+      Y: -225.989502
+      Z: -32.489006
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 9524666647586975692
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Building_Floor:id"
+      AssetReference {
+        Id: 2723232960546970913
+      }
+    }
+    Overrides {
+      Name: "ma:Building_Floor:smart"
+      Bool: true
+    }
+    Overrides {
+      Name: "ma:Building_Ceiling:id"
+      AssetReference {
+        Id: 2723232960546970913
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 1107875291051536928
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 13959550206010698044
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 12895534020377533958
+  Name: "Urban Damaged Floor 01 - Corner Outer 02"
+  Transform {
+    Location {
+      X: -676.26825
+      Y: -603.753357
+      Z: -32.489006
+    }
+    Rotation {
+      Yaw: -179.999969
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 9524666647586975692
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Building_Floor:id"
+      AssetReference {
+        Id: 2723232960546970913
+      }
+    }
+    Overrides {
+      Name: "ma:Building_Floor:smart"
+      Bool: true
+    }
+    Overrides {
+      Name: "ma:Building_Ceiling:id"
+      AssetReference {
+        Id: 2723232960546970913
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 1107875291051536928
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 16963813988260756373
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 6287448385305490039
+  Name: "Main Street Floor 01 - 4m x 4m"
+  Transform {
+    Location {
+      X: 108.232567
+      Y: -212.826218
+      Z: -32.4789963
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 9524666647586975692
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Building_Floor:id"
+      AssetReference {
+        Id: 2723232960546970913
+      }
+    }
+    Overrides {
+      Name: "ma:Building_Floor:smart"
+      Bool: true
+    }
+    Overrides {
+      Name: "ma:Building_Ceiling:id"
+      AssetReference {
+        Id: 2723232960546970913
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 1107875291051536928
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 13959550206010698044
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 12102885539316993279
+  Name: "Main Street Floor 01 - 4m x 4m"
+  Transform {
+    Location {
+      X: 483.468231
+      Y: -214.019806
+      Z: -32.4690056
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 9524666647586975692
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Building_Floor:id"
+      AssetReference {
+        Id: 2723232960546970913
+      }
+    }
+    Overrides {
+      Name: "ma:Building_Floor:smart"
+      Bool: true
+    }
+    Overrides {
+      Name: "ma:Building_Ceiling:id"
+      AssetReference {
+        Id: 2723232960546970913
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 1107875291051536928
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 13959550206010698044
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 11973332419477866878
+  Name: "Urban Damaged Floor 01 - 8m Straight 01"
+  Transform {
+    Location {
+      X: 83.1255341
+      Y: -605.338135
+      Z: -32.4990158
+    }
+    Rotation {
+      Yaw: -90
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 9524666647586975692
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Building_Floor:id"
+      AssetReference {
+        Id: 2723232960546970913
+      }
+    }
+    Overrides {
+      Name: "ma:Building_Floor:smart"
+      Bool: true
+    }
+    Overrides {
+      Name: "ma:Building_Ceiling:id"
+      AssetReference {
+        Id: 2723232960546970913
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 1107875291051536928
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 2453754513798749655
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 14043878069234415617
+  Name: "Urban Damaged Floor 01 - Corner Outer 02"
+  Transform {
+    Location {
+      X: 869.353943
+      Y: -624.135254
+      Z: -32.5089836
+    }
+    Rotation {
+      Yaw: -90
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 9524666647586975692
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Building_Floor:id"
+      AssetReference {
+        Id: 2723232960546970913
+      }
+    }
+    Overrides {
+      Name: "ma:Building_Floor:smart"
+      Bool: true
+    }
+    Overrides {
+      Name: "ma:Building_Ceiling:id"
+      AssetReference {
+        Id: 2723232960546970913
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 1107875291051536928
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 16963813988260756373
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 3564060755066297697
+  Name: "Urban Damaged Floor 01 - 8m Straight 01"
+  Transform {
+    Location {
+      X: 871.838867
+      Y: -625.149536
+      Z: -32.4789963
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 9524666647586975692
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Building_Floor:id"
+      AssetReference {
+        Id: 2723232960546970913
+      }
+    }
+    Overrides {
+      Name: "ma:Building_Floor:smart"
+      Bool: true
+    }
+    Overrides {
+      Name: "ma:Building_Ceiling:id"
+      AssetReference {
+        Id: 2723232960546970913
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 1107875291051536928
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 2453754513798749655
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 15529782523614196795
+  Name: "Urban Damaged Floor 01 - Corner Outer 02"
+  Transform {
+    Location {
+      X: 870.295898
+      Y: 168.828781
+      Z: -32.5189934
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 9524666647586975692
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Building_Floor:id"
+      AssetReference {
+        Id: 2723232960546970913
+      }
+    }
+    Overrides {
+      Name: "ma:Building_Floor:smart"
+      Bool: true
+    }
+    Overrides {
+      Name: "ma:Building_Ceiling:id"
+      AssetReference {
+        Id: 2723232960546970913
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 1107875291051536928
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 16963813988260756373
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 6948335257113699231
+  Name: "Main Street Floor 01 - 4m x 4m"
+  Transform {
+    Location {
+      X: 487.947021
+      Y: 185.634689
+      Z: -32.4589958
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 9524666647586975692
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Building_Floor:id"
+      AssetReference {
+        Id: 2723232960546970913
+      }
+    }
+    Overrides {
+      Name: "ma:Building_Floor:smart"
+      Bool: true
+    }
+    Overrides {
+      Name: "ma:Building_Ceiling:id"
+      AssetReference {
+        Id: 2723232960546970913
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 1107875291051536928
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 13959550206010698044
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 12567781955856869948
+  Name: "Main Street Floor 01 - 8m x 8m"
+  Transform {
+    Location {
+      X: -272.256592
+      Y: 566.605408
+      Z: -32.4690056
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 9524666647586975692
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Building_Floor:id"
+      AssetReference {
+        Id: 2723232960546970913
+      }
+    }
+    Overrides {
+      Name: "ma:Building_Floor:smart"
+      Bool: true
+    }
+    Overrides {
+      Name: "ma:Building_Ceiling:id"
+      AssetReference {
+        Id: 2723232960546970913
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 1107875291051536928
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 10293507866137851221
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 3999990432157702233
+  Name: "Urban Damaged Floor 01 - 8m Straight 01"
+  Transform {
+    Location {
+      X: 471.513763
+      Y: 567.123535
+      Z: -32.489006
+    }
+    Rotation {
+      Yaw: 89.9999466
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 9524666647586975692
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Building_Floor:id"
+      AssetReference {
+        Id: 2723232960546970913
+      }
+    }
+    Overrides {
+      Name: "ma:Building_Floor:smart"
+      Bool: true
+    }
+    Overrides {
+      Name: "ma:Building_Ceiling:id"
+      AssetReference {
+        Id: 2723232960546970913
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 1107875291051536928
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 2453754513798749655
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 15529488222565174917
+  Name: "Urban Damaged Floor 01 - Corner Outer 02"
+  Transform {
+    Location {
+      X: -274.431396
+      Y: 564.691895
+      Z: -32.4990158
+    }
+    Rotation {
+      Yaw: 90.0000076
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 9524666647586975692
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Building_Floor:id"
+      AssetReference {
+        Id: 2723232960546970913
+      }
+    }
+    Overrides {
+      Name: "ma:Building_Floor:smart"
+      Bool: true
+    }
+    Overrides {
+      Name: "ma:Building_Ceiling:id"
+      AssetReference {
+        Id: 2723232960546970913
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 1107875291051536928
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 16963813988260756373
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 10410938434339494243
+  Name: "Urban Damaged Floor 01 - Corner Inner 01"
+  Transform {
+    Location {
+      X: 472.073975
+      Y: 177.371185
+      Z: -32.5089836
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 9524666647586975692
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Building_Floor:id"
+      AssetReference {
+        Id: 2723232960546970913
+      }
+    }
+    Overrides {
+      Name: "ma:Building_Floor:smart"
+      Bool: true
+    }
+    Overrides {
+      Name: "ma:Building_Ceiling:id"
+      AssetReference {
+        Id: 2723232960546970913
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 1107875291051536928
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 9734093979272750214
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 2454729019902370766
+  Name: "Tier1TinyProduction"
+  Transform {
+    Location {
+      X: -1450.1228
+      Y: 6562.62646
+      Z: 300.816772
+    }
+    Rotation {
+      Yaw: -58.836
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsFilePartition: true
+    FilePartitionName: "Tier1TinyProduction_2"
+  }
+  InstanceHistory {
+    SelfId: 8132195344852787540
+    SubobjectId: 900634587574007023
+    InstanceId: 14901942480753979126
+    TemplateId: 3469096233767210831
+    WasRoot: true
+  }
+}
+Objects {
   Id: 6533103113347794694
   Name: "Fantasy Human Gal 2"
   Transform {
@@ -73,7 +3268,7 @@ Objects {
       Z: 342.458466
     }
     Rotation {
-      Yaw: -171.513062
+      Yaw: -171.513
     }
     Scale {
       X: 0.8
@@ -140,6 +3335,7 @@ Objects {
   ChildIds: 6819783780059555527
   ChildIds: 13976610865978315087
   ChildIds: 1233111978703917048
+  ChildIds: 612302466157709055
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -148,6 +3344,60 @@ Objects {
   }
   Folder {
     IsGroup: true
+  }
+}
+Objects {
+  Id: 612302466157709055
+  Name: "Snow bush big"
+  Transform {
+    Location {
+      X: -1085.11475
+      Y: 5890.09814
+      Z: 162.414536
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 6899387807576844898
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 9677493073280077019
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Snow bush big"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -1818.39368
+            Y: 8997.97949
+            Z: 162.414413
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 11920010944054153009
+    }
   }
 }
 Objects {
@@ -461,9 +3711,9 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: -2051.50195
-            Y: 3335.07983
-            Z: 278.203
+            X: -2471.58
+            Y: 3928.47974
+            Z: 338.403351
           }
         }
         Overrides {
@@ -679,7 +3929,7 @@ Objects {
           Vector {
             X: -885.081543
             Y: 6849.57617
-            Z: 315.311646
+            Z: 270.729431
           }
         }
         Overrides {
@@ -1013,87 +4263,13 @@ Objects {
   }
 }
 Objects {
-  Id: 4863519688981671487
-  Name: "Tier1TinyProduction"
-  Transform {
-    Location {
-      X: -1841.36523
-      Y: 7023.85938
-      Z: 300.816895
-    }
-    Rotation {
-      Yaw: -58.8359833
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 4781671109827199097
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 900634587574007023
-      value {
-        Overrides {
-          Name: "Name"
-          String: "Tier1TinyProduction"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: -2715.18628
-            Y: 7841.09717
-            Z: 300.816895
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-            Yaw: -53.1654358
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 13584420936784138496
-      value {
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: 5.17480469
-            Y: -320.725098
-            Z: 108.123856
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 16566161862390287230
-      value {
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: -0.000206947327
-            Y: -2.59670353
-            Z: 90.3964539
-          }
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 3469096233767210831
-    }
-  }
-}
-Objects {
   Id: 8132195344852787540
   Name: "Tier1TinyProduction"
   Transform {
     Location {
-      X: -2008.19653
-      Y: 7047.83936
-      Z: 300.816895
+      X: -2614.88525
+      Y: 7868.01318
+      Z: 300.816772
     }
     Rotation {
       Yaw: -58.836
@@ -1113,7 +4289,7 @@ Objects {
   }
   Folder {
     IsFilePartition: true
-    FilePartitionName: "FirstConvProduction"
+    FilePartitionName: "Tier1TinyProduction_3"
   }
   InstanceHistory {
     SelfId: 8132195344852787540
@@ -1162,6 +4338,7 @@ Objects {
   ChildIds: 4185318042212434440
   ChildIds: 16195893851613735481
   ChildIds: 10593233569234496338
+  ChildIds: 8322549844575620440
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -1173,12 +4350,471 @@ Objects {
   }
 }
 Objects {
+  Id: 8322549844575620440
+  Name: "snow projection"
+  Transform {
+    Location {
+      X: 85.3314362
+      Y: -71.8043442
+      Z: -49.4362
+    }
+    Rotation {
+      Yaw: -143.975128
+    }
+    Scale {
+      X: 0.666666687
+      Y: 0.666666687
+      Z: 0.666666687
+    }
+  }
+  ParentId: 16522555100191432401
+  ChildIds: 8795260099335007932
+  ChildIds: 1249425248957787665
+  ChildIds: 2697880466975116176
+  ChildIds: 2593898781743757096
+  ChildIds: 5049110524089440347
+  ChildIds: 18022994869508326096
+  ChildIds: 5680869689954470356
+  ChildIds: 7797510717235537980
+  ChildIds: 14641091212217594000
+  ChildIds: 16715739628416186498
+  ChildIds: 15519299006253745471
+  ChildIds: 9772000450926585895
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 9772000450926585895
+  Name: "Decal Snow Patch"
+  Transform {
+    Location {
+      X: 294.117188
+      Y: 781.667969
+      Z: 0.000366210938
+    }
+    Rotation {
+      Yaw: 114.849846
+    }
+    Scale {
+      X: 1.28553677
+      Y: 1.31750965
+      Z: 1
+    }
+  }
+  ParentId: 8322549844575620440
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 2826837947305577261
+    }
+    TeamSettings {
+    }
+    DecalBP {
+    }
+  }
+}
+Objects {
+  Id: 15519299006253745471
+  Name: "Decal Snow Patch"
+  Transform {
+    Location {
+      X: 962.888306
+      Y: 472.210938
+      Z: 0.000244140625
+    }
+    Rotation {
+      Yaw: 57.0219765
+    }
+    Scale {
+      X: 1.28553677
+      Y: 1.67017174
+      Z: 1
+    }
+  }
+  ParentId: 8322549844575620440
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 2826837947305577261
+    }
+    TeamSettings {
+    }
+    DecalBP {
+    }
+  }
+}
+Objects {
+  Id: 16715739628416186498
+  Name: "Decal Snow Patch"
+  Transform {
+    Location {
+      X: 1045.76038
+      Y: -663.769531
+      Z: 6.10351563e-05
+    }
+    Rotation {
+      Yaw: 144.301544
+    }
+    Scale {
+      X: 1.0515933
+      Y: 1.02149153
+      Z: 1
+    }
+  }
+  ParentId: 8322549844575620440
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 2826837947305577261
+    }
+    TeamSettings {
+    }
+    DecalBP {
+    }
+  }
+}
+Objects {
+  Id: 14641091212217594000
+  Name: "Decal Snow Patch"
+  Transform {
+    Location {
+      X: 592.952881
+      Y: -1054.83008
+    }
+    Rotation {
+      Yaw: 80.0460434
+    }
+    Scale {
+      X: 1.0515933
+      Y: 1.02149153
+      Z: 1
+    }
+  }
+  ParentId: 8322549844575620440
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 2826837947305577261
+    }
+    TeamSettings {
+    }
+    DecalBP {
+    }
+  }
+}
+Objects {
+  Id: 7797510717235537980
+  Name: "Decal Snow Patch"
+  Transform {
+    Location {
+      X: -381.50293
+      Y: -630.966797
+    }
+    Rotation {
+      Yaw: 80.0460587
+    }
+    Scale {
+      X: 1.0515933
+      Y: 1.02149153
+      Z: 1
+    }
+  }
+  ParentId: 8322549844575620440
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 2826837947305577261
+    }
+    TeamSettings {
+    }
+    DecalBP {
+    }
+  }
+}
+Objects {
+  Id: 5680869689954470356
+  Name: "Decal Snow Patch"
+  Transform {
+    Location {
+      X: -778.105
+      Y: -741.188965
+      Z: 0.000244140625
+    }
+    Rotation {
+      Yaw: 23.5378304
+    }
+    Scale {
+      X: 1.28553677
+      Y: 1.67017174
+      Z: 1
+    }
+  }
+  ParentId: 8322549844575620440
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 2826837947305577261
+    }
+    TeamSettings {
+    }
+    DecalBP {
+    }
+  }
+}
+Objects {
+  Id: 18022994869508326096
+  Name: "Decal Snow Patch"
+  Transform {
+    Location {
+      X: -442.529053
+      Y: 1293.94775
+      Z: 0.000366210938
+    }
+    Rotation {
+      Yaw: 102.012093
+    }
+    Scale {
+      X: 1.48430526
+      Y: 1.39460325
+      Z: 1
+    }
+  }
+  ParentId: 8322549844575620440
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 2826837947305577261
+    }
+    TeamSettings {
+    }
+    DecalBP {
+    }
+  }
+}
+Objects {
+  Id: 5049110524089440347
+  Name: "Decal Snow Patch"
+  Transform {
+    Location {
+      X: -1097.75122
+      Y: 857.366211
+      Z: 0.000244140625
+    }
+    Rotation {
+      Yaw: 23.5378304
+    }
+    Scale {
+      X: 1.0515933
+      Y: 1.02149153
+      Z: 1
+    }
+  }
+  ParentId: 8322549844575620440
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 2826837947305577261
+    }
+    TeamSettings {
+    }
+    DecalBP {
+    }
+  }
+}
+Objects {
+  Id: 2593898781743757096
+  Name: "Decal Snow Patch"
+  Transform {
+    Location {
+      X: -67.8977051
+      Y: 291.67627
+      Z: 0.000244140625
+    }
+    Rotation {
+      Yaw: 23.5378494
+    }
+    Scale {
+      X: 1.0515933
+      Y: 1.02149153
+      Z: 1
+    }
+  }
+  ParentId: 8322549844575620440
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 2826837947305577261
+    }
+    TeamSettings {
+    }
+    DecalBP {
+    }
+  }
+}
+Objects {
+  Id: 2697880466975116176
+  Name: "Decal Snow Patch"
+  Transform {
+    Location {
+      X: 2.0859375
+      Y: -591.852051
+      Z: 0.000122070313
+    }
+    Rotation {
+      Yaw: 23.5378685
+    }
+    Scale {
+      X: 1.0515933
+      Y: 1.02149153
+      Z: 1
+    }
+  }
+  ParentId: 8322549844575620440
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 2826837947305577261
+    }
+    TeamSettings {
+    }
+    DecalBP {
+    }
+  }
+}
+Objects {
+  Id: 1249425248957787665
+  Name: "Decal Snow Patch"
+  Transform {
+    Location {
+      X: 619.932129
+      Y: -128.888672
+      Z: 0.000244140625
+    }
+    Rotation {
+      Yaw: 59.0961304
+    }
+    Scale {
+      X: 1.5
+      Y: 1.5
+      Z: 1
+    }
+  }
+  ParentId: 8322549844575620440
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 2826837947305577261
+    }
+    TeamSettings {
+    }
+    DecalBP {
+    }
+  }
+}
+Objects {
+  Id: 8795260099335007932
+  Name: "Decal Snow Patch"
+  Transform {
+    Location {
+      X: -749.951416
+      Y: 114.619141
+      Z: 0.000244140625
+    }
+    Rotation {
+      Yaw: -25.4294
+    }
+    Scale {
+      X: 1.5
+      Y: 1.5
+      Z: 1
+    }
+  }
+  ParentId: 8322549844575620440
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 2826837947305577261
+    }
+    TeamSettings {
+    }
+    DecalBP {
+    }
+  }
+}
+Objects {
   Id: 10593233569234496338
   Name: "Urban Damaged Floor 01 - Corner Outer 02"
   Transform {
     Location {
-      X: 468.060059
-      Y: 596.30127
+      X: 468.06
+      Y: 596.301514
     }
     Rotation {
     }
@@ -1241,8 +4877,8 @@ Objects {
   Name: "Main Street Floor 01 - 4m x 4m"
   Transform {
     Location {
-      X: -672.855
-      Y: 187.682617
+      X: -672.855042
+      Y: 187.682785
     }
     Rotation {
     }
@@ -1306,7 +4942,7 @@ Objects {
   Transform {
     Location {
       X: -679.813
-      Y: -206.367188
+      Y: -206.367157
     }
     Rotation {
     }
@@ -1369,12 +5005,12 @@ Objects {
   Name: "Urban Damaged Floor 01 - Corner Outer 02"
   Transform {
     Location {
-      X: -664.532227
+      X: -664.532349
       Y: 190.407227
-      Z: 0.0400085449
+      Z: 0.0399983749
     }
     Rotation {
-      Yaw: 89.9999924
+      Yaw: 90.0000076
     }
     Scale {
       X: 1
@@ -1435,11 +5071,11 @@ Objects {
   Name: "Urban Damaged Floor 01 - Corner Inner 01"
   Transform {
     Location {
-      X: -268.815918
-      Y: 188.618652
+      X: -268.815948
+      Y: 188.61882
     }
     Rotation {
-      Yaw: 89.9999924
+      Yaw: 90.0000076
     }
     Scale {
       X: 1
@@ -1500,12 +5136,12 @@ Objects {
   Name: "Urban Damaged Floor 01 - 8m Straight 01"
   Transform {
     Location {
-      X: -661.035156
-      Y: 192.299316
+      X: -661.035095
+      Y: 192.29924
       Z: 0.0100097656
     }
     Rotation {
-      Yaw: -179.999985
+      Yaw: -179.999969
     }
     Scale {
       X: 1
@@ -1568,10 +5204,10 @@ Objects {
     Location {
       X: -705.697266
       Y: -578.77832
-      Z: 0.0199890137
+      Z: 0.0199788418
     }
     Rotation {
-      Yaw: -89.9999924
+      Yaw: -90.0000076
     }
     Scale {
       X: 1
@@ -1632,9 +5268,9 @@ Objects {
   Name: "Main Street Floor 01 - 4m x 4m"
   Transform {
     Location {
-      X: -288.328613
-      Y: -202.083008
-      Z: 0.0299987793
+      X: -288.328674
+      Y: -202.082916
+      Z: 0.0299886074
     }
     Rotation {
     }
@@ -1697,12 +5333,12 @@ Objects {
   Name: "Urban Damaged Floor 01 - Corner Outer 02"
   Transform {
     Location {
-      X: -678.091797
-      Y: -579.84668
-      Z: 0.0299987793
+      X: -678.091919
+      Y: -579.846802
+      Z: 0.0299886074
     }
     Rotation {
-      Yaw: -179.999985
+      Yaw: -179.999969
     }
     Scale {
       X: 1
@@ -1764,8 +5400,8 @@ Objects {
   Transform {
     Location {
       X: 106.40918
-      Y: -188.919434
-      Z: 0.0400085449
+      Y: -188.919556
+      Z: 0.0399983749
     }
     Rotation {
     }
@@ -1828,7 +5464,7 @@ Objects {
   Name: "Main Street Floor 01 - 4m x 4m"
   Transform {
     Location {
-      X: 481.64502
+      X: 481.645
       Y: -190.113281
       Z: 0.049987793
     }
@@ -1893,12 +5529,12 @@ Objects {
   Name: "Urban Damaged Floor 01 - 8m Straight 01"
   Transform {
     Location {
-      X: 81.3022461
-      Y: -581.431641
-      Z: 0.0199890137
+      X: 81.3022079
+      Y: -581.431519
+      Z: 0.0199788418
     }
     Rotation {
-      Yaw: -89.9999924
+      Yaw: -90.0000076
     }
     Scale {
       X: 1
@@ -1959,12 +5595,12 @@ Objects {
   Name: "Urban Damaged Floor 01 - Corner Outer 02"
   Transform {
     Location {
-      X: 867.531738
-      Y: -600.229
+      X: 867.531677
+      Y: -600.229187
       Z: 0.0100097656
     }
     Rotation {
-      Yaw: -89.9999924
+      Yaw: -90.0000076
     }
     Scale {
       X: 1
@@ -2025,9 +5661,9 @@ Objects {
   Name: "Urban Damaged Floor 01 - 8m Straight 01"
   Transform {
     Location {
-      X: 870.016846
-      Y: -601.243652
-      Z: 0.0400085449
+      X: 870.016785
+      Y: -601.243774
+      Z: 0.0399983749
     }
     Rotation {
     }
@@ -2090,8 +5726,8 @@ Objects {
   Name: "Urban Damaged Floor 01 - Corner Outer 02"
   Transform {
     Location {
-      X: 868.4729
-      Y: 192.735352
+      X: 868.473
+      Y: 192.735229
     }
     Rotation {
     }
@@ -2154,8 +5790,8 @@ Objects {
   Name: "Main Street Floor 01 - 4m x 4m"
   Transform {
     Location {
-      X: 486.123535
-      Y: 209.541504
+      X: 486.123596
+      Y: 209.541489
       Z: 0.0599975586
     }
     Rotation {
@@ -2219,8 +5855,8 @@ Objects {
   Name: "Main Street Floor 01 - 8m x 8m"
   Transform {
     Location {
-      X: -274.080078
-      Y: 590.512207
+      X: -274.080139
+      Y: 590.512268
       Z: 0.049987793
     }
     Rotation {
@@ -2284,12 +5920,12 @@ Objects {
   Name: "Urban Damaged Floor 01 - 8m Straight 01"
   Transform {
     Location {
-      X: 469.690186
-      Y: 591.030273
-      Z: 0.0299987793
+      X: 469.690369
+      Y: 591.030334
+      Z: 0.0299886074
     }
     Rotation {
-      Yaw: 89.9999771
+      Yaw: 89.9999466
     }
     Scale {
       X: 1
@@ -2350,12 +5986,12 @@ Objects {
   Name: "Urban Damaged Floor 01 - Corner Outer 02"
   Transform {
     Location {
-      X: -276.254883
-      Y: 588.598633
-      Z: 0.0199890137
+      X: -276.255035
+      Y: 588.598694
+      Z: 0.0199788418
     }
     Rotation {
-      Yaw: 89.9999924
+      Yaw: 90.0000076
     }
     Scale {
       X: 1
@@ -2416,8 +6052,8 @@ Objects {
   Name: "Urban Damaged Floor 01 - Corner Inner 01"
   Transform {
     Location {
-      X: 470.250488
-      Y: 201.277832
+      X: 470.250427
+      Y: 201.277924
       Z: 0.0100097656
     }
     Rotation {
@@ -2481,9 +6117,9 @@ Objects {
   Name: "Tier1TinyProduction"
   Transform {
     Location {
-      X: -1362.77368
-      Y: 6369.69629
-      Z: 300.817139
+      X: -1952.15259
+      Y: 7253.72363
+      Z: 300.817017
     }
     Rotation {
       Yaw: -58.836
@@ -2503,7 +6139,7 @@ Objects {
   }
   Folder {
     IsFilePartition: true
-    FilePartitionName: "Tier1TinyProduction"
+    FilePartitionName: "Tier1TinyProduction_4"
   }
   InstanceHistory {
     SelfId: 1747758375482030956
@@ -48133,6 +51769,55 @@ Objects {
     VoxelSize: 100
     OctreeDepth: 5
     GeneratorID: "DEPRECATED"
+    Foliage {
+      Asset {
+        Id: 16442490227836096670
+      }
+      DistanceBetweenInstances: 200
+      MaterialChannel: 3
+      SpawnDistance: 3200
+      CullDistance {
+        Min: 10000
+        Max: 20000
+      }
+      ReceivesDecals: true
+      GroundSlopeAngle {
+        Max: 90
+      }
+      Scaling {
+        ScaleX {
+          Min: 1
+          Max: 1
+        }
+        ScaleY {
+          Min: 1
+          Max: 1
+        }
+        ScaleZ {
+          Min: 1
+          Max: 1
+        }
+      }
+      RotationAlignment: AlignToWorldUp
+      RandomYaw: true
+      RandomPitchAngle: 6
+      Materials {
+        key: "Nature_Grass"
+        value {
+          Id: 15416166596758575291
+        }
+      }
+      LocalPositionOffset {
+      }
+      LocalRotationOffset {
+      }
+      GlobalPositionOffset {
+      }
+      Height {
+        Min: -102400
+        Max: 102400
+      }
+    }
   }
 }
 Objects {
@@ -48151,6 +51836,14 @@ Objects {
   }
   ParentId: 4781671109827199097
   ChildIds: 2346019623772991920
+  ChildIds: 5729555364621161393
+  ChildIds: 1201674512472796141
+  ChildIds: 14936707302755313997
+  ChildIds: 17454673163816888083
+  ChildIds: 10335888455060192433
+  ChildIds: 15153927809674066156
+  ChildIds: 11301474998251325965
+  ChildIds: 17507057227905949231
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -48159,6 +51852,410 @@ Objects {
   }
   Folder {
     IsGroup: true
+  }
+}
+Objects {
+  Id: 17507057227905949231
+  Name: "Snow leafy low"
+  Transform {
+    Location {
+      X: -5595.83594
+      Y: 3551.81934
+      Z: 210.914444
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 12216544566310951525
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 9467975281004367433
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Snow leafy low"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -5998.33643
+            Y: 4929.70898
+            Z: 210.914444
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 10662568132665358559
+    }
+  }
+}
+Objects {
+  Id: 11301474998251325965
+  Name: "Snow leafy low"
+  Transform {
+    Location {
+      X: -6985.36426
+      Y: 5200.24756
+      Z: 210.914444
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 12216544566310951525
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 9467975281004367433
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Snow leafy low"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -5626.24414
+            Y: 3532.61621
+            Z: 162.135956
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 10662568132665358559
+    }
+  }
+}
+Objects {
+  Id: 15153927809674066156
+  Name: "Snow leafy low"
+  Transform {
+    Location {
+      X: -5948.86035
+      Y: 6957.23291
+      Z: 210.914444
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 12216544566310951525
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 9467975281004367433
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Snow leafy low"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -6985.36426
+            Y: 5200.24756
+            Z: 210.914444
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 10662568132665358559
+    }
+  }
+}
+Objects {
+  Id: 10335888455060192433
+  Name: "Snow leafy low"
+  Transform {
+    Location {
+      X: -5948.86035
+      Y: 6957.23291
+      Z: 210.914444
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 12216544566310951525
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 9467975281004367433
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Snow leafy low"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -5948.86035
+            Y: 6957.23291
+            Z: 210.914444
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 10662568132665358559
+    }
+  }
+}
+Objects {
+  Id: 17454673163816888083
+  Name: "Snow leafy low"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 12216544566310951525
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 9467975281004367433
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Snow leafy low"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -6624.1084
+            Y: 7974.02148
+            Z: 52.250721
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 10662568132665358559
+    }
+  }
+}
+Objects {
+  Id: 14936707302755313997
+  Name: "Snow leafy low"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 12216544566310951525
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 9467975281004367433
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Snow leafy low"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -5948.86035
+            Y: 6957.23291
+            Z: 210.914444
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 10662568132665358559
+    }
+  }
+}
+Objects {
+  Id: 1201674512472796141
+  Name: "Snow leafy tall"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 12216544566310951525
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 10211285890011498138
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Snow leafy tall"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -5099.97363
+            Y: 8498.97656
+            Z: 171.0271
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 10998920392508122869
+    }
+  }
+}
+Objects {
+  Id: 5729555364621161393
+  Name: "Snow bush big"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 12216544566310951525
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 9677493073280077019
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Snow bush big"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -328.657898
+            Y: 8651.8125
+            Z: 130.666138
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 11920010944054153009
+    }
   }
 }
 Objects {

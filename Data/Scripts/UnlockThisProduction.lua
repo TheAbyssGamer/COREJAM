@@ -14,6 +14,7 @@ function UnlockThisProduction()
         --productionScript.lifeSpan = 0
         --World.SpawnAsset(productionScript:GetObject(), {position = Vector3.New(0,0,0)})
         --nScript.parent = prodMachine
+        player:RemoveResource("Point", propValueToUnlock)
         monitor:SetColor(Color.GREEN)
     end
     print(_G.PlayerUnlockMapInfo.tier1_unlock_one_small)

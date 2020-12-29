@@ -51,7 +51,31 @@
       Overrides {
         Name: "cmp:Material4"
         AssetReference {
-          Id: 1107875291051536928
+          Id: 1523214900353875295
+        }
+      }
+      Overrides {
+        Name: "cmp:Material4_Sides"
+        AssetReference {
+          Id: 1523214900353875295
+        }
+      }
+      Overrides {
+        Name: "cmpc:Material4"
+        Color {
+          R: 0.788235366
+          G: 0.788235366
+          B: 0.788235366
+          A: 1
+        }
+      }
+      Overrides {
+        Name: "cmpc:Material4_Sides"
+        Color {
+          R: 0.788235366
+          G: 0.788235366
+          B: 0.788235366
+          A: 1
         }
       }
     }
@@ -92,12 +116,21 @@
       }
     }
     Assets {
-      Id: 1107875291051536928
-      Name: "Dirt 01"
+      Id: 1523214900353875295
+      Name: "Snow 01"
       PlatformAssetType: 2
       PrimaryAsset {
         AssetType: "MaterialAssetRef"
-        AssetId: "dirt_001"
+        AssetId: "mi_snow_001_uv"
+      }
+    }
+    Assets {
+      Id: 1523214900353875295
+      Name: "Snow 01"
+      PlatformAssetType: 2
+      PrimaryAsset {
+        AssetType: "MaterialAssetRef"
+        AssetId: "mi_snow_001_uv"
       }
     }
   }

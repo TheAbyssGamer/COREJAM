@@ -4,7 +4,7 @@ local player = Game.GetPlayers()[1]
 
 function Tick()
 
-    Task.Wait(2)
+    --Task.Wait(2)
     local numPoints = player:GetResource("Point")
     textBox.text = tostring(numPoints)
 end

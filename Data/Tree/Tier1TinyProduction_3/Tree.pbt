@@ -1,13 +1,13 @@
-﻿Name: "FirstConvProduction"
-RootId: 513626461948528162
+﻿Name: "Tier1TinyProduction_3"
+RootId: 8132195344852787540
 Objects {
-  Id: 1732827092455660941
+  Id: 13844452457359049915
   Name: "PipeSpawn"
   Transform {
     Location {
-      X: 2.56948853
-      Y: -284.855164
-      Z: 59.345459
+      X: 5.17483521
+      Y: -320.725067
+      Z: 108.12384
     }
     Rotation {
       Yaw: 2.41483631e-05
@@ -19,7 +19,7 @@ Objects {
       Z: 0.2
     }
   }
-  ParentId: 513626461948528162
+  ParentId: 8132195344852787540
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -59,7 +59,7 @@ Objects {
   }
 }
 Objects {
-  Id: 12537866052884230496
+  Id: 11191297480458391911
   Name: "ProductuinScriptT1Small"
   Transform {
     Location {
@@ -72,8 +72,8 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 513626461948528162
-  ChildIds: 16961813203046450095
+  ParentId: 8132195344852787540
+  ChildIds: 4345403691971028914
   UnregisteredParameters {
     Overrides {
       Name: "cs:SmallPresent"
@@ -96,16 +96,16 @@ Objects {
   }
 }
 Objects {
-  Id: 16961813203046450095
+  Id: 4345403691971028914
   Name: "UnlockTier1OneSmall"
   Transform {
     Location {
-      X: 76.0039444
-      Y: -64.1489182
-      Z: 15.2432404
+      X: 78.6089859
+      Y: -100.018555
+      Z: 64.021759
     }
     Rotation {
-      Yaw: -88.5531616
+      Yaw: -88.5531693
     }
     Scale {
       X: 2
@@ -113,9 +113,9 @@ Objects {
       Z: 2
     }
   }
-  ParentId: 12537866052884230496
-  ChildIds: 3566637812564531248
-  ChildIds: 3202043018750115815
+  ParentId: 11191297480458391911
+  ChildIds: 13266713346764136638
+  ChildIds: 7032164926545055033
   UnregisteredParameters {
     Overrides {
       Name: "ma:Prop_Screen:id"
@@ -157,7 +157,7 @@ Objects {
   }
 }
 Objects {
-  Id: 3202043018750115815
+  Id: 7032164926545055033
   Name: "UnlockThisProduction"
   Transform {
     Location {
@@ -174,7 +174,7 @@ Objects {
       Z: 0.5
     }
   }
-  ParentId: 16961813203046450095
+  ParentId: 4345403691971028914
   UnregisteredParameters {
     Overrides {
       Name: "cs:ValueToUnlock"
@@ -201,12 +201,12 @@ Objects {
   }
 }
 Objects {
-  Id: 3566637812564531248
+  Id: 13266713346764136638
   Name: "Trigger"
   Transform {
     Location {
-      X: 2.86898661
-      Y: 43.6904144
+      X: 2.86903954
+      Y: 43.6903419
     }
     Rotation {
     }
@@ -216,7 +216,7 @@ Objects {
       Z: 2
     }
   }
-  ParentId: 16961813203046450095
+  ParentId: 4345403691971028914
   WantsNetworking: true
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -236,13 +236,13 @@ Objects {
   }
 }
 Objects {
-  Id: 7560753475966025344
+  Id: 4407360870254437755
   Name: "Pipe - Thick"
   Transform {
     Location {
-      X: 2.56991577
-      Y: -172.35289
-      Z: 172.170654
+      X: 5.17487335
+      Y: -208.222717
+      Z: 220.948975
     }
     Rotation {
       Yaw: 2.41483631e-05
@@ -254,7 +254,7 @@ Objects {
       Z: 0.2
     }
   }
-  ParentId: 513626461948528162
+  ParentId: 8132195344852787540
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -293,16 +293,17 @@ Objects {
   }
 }
 Objects {
-  Id: 12405033341429645350
+  Id: 18317359626169280913
   Name: "Pipe - 90-Degree Short Thick"
   Transform {
     Location {
-      X: 2.32931519
-      Y: -221.31694
-      Z: 109.577087
+      X: 4.93469238
+      Y: -257.186707
+      Z: 158.355469
     }
     Rotation {
-      Yaw: -89.999939
+      Pitch: -1.36603776e-05
+      Yaw: -89.9999466
       Roll: -179.999985
     }
     Scale {
@@ -311,7 +312,7 @@ Objects {
       Z: 0.5
     }
   }
-  ParentId: 513626461948528162
+  ParentId: 8132195344852787540
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -350,13 +351,13 @@ Objects {
   }
 }
 Objects {
-  Id: 5741313094331179292
+  Id: 7350221290841068109
   Name: "EndCrate"
   Transform {
     Location {
-      X: -7.70739746
-      Y: -1384.53564
-      Z: -48.7784576
+      X: -5.10467529
+      Y: -1420.42798
+      Z: 3.05175781e-05
     }
     Rotation {
       Yaw: 2.39056608e-05
@@ -367,8 +368,8 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 513626461948528162
-  ChildIds: 11753109133688850500
+  ParentId: 8132195344852787540
+  ChildIds: 11043453590003506885
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Detail2:id"
@@ -420,12 +421,12 @@ Objects {
   }
 }
 Objects {
-  Id: 11753109133688850500
+  Id: 11043453590003506885
   Name: "Trigger"
   Transform {
     Location {
-      X: -0.000363349915
-      Y: -2.59673762
+      X: -0.000206947327
+      Y: -2.59670353
       Z: 90.3964539
     }
     Rotation {
@@ -436,8 +437,8 @@ Objects {
       Z: 4
     }
   }
-  ParentId: 5741313094331179292
-  ChildIds: 7832992232248546029
+  ParentId: 7350221290841068109
+  ChildIds: 1146724900428853209
   WantsNetworking: true
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -462,7 +463,7 @@ Objects {
   }
 }
 Objects {
-  Id: 7832992232248546029
+  Id: 1146724900428853209
   Name: "EndCrateScript"
   Transform {
     Location {
@@ -475,7 +476,7 @@ Objects {
       Z: 0.25
     }
   }
-  ParentId: 11753109133688850500
+  ParentId: 11043453590003506885
   UnregisteredParameters {
     Overrides {
       Name: "cs:PresentValue"
@@ -502,13 +503,13 @@ Objects {
   }
 }
 Objects {
-  Id: 3841717314523927448
+  Id: 10641357965396156106
   Name: "Belt"
   Transform {
     Location {
-      X: -4.30316162
-      Y: -722.216125
-      Z: -48.7785187
+      X: -1.69729614
+      Y: -758.086914
+      Z: -3.05175781e-05
     }
     Rotation {
       Yaw: 2.39056608e-05
@@ -519,7 +520,7 @@ Objects {
       Z: 0.85
     }
   }
-  ParentId: 513626461948528162
+  ParentId: 8132195344852787540
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -558,13 +559,13 @@ Objects {
   }
 }
 Objects {
-  Id: 15942964087844032798
+  Id: 10405295594952800257
   Name: "Pipe - Thick"
   Transform {
     Location {
-      X: 2.56963348
-      Y: -73.1720886
-      Z: 71.0604858
+      X: 5.17468643
+      Y: -109.041908
+      Z: 119.838867
     }
     Rotation {
       Yaw: 2.39056608e-05
@@ -575,7 +576,7 @@ Objects {
       Z: 0.2
     }
   }
-  ParentId: 513626461948528162
+  ParentId: 8132195344852787540
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -614,13 +615,13 @@ Objects {
   }
 }
 Objects {
-  Id: 6189068211628114432
+  Id: 4199328634607527810
   Name: "Pipe - Thick"
   Transform {
     Location {
-      X: 2.56973267
-      Y: -220.66037
-      Z: 107.764343
+      X: 5.17482
+      Y: -256.530182
+      Z: 156.542725
     }
     Rotation {
       Yaw: 2.39056608e-05
@@ -631,7 +632,7 @@ Objects {
       Z: 0.2
     }
   }
-  ParentId: 513626461948528162
+  ParentId: 8132195344852787540
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -670,16 +671,16 @@ Objects {
   }
 }
 Objects {
-  Id: 206709026756807880
+  Id: 16069926444034647667
   Name: "Pipe - 90-Degree Long Thick"
   Transform {
     Location {
-      X: 2.47517395
-      Y: -71.3959656
-      Z: 73.6420898
+      X: 5.08019638
+      Y: -107.265732
+      Z: 122.420471
     }
     Rotation {
-      Yaw: -89.9999695
+      Yaw: -89.9999619
     }
     Scale {
       X: 0.5
@@ -687,7 +688,7 @@ Objects {
       Z: 0.5
     }
   }
-  ParentId: 513626461948528162
+  ParentId: 8132195344852787540
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -726,13 +727,12 @@ Objects {
   }
 }
 Objects {
-  Id: 11723228017844489510
+  Id: 11102339538383692580
   Name: "Cube - Arcade 04"
   Transform {
     Location {
-      X: -2.60505676
-      Y: -65.3694611
-      Z: -48.7784882
+      X: -0.000106811523
+      Y: -101.239212
     }
     Rotation {
       Yaw: 2.39056608e-05
@@ -743,7 +743,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 513626461948528162
+  ParentId: 8132195344852787540
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Trim:color"
@@ -810,18 +810,18 @@ Objects {
   }
 }
 Objects {
-  Id: 10000056086100205025
+  Id: 4781824875491398187
   Name: "Pipe - 90-Degree Short Thick"
   Transform {
     Location {
-      X: 2.32972717
-      Y: -170.992172
-      Z: 173.536743
+      X: 4.93480682
+      Y: -206.861847
+      Z: 222.315063
     }
     Rotation {
       Pitch: -90
-      Yaw: 9.46233559
-      Roll: -99.4622803
+      Yaw: -9.46233559
+      Roll: -80.5376282
     }
     Scale {
       X: 0.5
@@ -829,7 +829,7 @@ Objects {
       Z: 0.5
     }
   }
-  ParentId: 513626461948528162
+  ParentId: 8132195344852787540
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -868,13 +868,13 @@ Objects {
   }
 }
 Objects {
-  Id: 17069922542401898623
+  Id: 572355354533434649
   Name: "Pipe - Thick"
   Transform {
     Location {
-      X: 1.93592834
-      Y: -71.714035
-      Z: -121.819427
+      X: 4.54101181
+      Y: -107.583618
+      Z: -73.0409393
     }
     Rotation {
       Yaw: 2.39056608e-05
@@ -885,7 +885,7 @@ Objects {
       Z: 2
     }
   }
-  ParentId: 513626461948528162
+  ParentId: 8132195344852787540
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
