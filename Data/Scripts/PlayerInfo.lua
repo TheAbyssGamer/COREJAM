@@ -8,7 +8,7 @@ _G.PlayerUpgradesT1 = {
 
 _G.PlayerUpgradesT2 = {
     conveyor_speed = 150,
-    spawn_wait_time = 5,
+    spawn_wait_time = 10,
     value_medium = 50,
     value_big = 100
 }

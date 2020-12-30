@@ -9,37 +9,32 @@
       Overrides {
         Name: "color"
         Color {
-          R: 1
-          G: 0.994304717
-          B: 0.139999986
+          R: 0.772549093
+          B: 0.0588235334
           A: 1
         }
       }
       Overrides {
         Name: "color_secondary"
         Color {
-          G: 0.24000001
-          B: 0.0874171853
+          R: 0.772549093
+          B: 0.0588235334
           A: 1
         }
       }
       Overrides {
         Name: "color_accent"
         Color {
-          R: 0.190000057
-          G: 0.0943708941
+          R: 0.00509932777
+          G: 0.0700000525
           A: 1
         }
       }
       Overrides {
-        Name: "scale_m"
-        Float: 0.7
-      }
-      Overrides {
         Name: "gradient_color"
         Color {
-          R: 0.350000024
-          G: 0.285099387
+          R: 0.772549093
+          B: 0.0588235334
           A: 1
         }
       }
@@ -50,6 +45,31 @@
       Overrides {
         Name: "gradient_worldspace"
         Bool: true
+      }
+      Overrides {
+        Name: "fresnel_color"
+        Color {
+          G: 0.819607913
+          B: 0.0509803966
+          A: 1
+        }
+      }
+      Overrides {
+        Name: "u_tiles"
+        Float: 1
+      }
+      Overrides {
+        Name: "v_tiles"
+        Float: 1
+      }
+      Overrides {
+        Name: "scale_m"
+        Float: 5
+      }
+      Overrides {
+        Name: "gradient_direction"
+        Vector {
+        }
       }
     }
     Assets {

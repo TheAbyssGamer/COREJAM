@@ -58,9 +58,13 @@ local propUITextBox = script:GetCustomProperty("UITextBox"):WaitForObject()
 local propNotEnoughMoney = script:GetCustomProperty("NotEnoughMoney"):WaitForObject()
 local errorFrame = script:GetCustomProperty("NotEnoughMoneyFrame"):WaitForObject()
 
-local fred = World.FindObjectByName("Fred")
-local talkTrigger = fred:FindChildByName("TalkTrigger")
-local talkTriggerExit = fred:FindChildByName("TalkTriggerExit")
+--FRED DECLARATION--
+local fredOneTalkTrigger = World.FindObjectByName("Fred"):FindChildByName("TalkTrigger")
+local fredOneTalkTriggerExit = World.FindObjectByName("Fred"):FindChildByName("TalkTriggerExit")
+
+local fredTwoTalkTrigger = World.FindObjectByName("Fred2"):FindChildByName("TalkTrigger")
+local fredTwoTalkTriggerExit = World.FindObjectByName("Fred2"):FindChildByName("TalkTriggerExit")
+--------------------
 
 errorFrame.isEnabled = false
 
@@ -225,5 +229,10 @@ Buy6.clickedEvent:Connect(OnClickValue)
 Buy7.clickedEvent:Connect(OnClickConveyorSpeed)
 Buy8.clickedEvent:Connect(OnClickSpawnSpeed)
 Buy9.clickedEvent:Connect(OnClickValue)
-talkTrigger.interactedEvent:Connect(Talk)
-talkTriggerExit.endOverlapEvent:Connect(TalkOutOfRangeExit)
+
+--FREDS--
+fredOneTalkTrigger.interactedEvent:Connect(Talk)
+fredOneTalkTriggerExit.endOverlapEvent:Connect(TalkOutOfRangeExit)
+
+fredTwoTalkTrigger.interactedEvent:Connect(Talk)
+fredTwoTalkTriggerExit.endOverlapEvent:Connect(TalkOutOfRangeExit)

@@ -1,0 +1,103 @@
+﻿MetaVersion: 1
+MarketplaceDetails {
+  Id: "2512d3753823442b998ff0f4dc0d1493"
+  OwnerAccountId: "91166471c6ea4d17be6772da4973e6b7"
+  OwnerName: "mjcortes782"
+  Version: "1.0.0"
+}
+AssetIdsOriginalToNew {
+  key: 234716045618771027
+  value: 15154917617924738054
+}
+AssetIdsOriginalToNew {
+  key: 321472518781775172
+  value: 16052504604594967222
+}
+AssetIdsOriginalToNew {
+  key: 624848123096562357
+  value: 1754517635521417434
+}
+AssetIdsOriginalToNew {
+  key: 1031736639489708352
+  value: 7908727921572535751
+}
+AssetIdsOriginalToNew {
+  key: 2265355088192089217
+  value: 15991327359933765451
+}
+AssetIdsOriginalToNew {
+  key: 3033064354123194892
+  value: 12558202174543591200
+}
+AssetIdsOriginalToNew {
+  key: 3203401728442606005
+  value: 3205100776379313692
+}
+AssetIdsOriginalToNew {
+  key: 5854633529342868134
+  value: 16652206246660403099
+}
+AssetIdsOriginalToNew {
+  key: 7634430782840848557
+  value: 18380189967380140595
+}
+AssetIdsOriginalToNew {
+  key: 7778174457600856049
+  value: 17983241444163710311
+}
+AssetIdsOriginalToNew {
+  key: 8065475060353357387
+  value: 16496454802596156283
+}
+AssetIdsOriginalToNew {
+  key: 9753988479169700014
+  value: 8687240899663851472
+}
+AssetIdsOriginalToNew {
+  key: 11037732315361036998
+  value: 13276836596859581298
+}
+AssetIdsOriginalToNew {
+  key: 11086610936088829297
+  value: 10650659153243359111
+}
+AssetIdsOriginalToNew {
+  key: 11377089197380874748
+  value: 4921217756935955517
+}
+AssetIdsOriginalToNew {
+  key: 11814812847378426429
+  value: 7210373566949676310
+}
+AssetIdsOriginalToNew {
+  key: 12987967079462848603
+  value: 9311986781980041575
+}
+AssetIdsOriginalToNew {
+  key: 15469726198699843676
+  value: 7726713866040145271
+}
+AssetIdsOriginalToNew {
+  key: 15609677369909340475
+  value: 9354972077688859302
+}
+AssetIdsOriginalToNew {
+  key: 15641893047226912885
+  value: 14811901092228656073
+}
+AssetIdsOriginalToNew {
+  key: 16097362796353894144
+  value: 5688749735652260883
+}
+AssetIdsOriginalToNew {
+  key: 16574256915488198529
+  value: 9045835081358183118
+}
+AssetIdsOriginalToNew {
+  key: 17631746054001252037
+  value: 13115928162220495169
+}
+AssetIdsOriginalToNew {
+  key: 18397768696529362585
+  value: 7961260045298826455
+}

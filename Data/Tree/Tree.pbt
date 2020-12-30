@@ -20,7 +20,6 @@ Objects {
   ChildIds: 10005074784157121906
   ChildIds: 15772037756400131173
   ChildIds: 12216544566310951525
-  ChildIds: 485455822227144709
   ChildIds: 1350823756561426192
   ChildIds: 17097555723325642101
   ChildIds: 8047941593167810578
@@ -55,10 +54,14 @@ Objects {
   ChildIds: 9524666647586975692
   ChildIds: 10930519896045679130
   ChildIds: 745209805897363598
-  ChildIds: 8819950746666330094
+  ChildIds: 4002427101321342741
   ChildIds: 513626461948528162
   ChildIds: 7264253659924313357
   ChildIds: 17075993149240240199
+  ChildIds: 1220306530039825041
+  ChildIds: 485455822227144709
+  ChildIds: 15882791735254871518
+  ChildIds: 15984672245918432014
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -68,6 +71,287 @@ Objects {
     Value: "mc:evisibilitysetting:forceon"
   }
   Folder {
+  }
+}
+Objects {
+  Id: 15984672245918432014
+  Name: "Xmas Tree 2"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 2271014534431970637
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Xmas Tree 2"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 4839.78906
+            Y: 1543.48511
+            Z: -116.373138
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 0.4
+            Y: 0.4
+            Z: 0.4
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 10757981548791876765
+      value {
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -11.0926418
+            Y: 34.3347588
+            Z: 1419.74524
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Pitch: -14.1876831
+            Yaw: -0.31451416
+            Roll: -87.473175
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 2334501775385343811
+    }
+  }
+}
+Objects {
+  Id: 15882791735254871518
+  Name: "Tier2Place"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsFilePartition: true
+    FilePartitionName: "Tier2Place"
+  }
+}
+Objects {
+  Id: 485455822227144709
+  Name: "Terrain"
+  Transform {
+    Location {
+      Z: -1.57592773
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Terrain {
+    Material {
+      Id: 10938614005899064086
+    }
+    VoxelSize: 100
+    OctreeDepth: 5
+    GeneratorID: "DEPRECATED"
+    Foliage {
+      Asset {
+        Id: 16442490227836096670
+      }
+      DistanceBetweenInstances: 200
+      MaterialChannel: 3
+      SpawnDistance: 3200
+      CullDistance {
+        Min: 10000
+        Max: 20000
+      }
+      ReceivesDecals: true
+      GroundSlopeAngle {
+        Max: 90
+      }
+      Scaling {
+        ScaleX {
+          Min: 1
+          Max: 1
+        }
+        ScaleY {
+          Min: 1
+          Max: 1
+        }
+        ScaleZ {
+          Min: 1
+          Max: 1
+        }
+      }
+      RotationAlignment: AlignToWorldUp
+      RandomYaw: true
+      RandomPitchAngle: 6
+      Materials {
+        key: "Nature_Grass"
+        value {
+          Id: 15416166596758575291
+        }
+      }
+      LocalPositionOffset {
+      }
+      LocalRotationOffset {
+      }
+      GlobalPositionOffset {
+      }
+      Height {
+        Min: -102400
+        Max: 102400
+      }
+    }
+  }
+}
+Objects {
+  Id: 1220306530039825041
+  Name: "Fred2"
+  Transform {
+    Location {
+      X: 2562.21729
+      Y: 3164.09668
+      Z: 132.780975
+    }
+    Rotation {
+    }
+    Scale {
+      X: 0.75
+      Y: 0.75
+      Z: 0.75
+    }
+  }
+  ParentId: 4781671109827199097
+  ChildIds: 2692753991573455802
+  ChildIds: 14981668716789467459
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 16164112316930713563
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    AnimatedMesh {
+      AnimationStance: "unarmed_idle_relaxed"
+      AnimationStancePlaybackRate: 1
+      AnimationStanceShouldLoop: true
+      AnimationPlaybackRateMultiplier: 1
+      PlayOnStartAnimation {
+        PlaybackRate: 1
+      }
+    }
+  }
+}
+Objects {
+  Id: 14981668716789467459
+  Name: "TalkTriggerExit"
+  Transform {
+    Location {
+      X: 196.959641
+    }
+    Rotation {
+    }
+    Scale {
+      X: 7
+      Y: 9
+      Z: 7
+    }
+  }
+  ParentId: 1220306530039825041
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Trigger {
+    TeamSettings {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    TriggerShape_v2 {
+      Value: "mc:etriggershape:box"
+    }
+  }
+}
+Objects {
+  Id: 2692753991573455802
+  Name: "TalkTrigger"
+  Transform {
+    Location {
+      X: 50.5214844
+    }
+    Rotation {
+    }
+    Scale {
+      X: 4
+      Y: 6
+      Z: 7
+    }
+  }
+  ParentId: 1220306530039825041
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Trigger {
+    Interactable: true
+    InteractionLabel: "Open Upgrade Shop"
+    TeamSettings {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    TriggerShape_v2 {
+      Value: "mc:etriggershape:box"
+    }
   }
 }
 Objects {
@@ -683,15 +967,17 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: -5494.45801
-            Y: 5306.8457
-            Z: 338.403412
+            X: -7416.15234
+            Y: 5483.73047
+            Z: 12.2593384
           }
         }
         Overrides {
           Name: "Rotation"
           Rotator {
-            Yaw: 158.569397
+            Pitch: -8.181
+            Yaw: 158.338104
+            Roll: 3.23484135
           }
         }
         Overrides {
@@ -1283,17 +1569,9 @@ Objects {
   }
 }
 Objects {
-  Id: 8819950746666330094
-  Name: "Tier1TinyProduction"
+  Id: 4002427101321342741
+  Name: "Tier1SmallProduction"
   Transform {
-    Location {
-      X: -7693.28906
-      Y: 3175.78711
-      Z: 213.872681
-    }
-    Rotation {
-      Yaw: 108.325073
-    }
     Scale {
       X: 1
       Y: 1
@@ -1301,22 +1579,33 @@ Objects {
     }
   }
   ParentId: 4781671109827199097
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Folder {
-    IsFilePartition: true
-    FilePartitionName: "Tier1TinyProduction"
-  }
-  InstanceHistory {
-    SelfId: 8132195344852787540
-    SubobjectId: 900634587574007023
-    InstanceId: 14901942480753979126
-    TemplateId: 3469096233767210831
-    WasRoot: true
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 1414819600373294908
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Tier1SmallProduction"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -7693.28906
+            Y: 3175.78711
+            Z: 213.872681
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: 108.325081
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 5690935535076121925
+    }
   }
 }
 Objects {
@@ -21381,7 +21670,7 @@ Objects {
   UnregisteredParameters {
     Overrides {
       Name: "cs:StartingCurrency"
-      Int: 10000
+      Int: 100000
     }
     Overrides {
       Name: "cs:MenuBinding"
@@ -51736,86 +52025,6 @@ Objects {
     EnableCameraCollision: true
     StaticMesh {
       Physics {
-      }
-    }
-  }
-}
-Objects {
-  Id: 485455822227144709
-  Name: "Terrain"
-  Transform {
-    Location {
-      Z: -1.57592773
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 4781671109827199097
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:forceon"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Terrain {
-    Material {
-      Id: 10938614005899064086
-    }
-    VoxelSize: 100
-    OctreeDepth: 5
-    GeneratorID: "DEPRECATED"
-    Foliage {
-      Asset {
-        Id: 16442490227836096670
-      }
-      DistanceBetweenInstances: 200
-      MaterialChannel: 3
-      SpawnDistance: 3200
-      CullDistance {
-        Min: 10000
-        Max: 20000
-      }
-      ReceivesDecals: true
-      GroundSlopeAngle {
-        Max: 90
-      }
-      Scaling {
-        ScaleX {
-          Min: 1
-          Max: 1
-        }
-        ScaleY {
-          Min: 1
-          Max: 1
-        }
-        ScaleZ {
-          Min: 1
-          Max: 1
-        }
-      }
-      RotationAlignment: AlignToWorldUp
-      RandomYaw: true
-      RandomPitchAngle: 6
-      Materials {
-        key: "Nature_Grass"
-        value {
-          Id: 15416166596758575291
-        }
-      }
-      LocalPositionOffset {
-      }
-      LocalRotationOffset {
-      }
-      GlobalPositionOffset {
-      }
-      Height {
-        Min: -102400
-        Max: 102400
       }
     }
   }
