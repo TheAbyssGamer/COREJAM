@@ -2,7 +2,7 @@
   Id: 8071316489038232139
   Name: "Custom Trim from Cube - Arcade 04"
   PlatformAssetType: 13
-  SerializationVersion: 70
+  SerializationVersion: 72
   CustomMaterialAsset {
     BaseMaterialId: 737689318981131263
     ParameterOverrides {

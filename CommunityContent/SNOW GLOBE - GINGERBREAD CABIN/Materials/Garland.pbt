@@ -2,7 +2,7 @@
   Id: 8560372270535895499
   Name: "Garland"
   PlatformAssetType: 13
-  SerializationVersion: 70
+  SerializationVersion: 72
   CustomMaterialAsset {
     BaseMaterialId: 3586571537976997483
     ParameterOverrides {

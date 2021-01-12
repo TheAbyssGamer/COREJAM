@@ -2,7 +2,7 @@
   Id: 11773887086729196979
   Name: "snow trunk"
   PlatformAssetType: 13
-  SerializationVersion: 70
+  SerializationVersion: 72
   CustomMaterialAsset {
     BaseMaterialId: 8326018156772153215
     ParameterOverrides {

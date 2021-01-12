@@ -40,5 +40,5 @@
     Version: "1.0.0"
     Description: "Cute Holiday Scene"
   }
-  SerializationVersion: 70
+  SerializationVersion: 72
 }

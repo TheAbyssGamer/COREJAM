@@ -4,7 +4,7 @@ local textFrame = uiElement:FindChildByName("DiagFrame")
 local tutorialGuy = World.FindObjectByName("InfoGuy")
 local talkTrigger = tutorialGuy:FindChildByName("TriggerTalk")
 local dialogToDieTrigger = tutorialGuy:FindChildByName("TriggerDialogRangeToDie")
-local player = Game.GetPlayers()[1]
+local player = Game.GetLocalPlayer()
 local dialogCount = 0
 local isInRange = false
 

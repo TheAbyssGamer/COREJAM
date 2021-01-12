@@ -2,7 +2,7 @@
   Id: 13970073490437547927
   Name: "snow on leaves"
   PlatformAssetType: 13
-  SerializationVersion: 70
+  SerializationVersion: 72
   CustomMaterialAsset {
     BaseMaterialId: 3975010391556071961
     ParameterOverrides {

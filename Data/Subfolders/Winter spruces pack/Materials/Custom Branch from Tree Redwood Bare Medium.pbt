@@ -2,7 +2,7 @@
   Id: 7459647217934647295
   Name: "Custom Branch from Tree Redwood Bare Medium"
   PlatformAssetType: 13
-  SerializationVersion: 70
+  SerializationVersion: 72
   CustomMaterialAsset {
     BaseMaterialId: 11953485845742353520
     ParameterOverrides {

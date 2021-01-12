@@ -51,5 +51,5 @@
     Version: "1.1.0"
     Description: "Snowy Bush and Rock"
   }
-  SerializationVersion: 70
+  SerializationVersion: 72
 }

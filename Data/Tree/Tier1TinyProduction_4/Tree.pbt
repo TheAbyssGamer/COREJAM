@@ -28,7 +28,6 @@ Objects {
       }
     }
   }
-  WantsNetworking: true
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -193,6 +192,7 @@ Objects {
   }
   Trigger {
     Interactable: true
+    InteractionLabel: "Unlock for 250"
     TeamSettings {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
@@ -357,7 +357,6 @@ Objects {
       }
     }
   }
-  WantsNetworking: true
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -406,7 +405,6 @@ Objects {
   }
   ParentId: 1052486880462932085
   ChildIds: 7454557270147397089
-  WantsNetworking: true
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -450,7 +448,6 @@ Objects {
       Int: 10
     }
   }
-  WantsNetworking: true
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }

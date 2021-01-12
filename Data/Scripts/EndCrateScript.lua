@@ -1,12 +1,23 @@
 ﻿local endCrateTrigger = script.parent
-local player = Game.GetPlayers()[1]
 local propPresentValue = script:GetCustomProperty("PresentValue")
+Task.Wait()
+local player = Game.GetPlayers()[1]
+
+function Tick(  )
+    -- body
+    if player == nil then
+        player = Game.GetPlayers()[1]
+    end
+
+    --print(player)
+end
 
 function CheckForPresent(trigger, other)
     
-    if not other:IsA("Player")then
+    --if not other:IsA("Player")then
+    --print(other)
         if other.name == "TinyPresTemplate" then
-            print(other.name)
+            print(player)
             other:Destroy()
             player:AddResource("Point",_G.PlayerUpgradesT1.value_tiny)
         elseif other.name == "SmallPresTemplate" then
@@ -21,11 +32,14 @@ function CheckForPresent(trigger, other)
         elseif other.name == "HugePresTemplate" then 
             other:Destroy()
             player:AddResource("Point", _G.PlayerUpgradesT3.value_huge)
-        elseif other.name == "EnormoutPresTemplate" then
+        elseif other.name == "EnormousPresTemplate" then
             other:Destroy()
-            player:AddResource("Poi", _G.PlayerUpgradesT3.value_enormous)
+            player:AddResource("Point", _G.PlayerUpgradesT3.value_enormous)
+        elseif other.name == "ManualPresTemplate" then
+            other:Destroy()
+            player:AddResource("Point", 5)
         end
-    end
+    --end
 end 
 
 --_G.BaseScriptName.GlobalFunction()

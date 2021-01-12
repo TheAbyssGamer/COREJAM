@@ -2,7 +2,7 @@
   Id: 15716619698591942320
   Name: "Custom Detail 1 from Cube - Arcade 04"
   PlatformAssetType: 13
-  SerializationVersion: 70
+  SerializationVersion: 72
   CustomMaterialAsset {
     BaseMaterialId: 2671309710577183260
     ParameterOverrides {

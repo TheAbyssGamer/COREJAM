@@ -2,7 +2,7 @@
   Id: 4682231687656165757
   Name: "Custom Ice Ground Transparent_1"
   PlatformAssetType: 13
-  SerializationVersion: 70
+  SerializationVersion: 72
   CustomMaterialAsset {
     BaseMaterialId: 2115337078119856115
     ParameterOverrides {

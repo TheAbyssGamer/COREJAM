@@ -2,7 +2,7 @@
   Id: 14600338087395084666
   Name: "Custom Terrain - Snow_1"
   PlatformAssetType: 13
-  SerializationVersion: 70
+  SerializationVersion: 72
   CustomMaterialAsset {
     BaseMaterialId: 1801848507296861480
     ParameterOverrides {

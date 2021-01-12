@@ -46,15 +46,17 @@ function UpgradeSpawnSpeed(player, tier)
     if tierNum == 1 then
         print("Upgrade SpawnSpeed TIER1")
         player:RemoveResource("Point", 500)
-        _G.PlayerUpgradesT1.spawn_wait_time = -10/100 * _G.PlayerUpgradesT1.spawn_wait_time + _G.PlayerUpgradesT1.spawn_wait_time
+        _G.PlayerUpgradesT1.spawn_wait_time =math.floor( -20/100 * _G.PlayerUpgradesT1.spawn_wait_time + _G.PlayerUpgradesT1.spawn_wait_time)
+        --print("MUFLEXED :")
+        --print(_G.PlayerMisc.spawn_upgrade_tier1_count)
     elseif tierNum == 2 then
         print("Upgrade SpawnSpeed TIER2")
-        player:RemoveResource("Point", 1000)
-        _G.PlayerUpgradesT2.spawn_wait_time = -10/100 * _G.PlayerUpgradesT2.spawn_wait_time + _G.PlayerUpgradesT2.spawn_wait_time
+        player:RemoveResource("Point", 2000)
+        _G.PlayerUpgradesT2.spawn_wait_time = math.floor(-20/100 * _G.PlayerUpgradesT2.spawn_wait_time + _G.PlayerUpgradesT2.spawn_wait_time)
     elseif tierNum == 3 then
         print("Upgrade SpawnSpeed TIER3")
-        player:RemoveResource("Point", 2500)
-        _G.PlayerUpgradesT3.spawn_wait_time = -10/100 * _G.PlayerUpgradesT3.spawn_wait_time + _G.PlayerUpgradesT3.spawn_wait_time
+        player:RemoveResource("Point", 5000)
+        _G.PlayerUpgradesT3.spawn_wait_time =math.floor( -20/100 * _G.PlayerUpgradesT3.spawn_wait_time + _G.PlayerUpgradesT3.spawn_wait_time)
     end
 end
 
@@ -63,15 +65,15 @@ function UpgradeConveyorSpeed(player, tier)
     if tierNum == 1 then
         print("Upgrade ConveyorSpeed TIER1")
         player:RemoveResource("Point", 500)
-        _G.PlayerUpgradesT1.conveyor_speed = 10/100 * _G.PlayerUpgradesT1.conveyor_speed + _G.PlayerUpgradesT1.conveyor_speed
+        _G.PlayerUpgradesT1.conveyor_speed =math.floor( 20/100 * _G.PlayerUpgradesT1.conveyor_speed + _G.PlayerUpgradesT1.conveyor_speed)
     elseif tierNum == 2 then
         print("Upgrade ConveyorSpeed TIER2")
-        player:RemoveResource("Point", 1000)
-        _G.PlayerUpgradesT2.conveyor_speed = 10/100 * _G.PlayerUpgradesT2.conveyor_speed + _G.PlayerUpgradesT2.conveyor_speed
+        player:RemoveResource("Point", 2000)
+        _G.PlayerUpgradesT2.conveyor_speed = math.floor(20/100 * _G.PlayerUpgradesT2.conveyor_speed + _G.PlayerUpgradesT2.conveyor_speed)
     elseif tierNum == 3 then
         print("Upgrade ConveyorSpeed TIER3")
-        player:RemoveResource("Point", 2500)
-        _G.PlayerUpgradesT3.conveyor_speed = 10/100 * _G.PlayerUpgradesT3.conveyor_speed + _G.PlayerUpgradesT3.conveyor_speed
+        player:RemoveResource("Point", 5000)
+        _G.PlayerUpgradesT3.conveyor_speed = math.floor(20/100 * _G.PlayerUpgradesT3.conveyor_speed + _G.PlayerUpgradesT3.conveyor_speed)
     end   
 end
 
@@ -80,36 +82,45 @@ function UpgradeValue(player, tier)
     if tierNum == 1 then
         print("Upgrade Value TIER1")
         player:RemoveResource("Point", 1000)
-        _G.PlayerUpgradesT1.value_tiny = math.floor(20/100 * _G.PlayerUpgradesT1.value_tiny + _G.PlayerUpgradesT1.value_tiny)
-        _G.PlayerUpgradesT1.value_small = 20/10 * _G.PlayerUpgradesT1.value_small + _G.PlayerUpgradesT1.value_small
+        _G.PlayerUpgradesT1.value_tiny = math.floor(30/100 * _G.PlayerUpgradesT1.value_tiny + _G.PlayerUpgradesT1.value_tiny)
+        _G.PlayerUpgradesT1.value_small = math.floor(30/100 * _G.PlayerUpgradesT1.value_small + _G.PlayerUpgradesT1.value_small)
     elseif tierNum == 2 then
         print("Upgrade Value TIER2")
-        player:RemoveResource("Point", 2000)
-        _G.PlayerUpgradesT2.value_medium = 20/100 * _G.PlayerUpgradesT2.value_medium + _G.PlayerUpgradesT2.value_medium
-        _G.PlayerUpgradesT2.value_big = 20/10 * _G.PlayerUpgradesT2.value_big + _G.PlayerUpgradesT2.value_big
+        player:RemoveResource("Point", 4000)
+        _G.PlayerUpgradesT2.value_medium =math.floor( 30/100 * _G.PlayerUpgradesT2.value_medium + _G.PlayerUpgradesT2.value_medium)
+        _G.PlayerUpgradesT2.value_big = math.floor(30/100 * _G.PlayerUpgradesT2.value_big + _G.PlayerUpgradesT2.value_big)
     elseif tierNum == 3 then
         print("Upgrade Value TIER3")
-        player:RemoveResource("Point", 5000)
-        _G.PlayerUpgradesT3.value_huge = 10/100 * _G.PlayerUpgradesT3.value_huge + _G.PlayerUpgradesT3.value_huge
-        _G.PlayerUpgradesT3.value_enormous = 10/10 * _G.PlayerUpgradesT3.value_enormous + _G.PlayerUpgradesT3.value_enormous
+        player:RemoveResource("Point", 10000)
+        _G.PlayerUpgradesT3.value_huge = math.floor(30/100 * _G.PlayerUpgradesT3.value_huge + _G.PlayerUpgradesT3.value_huge)
+        _G.PlayerUpgradesT3.value_enormous = math.floor(30/100 * _G.PlayerUpgradesT3.value_enormous + _G.PlayerUpgradesT3.value_enormous)
     end
 end    
 
-local pointsText = World.FindObjectByName("PointsText")
-local pointsIcon = World.FindObjectByName("PointsIcon")
+--local clientUI = World.FindObjectById("15F2EF7CE822935A:ClientContextUI")
+--local pointsText = clientUI:FindChildByName("PointsText")
+--local pointsIcon = World.FindObjectById("919E6C2DD70FBE61:PointsIcon")
+--local pointsText = World.FindObjectByName("PointsText")
+--local pointsIcon = World.FindObjectByName("PointsIcon")
 
 function playerLookOn(player)
     print("playerLookOn")
+    --print(clientUI)
+    --print(pointsText)
+    --print(pointsIcon)
     player.lookControlMode = LookControlMode.RELATIVE
-    pointsText.visibility = Visibility.FORCE_ON
-    pointsIcon.visibility = Visibility.FORCE_ON
+    --pointsText.visibility = Visibility.FORCE_ON
+    --pointsIcon.visibility = Visibility.FORCE_ON
 end
 
 function playerLookOff(player)
     print("playerLookOff")
+    --print(clientUI)
+    --print(pointsText)
+    --print(pointsIcon)
     player.lookControlMode = LookControlMode.NONE
-    pointsText.visibility = Visibility.FORCE_OFF
-    pointsIcon.visibility = Visibility.FORCE_OFF
+    --pointsText.visibility = Visibility.FORCE_OFF
+    --pointsIcon.visibility = Visibility.FORCE_OFF
 end
 
 function OnPlayerDied(player)

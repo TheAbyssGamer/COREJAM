@@ -1,7 +1,7 @@
 ﻿Name: "snow on roof"
-RootId: 12541773332279188899
+RootId: 15975941097110421382
 Objects {
-  Id: 10305258056865461630
+  Id: 10413700016601667920
   Name: "Hill 04 snow"
   Transform {
     Location {
@@ -18,7 +18,7 @@ Objects {
       Z: 1.64886403
     }
   }
-  ParentId: 12541773332279188899
+  ParentId: 15975941097110421382
   TemplateInstance {
     ParameterOverrideMap {
       key: 10219374715406636371
@@ -57,7 +57,7 @@ Objects {
   }
 }
 Objects {
-  Id: 9222150407688865355
+  Id: 2947806000523448069
   Name: "Hill 04 snow"
   Transform {
     Location {
@@ -73,7 +73,7 @@ Objects {
       Z: 1.64886403
     }
   }
-  ParentId: 12541773332279188899
+  ParentId: 15975941097110421382
   TemplateInstance {
     ParameterOverrideMap {
       key: 10219374715406636371
@@ -112,7 +112,7 @@ Objects {
   }
 }
 Objects {
-  Id: 7821878461605267996
+  Id: 10328578227671065579
   Name: "Hill 04 snow"
   Transform {
     Location {
@@ -128,7 +128,7 @@ Objects {
       Z: 1.64886403
     }
   }
-  ParentId: 12541773332279188899
+  ParentId: 15975941097110421382
   TemplateInstance {
     ParameterOverrideMap {
       key: 10219374715406636371
@@ -166,7 +166,7 @@ Objects {
   }
 }
 Objects {
-  Id: 15079755071791840994
+  Id: 10270482267545628366
   Name: "Hill 04 snow"
   Transform {
     Scale {
@@ -175,7 +175,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 12541773332279188899
+  ParentId: 15975941097110421382
   TemplateInstance {
     ParameterOverrideMap {
       key: 10219374715406636371
@@ -213,7 +213,7 @@ Objects {
   }
 }
 Objects {
-  Id: 15708912044121595957
+  Id: 1385520315946789429
   Name: "Hill 02"
   Transform {
     Scale {
@@ -222,7 +222,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 12541773332279188899
+  ParentId: 15975941097110421382
   TemplateInstance {
     ParameterOverrideMap {
       key: 2852658096315457749
@@ -261,7 +261,7 @@ Objects {
   }
 }
 Objects {
-  Id: 7583794499804079683
+  Id: 10950260544480963275
   Name: "Hill 05"
   Transform {
     Location {
@@ -278,7 +278,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 12541773332279188899
+  ParentId: 15975941097110421382
   TemplateInstance {
     ParameterOverrideMap {
       key: 5665596965868577603
@@ -317,7 +317,7 @@ Objects {
   }
 }
 Objects {
-  Id: 9870018261973720141
+  Id: 17197755251966179358
   Name: "Hill 01"
   Transform {
     Location {
@@ -334,7 +334,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 12541773332279188899
+  ParentId: 15975941097110421382
   TemplateInstance {
     ParameterOverrideMap {
       key: 11254014072278061136
@@ -373,7 +373,7 @@ Objects {
   }
 }
 Objects {
-  Id: 8796454300613372668
+  Id: 157934376827151440
   Name: "Hill 01"
   Transform {
     Location {
@@ -389,7 +389,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 12541773332279188899
+  ParentId: 15975941097110421382
   TemplateInstance {
     ParameterOverrideMap {
       key: 11254014072278061136
@@ -428,7 +428,7 @@ Objects {
   }
 }
 Objects {
-  Id: 1088414542979710673
+  Id: 9007931994843688986
   Name: "Hill 05"
   Transform {
     Location {
@@ -444,7 +444,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 12541773332279188899
+  ParentId: 15975941097110421382
   TemplateInstance {
     ParameterOverrideMap {
       key: 5665596965868577603
@@ -483,7 +483,7 @@ Objects {
   }
 }
 Objects {
-  Id: 5850055059923345467
+  Id: 10622160026545059445
   Name: "Hill 01"
   Transform {
     Scale {
@@ -492,7 +492,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 12541773332279188899
+  ParentId: 15975941097110421382
   TemplateInstance {
     ParameterOverrideMap {
       key: 11254014072278061136
@@ -530,7 +530,7 @@ Objects {
   }
 }
 Objects {
-  Id: 1067047441057662420
+  Id: 7997897189074156791
   Name: "Hill 05"
   Transform {
     Scale {
@@ -539,7 +539,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 12541773332279188899
+  ParentId: 15975941097110421382
   TemplateInstance {
     ParameterOverrideMap {
       key: 5665596965868577603

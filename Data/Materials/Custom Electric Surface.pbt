@@ -2,7 +2,7 @@
   Id: 3659646678164153075
   Name: "Custom Electric Surface"
   PlatformAssetType: 13
-  SerializationVersion: 70
+  SerializationVersion: 72
   CustomMaterialAsset {
     BaseMaterialId: 9976174230305747695
     ParameterOverrides {

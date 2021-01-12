@@ -2,7 +2,7 @@
   Id: 4849612386694664541
   Name: "Cabin Roof Mat"
   PlatformAssetType: 13
-  SerializationVersion: 70
+  SerializationVersion: 72
   CustomMaterialAsset {
     BaseMaterialId: 939270063855186122
     ParameterOverrides {

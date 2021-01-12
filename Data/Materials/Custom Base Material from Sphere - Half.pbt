@@ -2,7 +2,7 @@
   Id: 3671546753628400116
   Name: "Custom Base Material from Sphere - Half"
   PlatformAssetType: 13
-  SerializationVersion: 70
+  SerializationVersion: 72
   CustomMaterialAsset {
     BaseMaterialId: 11508889019024056724
     ParameterOverrides {

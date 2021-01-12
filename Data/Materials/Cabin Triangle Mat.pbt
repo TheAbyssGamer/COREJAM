@@ -2,7 +2,7 @@
   Id: 1155011660393704702
   Name: "Cabin Triangle Mat"
   PlatformAssetType: 13
-  SerializationVersion: 70
+  SerializationVersion: 72
   CustomMaterialAsset {
     BaseMaterialId: 18033297229984528543
     ParameterOverrides {

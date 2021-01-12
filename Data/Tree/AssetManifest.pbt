@@ -17,12 +17,12 @@ Assets {
   }
 }
 Assets {
-  Id: 17754485733922066622
-  Name: "Tree Redwood Bare Medium"
-  PlatformAssetType: 1
+  Id: 17904631521810107464
+  Name: "\"Snowland Town\" Music Construction Kit (Sections) 01"
+  PlatformAssetType: 10
   PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_tree_redwood_004"
+    AssetType: "AudioBlueprintAssetRef"
+    AssetId: "abp_snowland_town_sections_kit_ref"
   }
 }
 Assets {
@@ -41,6 +41,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_ts_gen_whitebox_wall_001"
+  }
+}
+Assets {
+  Id: 17327349060896381139
+  Name: "Computer Monitor 01"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_urb_computer-monitor_001"
   }
 }
 Assets {
@@ -68,6 +77,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_star_chubby_001"
+  }
+}
+Assets {
+  Id: 17072781985133686818
+  Name: "Pipe - Half"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_half-pipe_001"
   }
 }
 Assets {
@@ -116,6 +134,15 @@ Assets {
   }
 }
 Assets {
+  Id: 16269586776144232027
+  Name: "Cone - Truncated"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_cone_truncated_001"
+  }
+}
+Assets {
   Id: 16231666270626182686
   Name: "Whitebox Wall 01 Doorway 01 Frame"
   PlatformAssetType: 1
@@ -131,6 +158,15 @@ Assets {
   PrimaryAsset {
     AssetType: "AnimatedMeshAssetRef"
     AssetId: "npc_human_guy_fantasy_003_ref"
+  }
+}
+Assets {
+  Id: 15915771950057082577
+  Name: "Text 01: D"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "F1_Text_003"
   }
 }
 Assets {
@@ -161,6 +197,24 @@ Assets {
   }
 }
 Assets {
+  Id: 15025257991999201662
+  Name: "Cylinder - Rounded"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_cylinder_rounded_002"
+  }
+}
+Assets {
+  Id: 14801736897275310032
+  Name: "Plane Octagon - One Sided"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_plane_octagon_001"
+  }
+}
+Assets {
   Id: 14729314963645413789
   Name: "Frame Highlighted 012"
   PlatformAssetType: 9
@@ -170,21 +224,30 @@ Assets {
   }
 }
 Assets {
-  Id: 14589337727818855128
-  Name: "Branches Cluster Medium"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_gen_branches_medium_001"
-  }
-}
-Assets {
   Id: 14384953621685186280
   Name: "Whitebox Roof 01 Peak"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_ts_gen_whitebox_roof_001_peak"
+  }
+}
+Assets {
+  Id: 14363517314953424198
+  Name: "Text 01: E"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "F1_Text_004"
+  }
+}
+Assets {
+  Id: 14255255895462060446
+  Name: "Cone - Bullet"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_bullet_001"
   }
 }
 Assets {
@@ -203,6 +266,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_ts_gen_whitebox_wall_001_triTop"
+  }
+}
+Assets {
+  Id: 14149382402757577886
+  Name: "Metal Chrome"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "chrome_001"
   }
 }
 Assets {
@@ -230,15 +302,6 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_cube_hq_003"
-  }
-}
-Assets {
-  Id: 13185063469671472585
-  Name: "Tree Redwood Big"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_tree_redwood_001"
   }
 }
 Assets {
@@ -278,6 +341,15 @@ Assets {
   }
 }
 Assets {
+  Id: 12095835209017042614
+  Name: "Cube"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_cube_002"
+  }
+}
+Assets {
   Id: 12091139501421497960
   Name: "Craftsman Porch 01 End Block"
   PlatformAssetType: 1
@@ -293,15 +365,6 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_door_3x6_001"
-  }
-}
-Assets {
-  Id: 11732712251066135080
-  Name: "Tree Redwood Big"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_tree_redwood_001"
   }
 }
 Assets {
@@ -359,6 +422,33 @@ Assets {
   }
 }
 Assets {
+  Id: 10752273782304510283
+  Name: "Metal Steel Brushed"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "mi_stainless-steel_001_uv"
+  }
+}
+Assets {
+  Id: 10522222064658400397
+  Name: "Edgeline Wavy Object Fade Advanced"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "fxma_add_edgeline_local"
+  }
+}
+Assets {
+  Id: 10502591422359962588
+  Name: "Rubber Pattern 01"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "mi_scf_rubber_panels_003_uv"
+  }
+}
+Assets {
   Id: 10478334008655995685
   Name: "Plastic Shiny"
   PlatformAssetType: 2
@@ -374,6 +464,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_ts_gen_whitebox_floor_001_8x8"
+  }
+}
+Assets {
+  Id: 10422748740022527788
+  Name: "Icon Lock"
+  PlatformAssetType: 9
+  PrimaryAsset {
+    AssetType: "PlatformBrushAssetRef"
+    AssetId: "Icon_Lock"
   }
 }
 Assets {
@@ -404,12 +503,21 @@ Assets {
   }
 }
 Assets {
-  Id: 10030074782269101677
-  Name: "Tree Redwood Bare Small"
+  Id: 10243997286077398072
+  Name: "Cone - Truncated Narrow"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_tree_redwood_006"
+    AssetId: "sm_cone_truncated_002"
+  }
+}
+Assets {
+  Id: 10173623182320281091
+  Name: "Sci-fi Panel 1x4m"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_panel_1x4m_001"
   }
 }
 Assets {
@@ -422,6 +530,15 @@ Assets {
   }
 }
 Assets {
+  Id: 9831972065894518212
+  Name: "Pipe - 8-Sided Thin"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_pipe_eightsided_001"
+  }
+}
+Assets {
   Id: 9734093979272750214
   Name: "Urban Damaged Floor 01 - Corner Inner 01"
   PlatformAssetType: 1
@@ -431,12 +548,12 @@ Assets {
   }
 }
 Assets {
-  Id: 9222523415408084796
-  Name: "Branches Cluster Small"
-  PlatformAssetType: 1
+  Id: 9109477252064465675
+  Name: "Carbon Fiber 01"
+  PlatformAssetType: 2
   PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_gen_branches_small_001"
+    AssetType: "MaterialAssetRef"
+    AssetId: "mi_carbon-fiber_001"
   }
 }
 Assets {
@@ -458,15 +575,6 @@ Assets {
   }
 }
 Assets {
-  Id: 8321541333922865928
-  Name: "Tree Redwood Small"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_tree_redwood_005"
-  }
-}
-Assets {
   Id: 8270742777843752984
   Name: "Decal Stains Round 01"
   PlatformAssetType: 14
@@ -476,12 +584,39 @@ Assets {
   }
 }
 Assets {
+  Id: 8264236312157117638
+  Name: "Pipe - 90-Degree Long"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_pipe_curve90_002"
+  }
+}
+Assets {
+  Id: 8165587932997195878
+  Name: "Cube - Arcade 01"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_arcade_cube_001"
+  }
+}
+Assets {
   Id: 7887238662729938253
   Name: "Sky Dome"
   PlatformAssetType: 6
   PrimaryAsset {
     AssetType: "BlueprintAssetRef"
     AssetId: "CORESKY_Sky"
+  }
+}
+Assets {
+  Id: 7702486053253128313
+  Name: "Military Epic Crate Base"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_prop_mil_crate_003_ref"
   }
 }
 Assets {
@@ -503,12 +638,39 @@ Assets {
   }
 }
 Assets {
+  Id: 7321327104239832681
+  Name: "Sci-fi Gear Small 01"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_sf_gen_gear_small_01"
+  }
+}
+Assets {
+  Id: 6780111159849147776
+  Name: "Lens - Quarter"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_quarterlense_001"
+  }
+}
+Assets {
   Id: 6736780472854916449
   Name: "Pipe - X-Intersection"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_pipe_X_intersection_001"
+  }
+}
+Assets {
+  Id: 6641999961043600209
+  Name: "Text 01: F"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "F1_Text_005"
   }
 }
 Assets {
@@ -521,6 +683,15 @@ Assets {
   }
 }
 Assets {
+  Id: 6398981211446876142
+  Name: "Plastic Shiny"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "plastic_shiny_001"
+  }
+}
+Assets {
   Id: 6318450570378718118
   Name: "Whitebox Window Insert - Rounded Top"
   PlatformAssetType: 1
@@ -530,21 +701,30 @@ Assets {
   }
 }
 Assets {
-  Id: 5452194826811250569
-  Name: "Tree Redwood Big"
-  PlatformAssetType: 1
+  Id: 6211790563426730328
+  Name: "Metal Basic Steel"
+  PlatformAssetType: 2
   PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_tree_redwood_001"
+    AssetType: "MaterialAssetRef"
+    AssetId: "steel_001"
   }
 }
 Assets {
-  Id: 4713509979248815718
-  Name: "Tree Redwood Small"
+  Id: 5499673916547325765
+  Name: "Car Paint 01"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "mi_car-paint_001"
+  }
+}
+Assets {
+  Id: 5205275362266100274
+  Name: "Text 01: N"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_tree_redwood_005"
+    AssetId: "F1_Text_013"
   }
 }
 Assets {
@@ -557,21 +737,21 @@ Assets {
   }
 }
 Assets {
+  Id: 4285529311356088177
+  Name: "Plastic Matte"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "plastic_matte_001"
+  }
+}
+Assets {
   Id: 4168732056319256728
   Name: "Clear Coat Reflector Triangle 02"
   PlatformAssetType: 2
   PrimaryAsset {
     AssetType: "MaterialAssetRef"
     AssetId: "mi_reflector_tri_002"
-  }
-}
-Assets {
-  Id: 4067158581249309418
-  Name: "Tree Redwood Bare Big"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_tree_redwood_003"
   }
 }
 Assets {
@@ -584,12 +764,30 @@ Assets {
   }
 }
 Assets {
-  Id: 2982458686134393209
-  Name: "Branches Cluster Big"
+  Id: 3602782093446530169
+  Name: "Donut"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_gen_branches_big_001"
+    AssetId: "sm_torus_001"
+  }
+}
+Assets {
+  Id: 3034782718592920264
+  Name: "Text 04: ?"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "F7_Text_065"
+  }
+}
+Assets {
+  Id: 2954037056948186721
+  Name: "Pipe - Thin"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_pipe_003"
   }
 }
 Assets {
@@ -599,6 +797,15 @@ Assets {
   PrimaryAsset {
     AssetType: "DecalBlueprintAssetRef"
     AssetId: "bp_decal_snow_patch_001"
+  }
+}
+Assets {
+  Id: 2738007341299410710
+  Name: "Cube - Arcade 02"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_arcade_cube_002"
   }
 }
 Assets {
@@ -638,6 +845,15 @@ Assets {
   }
 }
 Assets {
+  Id: 2304915607138595644
+  Name: "Cube - Arcade 03"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_arcade_cube_003"
+  }
+}
+Assets {
   Id: 2116234591685949019
   Name: "BG Gradient 016"
   PlatformAssetType: 9
@@ -647,12 +863,21 @@ Assets {
   }
 }
 Assets {
-  Id: 1523214900353875295
-  Name: "Snow 01"
-  PlatformAssetType: 2
+  Id: 1774351234412895164
+  Name: "Text 01: R"
+  PlatformAssetType: 1
   PrimaryAsset {
-    AssetType: "MaterialAssetRef"
-    AssetId: "mi_snow_001_uv"
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "F1_Text_017"
+  }
+}
+Assets {
+  Id: 1739303905009368855
+  Name: "Ring - Quarter"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_quarter_torus_002"
   }
 }
 Assets {
@@ -662,6 +887,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_cube_hq_test_001"
+  }
+}
+Assets {
+  Id: 1401155722637414898
+  Name: "Cube - Rounded Bottom-Aligned"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_cube_rounded_001"
   }
 }
 Assets {
@@ -701,15 +935,6 @@ Assets {
   }
 }
 Assets {
-  Id: 677980144163295677
-  Name: "Clover Patch 01"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_foliage_gen_clover_patch_001"
-  }
-}
-Assets {
   Id: 632630262305785271
   Name: "Sphere"
   PlatformAssetType: 1
@@ -728,15 +953,6 @@ Assets {
   }
 }
 Assets {
-  Id: 365875032943503811
-  Name: "Tree Redwood Medium"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_tree_redwood_002"
-  }
-}
-Assets {
   Id: 358785961327483857
   Name: "BG Flat 002"
   PlatformAssetType: 9
@@ -752,5 +968,14 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_bullet_001"
+  }
+}
+Assets {
+  Id: 227273830875983118
+  Name: "Cone - Truncated Hollow Wide"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_cone_truncated_hollow_004"
   }
 }

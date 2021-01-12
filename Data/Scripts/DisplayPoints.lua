@@ -1,12 +1,10 @@
 ﻿local uiElement = script.parent
 local textBox = uiElement:FindChildByName("PointsText")
-local player = Game.GetPlayers()[1]
+local player = Game.GetLocalPlayer()
 
-function Tick()
 
-    --Task.Wait(2)
+function Tick() 
     local numPoints = player:GetResource("Point")
     textBox.text = tostring(numPoints)
 end
-
-Tick()
+--Tick()

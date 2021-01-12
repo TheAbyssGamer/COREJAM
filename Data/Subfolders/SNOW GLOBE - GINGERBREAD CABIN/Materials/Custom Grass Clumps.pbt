@@ -2,7 +2,7 @@
   Id: 12501236106865680167
   Name: "Custom Grass Clumps"
   PlatformAssetType: 13
-  SerializationVersion: 70
+  SerializationVersion: 72
   CustomMaterialAsset {
     BaseMaterialId: 15149734892991806697
     ParameterOverrides {

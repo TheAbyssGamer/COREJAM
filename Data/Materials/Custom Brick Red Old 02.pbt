@@ -2,7 +2,7 @@
   Id: 5070058286983802237
   Name: "Custom Brick Red Old 02"
   PlatformAssetType: 13
-  SerializationVersion: 70
+  SerializationVersion: 72
   CustomMaterialAsset {
     BaseMaterialId: 1661634938816821673
     ParameterOverrides {

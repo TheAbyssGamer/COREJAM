@@ -2,7 +2,7 @@
   Id: 983945760571424378
   Name: "WrappinPaper002"
   PlatformAssetType: 13
-  SerializationVersion: 70
+  SerializationVersion: 72
   CustomMaterialAsset {
     BaseMaterialId: 12782940202352343062
     ParameterOverrides {

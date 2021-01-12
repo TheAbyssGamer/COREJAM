@@ -2,7 +2,7 @@
   Id: 8320042964288745322
   Name: "Custom Hex Energy Pulse"
   PlatformAssetType: 13
-  SerializationVersion: 70
+  SerializationVersion: 72
   CustomMaterialAsset {
     BaseMaterialId: 5616745272938655550
     ParameterOverrides {

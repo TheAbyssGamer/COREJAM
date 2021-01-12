@@ -178,7 +178,7 @@ Objects {
   UnregisteredParameters {
     Overrides {
       Name: "cs:ValueToUnlock"
-      Int: 100
+      Int: 300
     }
     Overrides {
       Name: "cs:script"
@@ -226,6 +226,7 @@ Objects {
   }
   Trigger {
     Interactable: true
+    InteractionLabel: "Unlock this Production for 300"
     TeamSettings {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true

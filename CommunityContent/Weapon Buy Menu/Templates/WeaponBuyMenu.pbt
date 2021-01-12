@@ -3447,6 +3447,6 @@
   Marketplace {
     Description: "A starter weapon buy menu that  works on all Core Shooter Frameworks.\r\n\r\nFully customizable weapon and  price  selection. \r\n\r\nIncludes a basic currency system which saves in player resources.\r\n\r\nSimply AddResource(\"currency\") where ever you want the player to earn more currency.\r\n\r\nWeapon binding is defaulted to \"Q\" to open and close the menu."
   }
-  SerializationVersion: 70
+  SerializationVersion: 72
   DirectlyPublished: true
 }

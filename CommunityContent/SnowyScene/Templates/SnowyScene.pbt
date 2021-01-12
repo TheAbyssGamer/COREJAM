@@ -30913,6 +30913,6 @@
   Marketplace {
     Description: "Small, simple scene with snowfall  v1.1"
   }
-  SerializationVersion: 70
+  SerializationVersion: 72
   DirectlyPublished: true
 }

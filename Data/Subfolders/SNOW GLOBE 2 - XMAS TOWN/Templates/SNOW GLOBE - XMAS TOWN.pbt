@@ -166722,6 +166722,6 @@
   Marketplace {
     Description: "Cute Holiday Scene"
   }
-  SerializationVersion: 70
+  SerializationVersion: 72
   DirectlyPublished: true
 }

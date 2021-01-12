@@ -4332,6 +4332,6 @@
   Marketplace {
     Description: "For Game Studio Project and for Manticore contest"
   }
-  SerializationVersion: 70
+  SerializationVersion: 72
   DirectlyPublished: true
 }

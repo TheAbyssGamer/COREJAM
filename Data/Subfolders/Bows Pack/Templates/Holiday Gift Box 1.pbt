@@ -706,6 +706,6 @@
   Marketplace {
     Description: "Two bows, custom ribbon and wrapping paper materials. Gift box model basedon on presents in Xmas Megapack by Grimland. "
   }
-  SerializationVersion: 70
+  SerializationVersion: 72
   DirectlyPublished: true
 }

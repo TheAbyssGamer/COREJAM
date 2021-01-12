@@ -2,7 +2,7 @@
   Id: 12292103547655533666
   Name: "Custom Metal Steel Triangle 02"
   PlatformAssetType: 13
-  SerializationVersion: 70
+  SerializationVersion: 72
   CustomMaterialAsset {
     BaseMaterialId: 4655133013357596201
     ParameterOverrides {

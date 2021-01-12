@@ -2,7 +2,7 @@
   Id: 1728818988173413576
   Name: "Corner Store Floor Tiles"
   PlatformAssetType: 13
-  SerializationVersion: 70
+  SerializationVersion: 72
   CustomMaterialAsset {
     BaseMaterialId: 14797755684488147728
     ParameterOverrides {

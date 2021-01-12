@@ -2,7 +2,7 @@
   Id: 4921217756935955517
   Name: "Custom Leaves from Kelp Bush 01_3"
   PlatformAssetType: 13
-  SerializationVersion: 70
+  SerializationVersion: 72
   CustomMaterialAsset {
     BaseMaterialId: 2951607385617713837
     ParameterOverrides {

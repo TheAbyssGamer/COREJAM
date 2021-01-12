@@ -2,7 +2,7 @@
   Id: 2887722152824836336
   Name: "Holiday Giftwrap 1"
   PlatformAssetType: 13
-  SerializationVersion: 70
+  SerializationVersion: 72
   CustomMaterialAsset {
     BaseMaterialId: 14797010174423593414
     ParameterOverrides {

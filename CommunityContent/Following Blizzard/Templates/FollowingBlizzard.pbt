@@ -190,6 +190,6 @@
   Marketplace {
     Description: "A client side blizzard effect that follows above the player. Can be made invisible via interior zone triggers.\r\nUpdated to cater for moving between compound indoors triggers"
   }
-  SerializationVersion: 70
+  SerializationVersion: 72
   DirectlyPublished: true
 }

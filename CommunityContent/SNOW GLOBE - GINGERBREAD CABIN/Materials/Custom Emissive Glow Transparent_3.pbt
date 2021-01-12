@@ -2,7 +2,7 @@
   Id: 18302213137904953242
   Name: "Custom Emissive Glow Transparent_3"
   PlatformAssetType: 13
-  SerializationVersion: 70
+  SerializationVersion: 72
   CustomMaterialAsset {
     BaseMaterialId: 7415134692929082458
     ParameterOverrides {

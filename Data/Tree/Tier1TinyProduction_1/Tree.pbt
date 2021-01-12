@@ -193,6 +193,7 @@ Objects {
   }
   Trigger {
     Interactable: true
+    InteractionLabel: "Unlock for 250"
     TeamSettings {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true

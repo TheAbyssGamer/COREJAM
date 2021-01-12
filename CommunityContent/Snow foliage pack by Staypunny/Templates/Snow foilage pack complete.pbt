@@ -1002,6 +1002,6 @@
   Marketplace {
     Description: "Hello everyone! :D\r\n\r\nHope all is well.\r\nI\'ve created a small package for snow biomes!\r\n\r\n- Customized Snow materials\r\n- Easy to place\r\n- All materials can be selected in terrain foilage\r\n"
   }
-  SerializationVersion: 70
+  SerializationVersion: 72
   DirectlyPublished: true
 }

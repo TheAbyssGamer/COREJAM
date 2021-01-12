@@ -19,12 +19,16 @@ end
 
 function MovePresent(present)
     local direction = (endCrateTrigger:GetWorldPosition()-spawnLocation):GetNormalized() 
-    present:MoveContinuous(direction * _G.PlayerUpgradesT1.conveyor_speed)
+    present:MoveContinuous(direction * _G.PlayerUpgradesT2.conveyor_speed)
 end
 
 function UnlockThisProduction()
-    isUnlocked = true
-    PresentBehaviour()
+    local player = Game.GetPlayers()[1]
+    points = player:GetResource("Point")
+    if isUnlocked == false and points >= 2000 then
+        isUnlocked = true
+        PresentBehaviour()
+    end
 end
 
 unlockTrigger.interactedEvent:Connect(UnlockThisProduction)

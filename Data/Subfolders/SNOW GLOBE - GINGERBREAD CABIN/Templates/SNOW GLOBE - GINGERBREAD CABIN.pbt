@@ -40,5 +40,5 @@
     Version: "1.0.0"
     Description: "Keep warm this winter in this cozy confectionery cabin, courtesy of Team META!"
   }
-  SerializationVersion: 70
+  SerializationVersion: 72
 }

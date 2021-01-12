@@ -48,5 +48,5 @@
     Version: "1.1.0"
     Description: "Small, simple scene with snowfall  v1.1"
   }
-  SerializationVersion: 70
+  SerializationVersion: 72
 }

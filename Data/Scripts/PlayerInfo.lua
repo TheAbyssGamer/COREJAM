@@ -1,4 +1,4 @@
-﻿local player = Game.GetPlayers()[1]
+﻿ _G.playerGlobal = Game.GetPlayers()[1]
 _G.PlayerUpgradesT1 = {
     conveyor_speed = 150,
     spawn_wait_time = 5,
@@ -15,7 +15,7 @@ _G.PlayerUpgradesT2 = {
 
 _G.PlayerUpgradesT3 = {
     conveyor_speed = 150,
-    spawn_wait_time = 5,
+    spawn_wait_time = 20,
     value_huge = 250,
     value_enormous = 500
 }
@@ -35,6 +35,11 @@ _G.PlayerUnlockMapInfo = {
     unlock_end = false
 }
 
+_G.PlayerMisc = {
+    open_shop_binding = false,
+}
+
+_G.thisIsGlobal = 2
 
 
 --function Tick()

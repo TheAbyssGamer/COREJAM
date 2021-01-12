@@ -45,6 +45,26 @@ CostText7.text = tostring(WepPrice7)
 CostText8.text = tostring(WepPrice8)
 CostText9.text = tostring(WepPrice9)
 
+local lock1 = World.FindObjectById("3837745787026C89:lock1")
+local lock2 = World.FindObjectById("DDC8F89A27146218:lock2")
+local lock3 = World.FindObjectById("61CFAECD6908B05F:lock3")
+local lock4 = World.FindObjectById("2CE651264C1FF200:lock4")
+local lock5 = World.FindObjectById("D4FFAD6DCC8CF577:lock5")
+local lock6 = World.FindObjectById("1CA1B4046DA86586:lock6")
+local lock7 = World.FindObjectById("BAB81FC4F5FEC023:lock7")
+local lock8 = World.FindObjectById("258A32AC7C328672:lock8")
+local lock9 = World.FindObjectById("2A43FE8E5EADA79C:lock9") 
+
+lock1.visibility = Visibility.FORCE_OFF
+lock2.visibility = Visibility.FORCE_OFF
+lock3.visibility = Visibility.FORCE_OFF
+lock4.visibility = Visibility.FORCE_OFF
+lock5.visibility = Visibility.FORCE_OFF
+lock6.visibility = Visibility.FORCE_OFF
+lock7.visibility = Visibility.FORCE_OFF
+lock8.visibility = Visibility.FORCE_OFF
+lock9.visibility = Visibility.FORCE_OFF
+
 _G.menu.isEnabled = false
 _G.qPress = false
 
@@ -61,30 +81,28 @@ local errorFrame = script:GetCustomProperty("NotEnoughMoneyFrame"):WaitForObject
 --FRED DECLARATION--
 local fredOneTalkTrigger = World.FindObjectByName("Fred"):FindChildByName("TalkTrigger")
 local fredOneTalkTriggerExit = World.FindObjectByName("Fred"):FindChildByName("TalkTriggerExit")
-
-local fredTwoTalkTrigger = World.FindObjectByName("Fred2"):FindChildByName("TalkTrigger")
-local fredTwoTalkTriggerExit = World.FindObjectByName("Fred2"):FindChildByName("TalkTriggerExit")
 --------------------
 
 errorFrame.isEnabled = false
+function OnBindingPressed(player, binding)
+	
+		if (binding == MenuButton) and _G.inBuyZone and (_G.qPress == false) then
+			propNotEnoughMoney.isEnabled = false
+			_G.qPress = true
+			_G.menu.isEnabled = true
 
---function OnBindingPressed(player, binding)
---	if (binding == MenuButton) and _G.inBuyZone and (_G.qPress == false) then
---		propNotEnoughMoney.isEnabled = false
---		_G.qPress = true
---		_G.menu.isEnabled = true
---		
---		UI.SetCursorVisible(true)
---		UI.SetCanCursorInteractWithUI(true)
---		Events.BroadcastToServer("playerLookOff", player)
---	elseif (binding == MenuButton) and _G.qPress then
---		_G.qPress = false
---		_G.menu.isEnabled = false
---		UI.SetCursorVisible(false)
---		UI.SetCanCursorInteractWithUI(false)
---		Events.BroadcastToServer("playerLookOn", player)
---	end
---end
+			UI.SetCursorVisible(true)
+			UI.SetCanCursorInteractWithUI(true)
+			Events.BroadcastToServer("playerLookOff", player)
+		elseif (binding == MenuButton) and _G.qPress then
+			_G.qPress = false
+			_G.menu.isEnabled = false
+			UI.SetCursorVisible(false)
+			UI.SetCanCursorInteractWithUI(false)
+			Events.BroadcastToServer("playerLookOn", player)
+		end
+	
+end
 
 --boolean ===> deschide meniul la true si inchide la false
 local player = Game.GetPlayers()[1]
@@ -109,17 +127,51 @@ function OpenUpgradeShop(player,boolean)
 	end
 end
 
-
+local nr = 0
 function Talk()
-	OpenUpgradeShop(player, boolean)
-	boolean = not boolean
+	print(nr)
+	if nr%2==0 then
+		print("vorbesc")
+		--OpenUpgradeShop(player, boolean)
+		--boolean = false
+		propNotEnoughMoney.isEnabled = false
+		_G.qPress = true
+		_G.menu.isEnabled = true
+		
+		UI.SetCursorVisible(true)
+		UI.SetCanCursorInteractWithUI(true)
+		Events.BroadcastToServer("playerLookOff", player)
+	else
+		_G.qPress = false
+		_G.menu.isEnabled = false
+		UI.SetCursorVisible(false)
+		UI.SetCanCursorInteractWithUI(false)
+		Events.BroadcastToServer("playerLookOn", player)
+	end
+	nr = nr+1
 end
 
 function TalkOutOfRangeExit()
-	print("fut ies")
-	OpenUpgradeShop(player,boolean)
-	boolean = not boolean
+	print("plec")
+	--print("fut ies")
+	--OpenUpgradeShop(player,boolean)
+	--boolean = true
+	_G.qPress = false
+	_G.menu.isEnabled = false
+	UI.SetCursorVisible(false)
+	UI.SetCanCursorInteractWithUI(false)
+	Events.BroadcastToServer("playerLookOn", player)
 end	
+
+local spawn_upgrade_tier1_count = 0
+local spawn_upgrade_tier2_count = 0
+local spawn_upgrade_tier3_count = 0
+local conveyor_upgrade_tier1_count = 0
+local conveyor_upgrade_tier2_count = 0
+local conveyor_upgrade_tier3_count = 0
+local value_upgrade_tier1_count = 0
+local value_upgrade_tier2_count = 0
+local value_upgrade_tier3_count = 0
 
 function OnClickSpawnSpeed(button)
 	for _, p in pairs(Game.GetPlayers()) do
@@ -128,12 +180,23 @@ function OnClickSpawnSpeed(button)
 		  local select = button.name
 		  local wep = tonumber(button.name)
 		  local weaponPrice = weaponTable[wep]
-		  print(weaponPrice)
-		  print(playerCurrency)
+		  --print(weaponPrice)
+		  --print(playerCurrency)
+		  --print(wep)
+		  --print(select)
 		  if playerCurrency >= weaponPrice then
-			  propNotEnoughMoney.isEnabled = false
-			  errorFrame.isEnabled = false
-			  Events.BroadcastToServer("UpgradeSpawnSpeed", select)
+				propNotEnoughMoney.isEnabled = false
+				errorFrame.isEnabled = false
+				Events.BroadcastToServer("UpgradeSpawnSpeed", select)
+				if tonumber(select) == 1 then
+					spawn_upgrade_tier1_count = spawn_upgrade_tier1_count + 1
+				elseif tonumber(select) == 2 then
+					spawn_upgrade_tier2_count = spawn_upgrade_tier2_count + 1
+				elseif tonumber(select) == 3 then
+					spawn_upgrade_tier3_count = spawn_upgrade_tier3_count + 1
+				end
+				print("SPAWN UPGRADE:",spawn_upgrade_tier1_count,spawn_upgrade_tier2_count,spawn_upgrade_tier3_count)
+				CheckForLimits()
 		  else
 			  propNotEnoughMoney.isEnabled = true
 			  errorFrame.isEnabled = true
@@ -151,14 +214,23 @@ function OnClickConveyorSpeed(button)
 		  local select = button.name
 		  local wep = tonumber(button.name)
 		  local weaponPrice = weaponTable[wep]
-		  print(weaponPrice)
-		  print(playerCurrency)
-		  print(wep)
-		  print(select)
+		  --print(weaponPrice)
+		  --print(playerCurrency)
+		  --print(wep)
+		  --print(select)
 		  if playerCurrency >= weaponPrice then
 			  propNotEnoughMoney.isEnabled = false
 			  errorFrame.isEnabled = false
 			  Events.BroadcastToServer("UpgradeConveyorSpeed", select)
+			  	if tonumber(select) == 1 then
+					conveyor_upgrade_tier1_count = conveyor_upgrade_tier1_count + 1
+				elseif tonumber(select) == 2 then
+					conveyor_upgrade_tier2_count = conveyor_upgrade_tier2_count + 1
+				elseif tonumber(select) == 3 then
+					conveyor_upgrade_tier3_count = conveyor_upgrade_tier3_count + 1
+				end
+				print("CONV UPGRADE:",conveyor_upgrade_tier1_count,conveyor_upgrade_tier2_count,conveyor_upgrade_tier3_count)
+				CheckForLimits()
 		  else
 			  propNotEnoughMoney.isEnabled = true
 			  errorFrame.isEnabled = true
@@ -176,14 +248,23 @@ function OnClickValue(button)
 		  local select = button.name
 		  local wep = tonumber(button.name)
 		  local weaponPrice = weaponTable[wep]
-		  print(weaponPrice)
-		  print(playerCurrency)
-		  print(wep)
-		  print(select)
+		  --print(weaponPrice)
+		  --print(playerCurrency)
+		  --print(wep)
+		  --print(select)
 		  if playerCurrency >= weaponPrice then
 			  propNotEnoughMoney.isEnabled = false
 			  errorFrame.isEnabled = false
 			  Events.BroadcastToServer("UpgradeValue", select)
+				if tonumber(select) == 1 then
+					value_upgrade_tier1_count = value_upgrade_tier1_count + 1
+				elseif tonumber(select) == 2 then
+					value_upgrade_tier2_count = value_upgrade_tier2_count + 1
+				elseif tonumber(select) == 3 then
+					value_upgrade_tier3_count = value_upgrade_tier3_count + 1
+				end
+				print("VALUE UPGRADE:",value_upgrade_tier1_count,value_upgrade_tier2_count,value_upgrade_tier3_count)
+				CheckForLimits()
 		  else
 			  propNotEnoughMoney.isEnabled = true
 			  errorFrame.isEnabled = true
@@ -213,9 +294,54 @@ end
 function OnPlayerJoined(player)
 	if player == Game.GetLocalPlayer() then
 		propUITextBox.text = tostring(player:GetResource("Point"))
-		--player.bindingPressedEvent:Connect(OnBindingPressed)
+		--if _G.PlayerMisc.open_shop_binding == true then
+	    player.bindingPressedEvent:Connect(OnBindingPressed)
+		--end
 		player.resourceChangedEvent:Connect(currencyMenuUpdate)
 
+	end
+end
+
+
+
+
+function CheckForLimits( )
+	-- body
+	if spawn_upgrade_tier1_count >= 4 then
+		Buy2.visibility = Visibility.FORCE_OFF
+		lock2.visibility = Visibility.FORCE_ON
+	end
+	if spawn_upgrade_tier2_count >= 5 then
+		Buy5.visibility = Visibility.FORCE_OFF
+		lock5.visibility = Visibility.FORCE_ON
+	end
+	if spawn_upgrade_tier3_count >= 5 then
+		Buy8.visibility = Visibility.FORCE_OFF
+		lock8.visibility = Visibility.FORCE_ON
+	end
+	if conveyor_upgrade_tier1_count >= 4 then
+		Buy1.visibility = Visibility.FORCE_OFF
+		lock1.visibility = Visibility.FORCE_ON
+	end
+	if conveyor_upgrade_tier2_count >= 5 then
+		Buy4.visibility = Visibility.FORCE_OFF
+		lock4.visibility = Visibility.FORCE_ON
+	end
+	if conveyor_upgrade_tier3_count >= 5 then
+		Buy7.visibility = Visibility.FORCE_OFF
+		lock7.visibility = Visibility.FORCE_ON
+	end
+	if value_upgrade_tier1_count >= 4 then
+		Buy3.visibility = Visibility.FORCE_OFF
+		lock3.visibility = Visibility.FORCE_ON
+	end
+	if value_upgrade_tier2_count >= 5 then
+		Buy6.visibility = Visibility.FORCE_OFF
+		lock6.visibility = Visibility.FORCE_ON
+	end
+	if value_upgrade_tier3_count >= 5 then
+		Buy9.visibility = Visibility.FORCE_OFF
+		lock9.visibility = Visibility.FORCE_ON
 	end
 end
 
@@ -233,6 +359,3 @@ Buy9.clickedEvent:Connect(OnClickValue)
 --FREDS--
 fredOneTalkTrigger.interactedEvent:Connect(Talk)
 fredOneTalkTriggerExit.endOverlapEvent:Connect(TalkOutOfRangeExit)
-
-fredTwoTalkTrigger.interactedEvent:Connect(Talk)
-fredTwoTalkTriggerExit.endOverlapEvent:Connect(TalkOutOfRangeExit)

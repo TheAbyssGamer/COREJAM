@@ -7,6 +7,7 @@ local endCrateTrigger = endCrate:FindChildByType("Trigger")
 local unlockTrigger = script:FindChildByName("UnlockTier1OneSmall"):FindChildByType("Trigger")
 local isUnlocked = false
 
+
 function PresentBehaviour ()
     if isUnlocked == true then
         local present = World.SpawnAsset(propSmallPresent, {position = spawnLocation})
@@ -23,8 +24,12 @@ function MovePresent(present)
 end
 
 function UnlockThisProduction()
-    isUnlocked = true
-    PresentBehaviour()
+    local player = Game.GetPlayers()[1]
+    points = player:GetResource("Point")
+    if isUnlocked == false and points >= 100 then
+        isUnlocked = true
+        PresentBehaviour()
+    end
 end
 
 unlockTrigger.interactedEvent:Connect(UnlockThisProduction)

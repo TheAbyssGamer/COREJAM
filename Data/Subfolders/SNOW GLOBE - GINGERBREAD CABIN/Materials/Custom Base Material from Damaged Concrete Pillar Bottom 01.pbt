@@ -2,7 +2,7 @@
   Id: 17431064480939699037
   Name: "Custom Base Material from Damaged Concrete Pillar Bottom 01"
   PlatformAssetType: 13
-  SerializationVersion: 70
+  SerializationVersion: 72
   CustomMaterialAsset {
     BaseMaterialId: 5861910322054770821
     ParameterOverrides {

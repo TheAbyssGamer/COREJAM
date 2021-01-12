@@ -2,7 +2,7 @@
   Id: 10650659153243359111
   Name: "Custom Clear Coat 01"
   PlatformAssetType: 13
-  SerializationVersion: 70
+  SerializationVersion: 72
   CustomMaterialAsset {
     BaseMaterialId: 14596548311251413322
     ParameterOverrides {
